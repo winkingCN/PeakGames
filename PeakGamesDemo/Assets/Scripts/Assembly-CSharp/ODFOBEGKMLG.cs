@@ -1,0 +1,175 @@
+using System;
+using Org.BouncyCastle.Math;
+
+internal class ODFOBEGKMLG : DJABAMMOHPF
+{
+	private const int OGDKKKLAHPO = 6;
+
+	protected readonly IMBNKLKDKPO IAALHPOGFAN;
+
+	public override JGAFKLGGBGF EFOLNCNGADB
+	{
+		get
+		{
+			return IAALHPOGFAN;
+		}
+	}
+
+	public override int PJNLBAHOKGC
+	{
+		get
+		{
+			return 113;
+		}
+	}
+
+	public override bool FNJONABMLNB
+	{
+		get
+		{
+			return false;
+		}
+	}
+
+	public virtual int IGBPKOOBCMA
+	{
+		get
+		{
+			return 113;
+		}
+	}
+
+	public virtual bool DDCOOIKBMFC
+	{
+		get
+		{
+			return true;
+		}
+	}
+
+	public virtual int JDADINDBJLD
+	{
+		get
+		{
+			return 9;
+		}
+	}
+
+	public virtual int AELMELOBNJJ
+	{
+		get
+		{
+			return 0;
+		}
+	}
+
+	public virtual int CKKHLMGICAB
+	{
+		get
+		{
+			return 0;
+		}
+	}
+
+	public ODFOBEGKMLG()
+		: base(113, 9, 0, 0)
+	{
+		IAALHPOGFAN = new IMBNKLKDKPO(this, null, null);
+		CFJANGMBPML = HFENNGHNFLF(new BigInteger(1, DCDJMDOEKHC.ILOALOLANOL("003088250CA6E7C7FE649CE85820F7")));
+		MPDGCILOEML = HFENNGHNFLF(new BigInteger(1, DCDJMDOEKHC.ILOALOLANOL("00E8BEE4D3E2260744188BE0E9C723")));
+		NNGLKCDBIBE = new BigInteger(1, DCDJMDOEKHC.ILOALOLANOL("0100000000000000D9CCEC8A39E56F"));
+		LDKJJAOPAAP = BigInteger.Two;
+		NHKGIJJFPEK = 6;
+	}
+
+	protected override BHPIABAGAPB LNLMICLEEPK()
+	{
+		return new ODFOBEGKMLG();
+	}
+
+	public override bool ELIMDCKLHCJ(int FOOJPIGHMKH)
+	{
+		if (FOOJPIGHMKH == 6)
+		{
+			return true;
+		}
+		return false;
+	}
+
+	public override KBINBLGGLNE HFENNGHNFLF(BigInteger AMFCENFNAJJ)
+	{
+		return new OCPDLLIPKFA(AMFCENFNAJJ);
+	}
+
+	protected internal override JGAFKLGGBGF IMOPAOHAOAN(KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ, bool HPGABKNMEAG)
+	{
+		return new IMBNKLKDKPO(this, AMFCENFNAJJ, CNLILOEEBOJ, HPGABKNMEAG);
+	}
+
+	protected internal override JGAFKLGGBGF IMOPAOHAOAN(KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ, KBINBLGGLNE[] IJGNIJAMCML, bool HPGABKNMEAG)
+	{
+		return new IMBNKLKDKPO(this, AMFCENFNAJJ, CNLILOEEBOJ, IJGNIJAMCML, HPGABKNMEAG);
+	}
+
+	protected override JGAFKLGGBGF FMLLIJEENJJ(int ICNNEMMNLHC, BigInteger JCJOMANHEBB)
+	{
+		KBINBLGGLNE kBINBLGGLNE = HFENNGHNFLF(JCJOMANHEBB);
+		KBINBLGGLNE kBINBLGGLNE2 = null;
+		if (kBINBLGGLNE.EJJHHCOFAAI)
+		{
+			kBINBLGGLNE2 = FPKDKHJKEEF.PAEDNKEIDOM();
+		}
+		else
+		{
+			KBINBLGGLNE iFGAEKDPMJG = kBINBLGGLNE.MIOEHGDPGAG().LEIECFOMCNL().IBJBIGNPNEM(FPKDKHJKEEF)
+				.JEACJNAKLDJ(JEHECJGFJEB)
+				.JEACJNAKLDJ(kBINBLGGLNE);
+			KBINBLGGLNE kBINBLGGLNE3 = OEEGAEKEAPA(iFGAEKDPMJG);
+			if (kBINBLGGLNE3 != null)
+			{
+				if (kBINBLGGLNE3.OFGNPBCCHAA() != (ICNNEMMNLHC == 1))
+				{
+					kBINBLGGLNE3 = kBINBLGGLNE3.AOAINNMNBHC();
+				}
+				int num = DHBHKHGFIKI;
+				kBINBLGGLNE2 = ((num != 5 && num != 6) ? kBINBLGGLNE3.IBJBIGNPNEM(kBINBLGGLNE) : kBINBLGGLNE3.JEACJNAKLDJ(kBINBLGGLNE));
+			}
+		}
+		if (kBINBLGGLNE2 == null)
+		{
+			throw new ArgumentException("Invalid point compression");
+		}
+		return IMOPAOHAOAN(kBINBLGGLNE, kBINBLGGLNE2, true);
+	}
+
+	private KBINBLGGLNE OEEGAEKEAPA(KBINBLGGLNE IFGAEKDPMJG)
+	{
+		if (IFGAEKDPMJG.EJJHHCOFAAI)
+		{
+			return IFGAEKDPMJG;
+		}
+		KBINBLGGLNE kBINBLGGLNE = HFENNGHNFLF(BigInteger.Zero);
+		KBINBLGGLNE kBINBLGGLNE2 = null;
+		KBINBLGGLNE kBINBLGGLNE3 = null;
+		Random gECCLOFELEC = new Random();
+		do
+		{
+			KBINBLGGLNE bCIHLCMFAEK = HFENNGHNFLF(new BigInteger(113, gECCLOFELEC));
+			kBINBLGGLNE2 = kBINBLGGLNE;
+			KBINBLGGLNE kBINBLGGLNE4 = IFGAEKDPMJG;
+			for (int i = 1; i < 113; i++)
+			{
+				KBINBLGGLNE kBINBLGGLNE5 = kBINBLGGLNE4.MIOEHGDPGAG();
+				kBINBLGGLNE2 = kBINBLGGLNE2.MIOEHGDPGAG().JEACJNAKLDJ(kBINBLGGLNE5.IBJBIGNPNEM(bCIHLCMFAEK));
+				kBINBLGGLNE4 = kBINBLGGLNE5.JEACJNAKLDJ(IFGAEKDPMJG);
+			}
+			if (!kBINBLGGLNE4.EJJHHCOFAAI)
+			{
+				return null;
+			}
+			kBINBLGGLNE3 = kBINBLGGLNE2.MIOEHGDPGAG().JEACJNAKLDJ(kBINBLGGLNE2);
+		}
+		while (kBINBLGGLNE3.EJJHHCOFAAI);
+		return kBINBLGGLNE2;
+	}
+}

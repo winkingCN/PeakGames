@@ -1,0 +1,82 @@
+using System;
+using System.Collections.Generic;
+
+public class NBBAAJENFFN : MGAOAPKCDHP
+{
+	public long OCHADBCJEDP;
+
+	public string EALJKKBHDHK;
+
+	public string MDGBOKGEBHM;
+
+	public long GKHHFKEJNAL;
+
+	public long EKEHIONIGNO;
+
+	public long KPDACHNHNHG;
+
+	public long CJMDFOCHDGB;
+
+	public long JPKNMKEAHDM;
+
+	public long LCLLDKHKLKP;
+
+	public int AKNLLPAHFOK;
+
+	public long FLPEILFNDPO;
+
+	public DateTime PEJPPKLFKLG;
+
+	public NBBAAJENFFN(Dictionary<string, object> JLKANDLHAOM)
+	{
+		OCHADBCJEDP = MGAOAPKCDHP.EICLJDHEHHP("id", JLKANDLHAOM, 0L);
+		EALJKKBHDHK = MGAOAPKCDHP.JDANMONKNGD("from", JLKANDLHAOM);
+		MDGBOKGEBHM = MGAOAPKCDHP.JDANMONKNGD("msgId", JLKANDLHAOM);
+		EKEHIONIGNO = MGAOAPKCDHP.EICLJDHEHHP("rep1", JLKANDLHAOM, 0L);
+		if (EKEHIONIGNO > 0)
+		{
+			AKNLLPAHFOK++;
+		}
+		KPDACHNHNHG = MGAOAPKCDHP.EICLJDHEHHP("rep2", JLKANDLHAOM, 0L);
+		if (KPDACHNHNHG > 0)
+		{
+			AKNLLPAHFOK++;
+		}
+		CJMDFOCHDGB = MGAOAPKCDHP.EICLJDHEHHP("rep3", JLKANDLHAOM, 0L);
+		if (CJMDFOCHDGB > 0)
+		{
+			AKNLLPAHFOK++;
+		}
+		JPKNMKEAHDM = MGAOAPKCDHP.EICLJDHEHHP("rep4", JLKANDLHAOM, 0L);
+		if (JPKNMKEAHDM > 0)
+		{
+			AKNLLPAHFOK++;
+		}
+		LCLLDKHKLKP = MGAOAPKCDHP.EICLJDHEHHP("rep5", JLKANDLHAOM, 0L);
+		if (LCLLDKHKLKP > 0)
+		{
+			AKNLLPAHFOK++;
+		}
+		GKHHFKEJNAL = MGAOAPKCDHP.EICLJDHEHHP("nextTime", JLKANDLHAOM, 0L);
+		PEJPPKLFKLG = KDIMALLNOFG.DGOIABOILEG(GKHHFKEJNAL / 1000);
+		FLPEILFNDPO = MGAOAPKCDHP.EICLJDHEHHP("serverTime", JLKANDLHAOM, 0L);
+	}
+
+	public bool HEANMKDLPGF()
+	{
+		return AKNLLPAHFOK == 5;
+	}
+
+	public long OEDKBPGDOAP()
+	{
+		try
+		{
+			return long.Parse(MDGBOKGEBHM.Substring(0, MDGBOKGEBHM.IndexOf("_") - 1));
+		}
+		catch (Exception ex)
+		{
+			GBFAPADEBEC.LCNJJMBLOHE(PBIIDJOKNEK.LifeRequest, "Can not parse MsgId Error:{0}", ex.Message);
+			return 0L;
+		}
+	}
+}

@@ -1,0 +1,48 @@
+
+open_chest.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base1
+  rotate: false
+  xy: 688, 9
+  size: 260, 115
+  orig: 260, 115
+  offset: 0, 0
+  index: -1
+base2
+  rotate: false
+  xy: 2, 4
+  size: 260, 32
+  orig: 260, 32
+  offset: 0, 0
+  index: -1
+cap2
+  rotate: false
+  xy: 688, 126
+  size: 258, 123
+  orig: 258, 123
+  offset: 0, 0
+  index: -1
+cap4
+  rotate: true
+  xy: 526, 2
+  size: 247, 160
+  orig: 247, 160
+  offset: 0, 0
+  index: -1
+chest1
+  rotate: false
+  xy: 2, 38
+  size: 261, 211
+  orig: 261, 211
+  offset: 0, 0
+  index: -1
+reflection
+  rotate: false
+  xy: 265, 46
+  size: 259, 203
+  orig: 259, 203
+  offset: 0, 0
+  index: -1

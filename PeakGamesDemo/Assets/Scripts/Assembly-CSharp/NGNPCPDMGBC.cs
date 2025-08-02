@@ -1,0 +1,148 @@
+using System;
+
+public class NGNPCPDMGBC : LNKPCJLANAO
+{
+	private readonly PLDHHNEGEBN BAKFKDBCFCB;
+
+	private readonly COCECKPDIKC CIKNIKPOODA;
+
+	private readonly FJMKMKNJKOI FLHHMPBBBJG;
+
+	public PLDHHNEGEBN LCNGICNPPPP
+	{
+		get
+		{
+			return BAKFKDBCFCB;
+		}
+	}
+
+	public int AMEDMLOCCBG
+	{
+		get
+		{
+			return BAKFKDBCFCB.AMEDMLOCCBG;
+		}
+	}
+
+	public GLFDIPNOLKN LELIDHBEDHP
+	{
+		get
+		{
+			return BAKFKDBCFCB.LELIDHBEDHP;
+		}
+	}
+
+	public HMMHEPKCKCP HDLJKFNEDDK
+	{
+		get
+		{
+			return BAKFKDBCFCB.HDLJKFNEDDK;
+		}
+	}
+
+	public KAGLNJGDIPD MMNIBJHEOKC
+	{
+		get
+		{
+			return BAKFKDBCFCB.MMNIBJHEOKC;
+		}
+	}
+
+	public KAGLNJGDIPD CANALEFHNCI
+	{
+		get
+		{
+			return BAKFKDBCFCB.CANALEFHNCI;
+		}
+	}
+
+	public HMMHEPKCKCP LNJLMJPFGNK
+	{
+		get
+		{
+			return BAKFKDBCFCB.LNJLMJPFGNK;
+		}
+	}
+
+	public MHBCFNELGOJ KBGJHCMPCGH
+	{
+		get
+		{
+			return BAKFKDBCFCB.KBGJHCMPCGH;
+		}
+	}
+
+	public COCECKPDIKC EPJPGEHMICN
+	{
+		get
+		{
+			return CIKNIKPOODA;
+		}
+	}
+
+	public FJMKMKNJKOI ACMDKLDPDLB
+	{
+		get
+		{
+			return FLHHMPBBBJG;
+		}
+	}
+
+	public NGNPCPDMGBC(PLDHHNEGEBN BAKFKDBCFCB, COCECKPDIKC CIKNIKPOODA, FJMKMKNJKOI FLHHMPBBBJG)
+	{
+		if (BAKFKDBCFCB == null)
+		{
+			throw new ArgumentNullException("tbsCert");
+		}
+		if (CIKNIKPOODA == null)
+		{
+			throw new ArgumentNullException("sigAlgID");
+		}
+		if (FLHHMPBBBJG == null)
+		{
+			throw new ArgumentNullException("sig");
+		}
+		this.BAKFKDBCFCB = BAKFKDBCFCB;
+		this.CIKNIKPOODA = CIKNIKPOODA;
+		this.FLHHMPBBBJG = FLHHMPBBBJG;
+	}
+
+	private NGNPCPDMGBC(ALLINHNNNJN MIABODPHOIP)
+	{
+		if (MIABODPHOIP.GMCGMPEEHJP != 3)
+		{
+			throw new ArgumentException("sequence wrong size for a certificate", "seq");
+		}
+		BAKFKDBCFCB = PLDHHNEGEBN.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(0));
+		CIKNIKPOODA = COCECKPDIKC.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(1));
+		FLHHMPBBBJG = FJMKMKNJKOI.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(2));
+	}
+
+	public static NGNPCPDMGBC BJLJCGFMFOO(PAANMJLACEF NEMEKIOEOLC, bool DHGLJHFEJFL)
+	{
+		return BJLJCGFMFOO(ALLINHNNNJN.BJLJCGFMFOO(NEMEKIOEOLC, DHGLJHFEJFL));
+	}
+
+	public static NGNPCPDMGBC BJLJCGFMFOO(object NEMEKIOEOLC)
+	{
+		if (NEMEKIOEOLC is NGNPCPDMGBC)
+		{
+			return (NGNPCPDMGBC)NEMEKIOEOLC;
+		}
+		if (NEMEKIOEOLC == null)
+		{
+			return null;
+		}
+		return new NGNPCPDMGBC(ALLINHNNNJN.BJLJCGFMFOO(NEMEKIOEOLC));
+	}
+
+	public byte[] BKNINFICFPF()
+	{
+		return FLHHMPBBBJG.KLHNEKMCKKI();
+	}
+
+	public override EDOEBJJFOBM IIHKEACDNID()
+	{
+		return new KOGPLMALOEH(BAKFKDBCFCB, CIKNIKPOODA, FLHHMPBBBJG);
+	}
+}

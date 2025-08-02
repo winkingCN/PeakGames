@@ -1,0 +1,46 @@
+using System;
+
+public class JGAMOCIKLMF : LNKPCJLANAO
+{
+	private readonly GLFDIPNOLKN CNLILOEEBOJ;
+
+	public GLFDIPNOLKN MOAGLBJDKKL
+	{
+		get
+		{
+			return CNLILOEEBOJ;
+		}
+	}
+
+	public JGAMOCIKLMF(GLFDIPNOLKN CNLILOEEBOJ)
+	{
+		if (CNLILOEEBOJ == null)
+		{
+			throw new ArgumentNullException("y");
+		}
+		this.CNLILOEEBOJ = CNLILOEEBOJ;
+	}
+
+	public static JGAMOCIKLMF BJLJCGFMFOO(PAANMJLACEF NEMEKIOEOLC, bool DNBCBHLACCP)
+	{
+		return BJLJCGFMFOO(GLFDIPNOLKN.BJLJCGFMFOO(NEMEKIOEOLC, DNBCBHLACCP));
+	}
+
+	public static JGAMOCIKLMF BJLJCGFMFOO(object NEMEKIOEOLC)
+	{
+		if (NEMEKIOEOLC == null || NEMEKIOEOLC is JGAMOCIKLMF)
+		{
+			return (JGAMOCIKLMF)NEMEKIOEOLC;
+		}
+		if (NEMEKIOEOLC is GLFDIPNOLKN)
+		{
+			return new JGAMOCIKLMF((GLFDIPNOLKN)NEMEKIOEOLC);
+		}
+		throw new ArgumentException("Invalid DHPublicKey: " + LHFGHNFJIKM.JKHOEKAOLPM(NEMEKIOEOLC), "obj");
+	}
+
+	public override EDOEBJJFOBM IIHKEACDNID()
+	{
+		return CNLILOEEBOJ;
+	}
+}

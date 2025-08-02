@@ -1,0 +1,12 @@
+public class DNJJPNFMPOP : HOOPJEOBGPN
+{
+	public DNJJPNFMPOP(string EJBMABJCEDN)
+		: base(EJBMABJCEDN)
+	{
+	}
+
+	public override bool IONCPAHMPIL()
+	{
+		return DKECENMIJCJ(MADFPPJCOIM.GABGKBAKHDP.NAJIPFBGLLC());
+	}
+}

@@ -1,0 +1,88 @@
+using System.Collections;
+using Assets.Scripts.CasualTools.Common.Tasks;
+
+public class LLCJMMBBLEH
+{
+	public delegate void IFFADPHEALG(bool FCNNBNOMAEM, LLCJMMBBLEH FOGOHLLIMDJ);
+
+	private readonly TaskManager.PJJFKCFOKDI MADNPPFDPPP;
+
+	public readonly string PNGPLGHKFDI;
+
+	public bool BPLCLABMIMM
+	{
+		get
+		{
+			return MADNPPFDPPP.BPLCLABMIMM;
+		}
+	}
+
+	public bool CKBKJIGINHP
+	{
+		get
+		{
+			return MADNPPFDPPP.CKBKJIGINHP;
+		}
+	}
+
+	public event IFFADPHEALG LDFKMBBIDMP;
+
+	public LLCJMMBBLEH(IEnumerator FMFABAKPMLB, bool MKMMJPPIGDM, IAJNLGPHGLO LPJLCJKABDC = IAJNLGPHGLO.Scene)
+	{
+		if (LPJLCJKABDC == IAJNLGPHGLO.App)
+		{
+			MADNPPFDPPP = TaskManager.CreateZombieTask(FMFABAKPMLB);
+		}
+		else
+		{
+			MADNPPFDPPP = TaskManager.CreateTask(FMFABAKPMLB);
+		}
+		MADNPPFDPPP.LDFKMBBIDMP += NJGANJENPHG;
+		if (MKMMJPPIGDM)
+		{
+			BAMKBCHHLGP();
+		}
+	}
+
+	public LLCJMMBBLEH(IEnumerator FMFABAKPMLB, bool MKMMJPPIGDM, string IOCMOCCFALN, IAJNLGPHGLO EBEOMMJPLPI = IAJNLGPHGLO.Scene)
+		: this(FMFABAKPMLB, MKMMJPPIGDM, EBEOMMJPLPI)
+	{
+		PNGPLGHKFDI = IOCMOCCFALN;
+	}
+
+	public LLCJMMBBLEH(IEnumerator FMFABAKPMLB)
+	{
+		MADNPPFDPPP = TaskManager.CreateTask(FMFABAKPMLB);
+		MADNPPFDPPP.LDFKMBBIDMP += NJGANJENPHG;
+		BAMKBCHHLGP();
+	}
+
+	public void BAMKBCHHLGP()
+	{
+		MADNPPFDPPP.BAMKBCHHLGP();
+	}
+
+	public void BPPFBMCJOAH()
+	{
+		MADNPPFDPPP.BPPFBMCJOAH();
+	}
+
+	public void LGDIMLEGDJB()
+	{
+		MADNPPFDPPP.LGDIMLEGDJB();
+	}
+
+	public void HKLEKMPMJGF()
+	{
+		MADNPPFDPPP.HKLEKMPMJGF();
+	}
+
+	private void NJGANJENPHG(bool FCNNBNOMAEM)
+	{
+		IFFADPHEALG lDFKMBBIDMP = this.LDFKMBBIDMP;
+		if (lDFKMBBIDMP != null)
+		{
+			lDFKMBBIDMP(FCNNBNOMAEM, this);
+		}
+	}
+}

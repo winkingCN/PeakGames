@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b322f0685be38ac169b3ea23e9eda25f, type: 3}
+  m_Name: open_chest_SkeletonData-#-01b107452163a4d0e80f2401cd8202e8_1
+  m_EditorClassIdentifier: 
+  atlasAssets:
+  - {fileID: 11400000, guid: f445282d80f8a6047baeca0211a24ebf, type: 2}
+  scale: 0.007
+  skeletonJSON: {fileID: 4900000, guid: 8f2d7a67a86b8fa45950da1fde6f3cc7, type: 3}
+  fromAnimation: []
+  toAnimation: []
+  duration: []
+  defaultMix: 0.2
+  controller: {fileID: 0}

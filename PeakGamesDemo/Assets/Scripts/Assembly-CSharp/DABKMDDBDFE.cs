@@ -1,0 +1,103 @@
+public class DABKMDDBDFE : ENDHCNJKMOL
+{
+	private const long BKHOBGBONOC = 10L;
+
+	private long PDKCOKKPNKD;
+
+	private long IPNCJBKILIA;
+
+	private BJLAMONNNDD HABFKBCEIBN;
+
+	private byte[] BGEDKGLJIGM;
+
+	private byte[] HJBOEOOLOOE;
+
+	public DABKMDDBDFE(BJLAMONNNDD HABFKBCEIBN)
+	{
+		this.HABFKBCEIBN = HABFKBCEIBN;
+		HJBOEOOLOOE = new byte[HABFKBCEIBN.EEMLLAMENHO()];
+		IPNCJBKILIA = 1L;
+		BGEDKGLJIGM = new byte[HABFKBCEIBN.EEMLLAMENHO()];
+		PDKCOKKPNKD = 1L;
+	}
+
+	public void GMFBMHLENMN(byte[] KNCEOIOAACJ)
+	{
+		lock (this)
+		{
+			FEGECNOOFOG(KNCEOIOAACJ);
+			FEGECNOOFOG(HJBOEOOLOOE);
+			EKOPIGLIGNH(HJBOEOOLOOE);
+		}
+	}
+
+	public void GMFBMHLENMN(long KCMANEGIMHD)
+	{
+		lock (this)
+		{
+			NFFFDHAHKMN(KCMANEGIMHD);
+			FEGECNOOFOG(HJBOEOOLOOE);
+			EKOPIGLIGNH(HJBOEOOLOOE);
+		}
+	}
+
+	public void GOADFPHGDJG(byte[] DIPNEDDIHBK)
+	{
+		GOADFPHGDJG(DIPNEDDIHBK, 0, DIPNEDDIHBK.Length);
+	}
+
+	public void GOADFPHGDJG(byte[] DIPNEDDIHBK, int EHGOOEHDNMM, int NBEDPKHALCN)
+	{
+		lock (this)
+		{
+			int num = 0;
+			AIIJIHAHDHI();
+			int num2 = EHGOOEHDNMM + NBEDPKHALCN;
+			for (int i = EHGOOEHDNMM; i < num2; i++)
+			{
+				if (num == BGEDKGLJIGM.Length)
+				{
+					AIIJIHAHDHI();
+					num = 0;
+				}
+				DIPNEDDIHBK[i] = BGEDKGLJIGM[num++];
+			}
+		}
+	}
+
+	private void LGKEFIAMNKP()
+	{
+		FEGECNOOFOG(HJBOEOOLOOE);
+		NFFFDHAHKMN(IPNCJBKILIA++);
+		EKOPIGLIGNH(HJBOEOOLOOE);
+	}
+
+	private void AIIJIHAHDHI()
+	{
+		NFFFDHAHKMN(PDKCOKKPNKD++);
+		FEGECNOOFOG(BGEDKGLJIGM);
+		FEGECNOOFOG(HJBOEOOLOOE);
+		EKOPIGLIGNH(BGEDKGLJIGM);
+		if (PDKCOKKPNKD % 10 == 0)
+		{
+			LGKEFIAMNKP();
+		}
+	}
+
+	private void NFFFDHAHKMN(long CPBFFIEOGIB)
+	{
+		byte[] array = new byte[8];
+		PGOKFBKEOAB.ICLMPOAFJKJ((ulong)CPBFFIEOGIB, array);
+		HABFKBCEIBN.GONEEEFEDGF(array, 0, array.Length);
+	}
+
+	private void FEGECNOOFOG(byte[] KNCEOIOAACJ)
+	{
+		HABFKBCEIBN.GONEEEFEDGF(KNCEOIOAACJ, 0, KNCEOIOAACJ.Length);
+	}
+
+	private void EKOPIGLIGNH(byte[] DIDHNNMKJFE)
+	{
+		HABFKBCEIBN.LCNOFBMOHHM(DIDHNNMKJFE, 0);
+	}
+}

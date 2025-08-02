@@ -1,0 +1,88 @@
+using System;
+
+public class DCEMOGMJCDG : KPMKFMEEJCJ
+{
+	private static readonly int CJGFDNMIMJO = 256;
+
+	private byte[] EMECPLDAING;
+
+	private int AMFCENFNAJJ;
+
+	private int CNLILOEEBOJ;
+
+	private byte[] IOANFHFGPJK;
+
+	public virtual string KFKMEPMEBND
+	{
+		get
+		{
+			return "RC4";
+		}
+	}
+
+	public virtual void DIOELAHNLKJ(bool MAEALKEJALK, IGMAJHKIIPK IJJHBEECMBP)
+	{
+		if (IJJHBEECMBP is JEMNCGMEABF)
+		{
+			IOANFHFGPJK = ((JEMNCGMEABF)IJJHBEECMBP).MEGBFHFMBFI();
+			KBEFMBDOIJH(IOANFHFGPJK);
+			return;
+		}
+		throw new ArgumentException("invalid parameter passed to RC4 init - " + LHFGHNFJIKM.JKHOEKAOLPM(IJJHBEECMBP));
+	}
+
+	public virtual byte IODEANDNHIP(byte MOPCLEEGDFB)
+	{
+		AMFCENFNAJJ = (AMFCENFNAJJ + 1) & 0xFF;
+		CNLILOEEBOJ = (EMECPLDAING[AMFCENFNAJJ] + CNLILOEEBOJ) & 0xFF;
+		byte b = EMECPLDAING[AMFCENFNAJJ];
+		EMECPLDAING[AMFCENFNAJJ] = EMECPLDAING[CNLILOEEBOJ];
+		EMECPLDAING[CNLILOEEBOJ] = b;
+		return (byte)(MOPCLEEGDFB ^ EMECPLDAING[(EMECPLDAING[AMFCENFNAJJ] + EMECPLDAING[CNLILOEEBOJ]) & 0xFF]);
+	}
+
+	public virtual void POCAGALIPAI(byte[] MOPCLEEGDFB, int ELICNEDIBGB, int EOFAGACBNFP, byte[] BILGCJNPJGJ, int EMAKNGBIFDC)
+	{
+		AJLDFGNHDCA.OONDALLFPOP(MOPCLEEGDFB, ELICNEDIBGB, EOFAGACBNFP, "input buffer too short");
+		AJLDFGNHDCA.KLPNFGNKNKB(BILGCJNPJGJ, EMAKNGBIFDC, EOFAGACBNFP, "output buffer too short");
+		for (int i = 0; i < EOFAGACBNFP; i++)
+		{
+			AMFCENFNAJJ = (AMFCENFNAJJ + 1) & 0xFF;
+			CNLILOEEBOJ = (EMECPLDAING[AMFCENFNAJJ] + CNLILOEEBOJ) & 0xFF;
+			byte b = EMECPLDAING[AMFCENFNAJJ];
+			EMECPLDAING[AMFCENFNAJJ] = EMECPLDAING[CNLILOEEBOJ];
+			EMECPLDAING[CNLILOEEBOJ] = b;
+			BILGCJNPJGJ[i + EMAKNGBIFDC] = (byte)(MOPCLEEGDFB[i + ELICNEDIBGB] ^ EMECPLDAING[(EMECPLDAING[AMFCENFNAJJ] + EMECPLDAING[CNLILOEEBOJ]) & 0xFF]);
+		}
+	}
+
+	public virtual void OMOKOKFNBKI()
+	{
+		KBEFMBDOIJH(IOANFHFGPJK);
+	}
+
+	private void KBEFMBDOIJH(byte[] EGJBACEEHAK)
+	{
+		IOANFHFGPJK = EGJBACEEHAK;
+		AMFCENFNAJJ = 0;
+		CNLILOEEBOJ = 0;
+		if (EMECPLDAING == null)
+		{
+			EMECPLDAING = new byte[CJGFDNMIMJO];
+		}
+		for (int i = 0; i < CJGFDNMIMJO; i++)
+		{
+			EMECPLDAING[i] = (byte)i;
+		}
+		int num = 0;
+		int num2 = 0;
+		for (int j = 0; j < CJGFDNMIMJO; j++)
+		{
+			num2 = ((EGJBACEEHAK[num] & 0xFF) + EMECPLDAING[j] + num2) & 0xFF;
+			byte b = EMECPLDAING[j];
+			EMECPLDAING[j] = EMECPLDAING[num2];
+			EMECPLDAING[num2] = b;
+			num = (num + 1) % EGJBACEEHAK.Length;
+		}
+	}
+}

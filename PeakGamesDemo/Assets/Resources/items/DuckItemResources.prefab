@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1464925878374552
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4942302467308544}
+  - component: {fileID: 114463079378782348}
+  m_Layer: 0
+  m_Name: DuckItemResources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4942302467308544
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464925878374552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114463079378782348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464925878374552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6c0bfb32693043bb84031b8143bc8b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Prefab: {fileID: 1919993278534065, guid: a164fe3c449501f45bafb80c770d9919, type: 2}
+  Particles:
+  - {fileID: 114615493668902340, guid: d16301fd71151ad4cbdeb96ec4446de2, type: 2}
+  Animators: []
+  AudioClips:
+  - AudioTag: 18
+    AudioClip: {fileID: 8300000, guid: 5bc9aac33986a5344bb5ca26be94663b, type: 3}
+  - AudioTag: 151
+    AudioClip: {fileID: 8300000, guid: 163d00f7f909b144db25d4d88659da13, type: 3}
+  - AudioTag: 150
+    AudioClip: {fileID: 8300000, guid: 86469f56cf3e2b4458c87b2063a0a001, type: 3}
+  Sprites: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1464925878374552}
+  m_IsPrefabParent: 1

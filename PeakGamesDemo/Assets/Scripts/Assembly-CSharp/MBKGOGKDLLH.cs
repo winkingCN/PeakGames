@@ -1,0 +1,200 @@
+using System;
+using System.Collections;
+
+public class MBKGOGKDLLH : LNKPCJLANAO
+{
+	private class NCMAHCNHPAN : IEnumerable
+	{
+		private class ACGPLBHJAEC : IEnumerator
+		{
+			private readonly IEnumerator EKFOKNPODBK;
+
+			public object DCBEHIGDMDP
+			{
+				get
+				{
+					return new FNPNLKNFAMA(ALLINHNNNJN.BJLJCGFMFOO(EKFOKNPODBK.Current));
+				}
+			}
+
+			internal ACGPLBHJAEC(IEnumerator EKFOKNPODBK)
+			{
+				this.EKFOKNPODBK = EKFOKNPODBK;
+			}
+
+			public bool MoveNext()
+			{
+				return EKFOKNPODBK.MoveNext();
+			}
+
+			public void Reset()
+			{
+				EKFOKNPODBK.Reset();
+			}
+		}
+
+		private readonly IEnumerable PMIJGPAKLKB;
+
+		internal NCMAHCNHPAN(IEnumerable PMIJGPAKLKB)
+		{
+			this.PMIJGPAKLKB = PMIJGPAKLKB;
+		}
+
+		public IEnumerator GetEnumerator()
+		{
+			return new ACGPLBHJAEC(PMIJGPAKLKB.GetEnumerator());
+		}
+	}
+
+	internal ALLINHNNNJN MIABODPHOIP;
+
+	internal GLFDIPNOLKN DFCJKBHFPMG;
+
+	internal COCECKPDIKC PINNJBGMGOA;
+
+	internal HMMHEPKCKCP MFNPCJDPPLP;
+
+	internal KAGLNJGDIPD NDDIAHPADPE;
+
+	internal KAGLNJGDIPD GJBHIAKMEOC;
+
+	internal ALLINHNNNJN IPJGGDKHBNA;
+
+	internal HLAHBGANIKK IFCDGLBKOPN;
+
+	public int AMEDMLOCCBG
+	{
+		get
+		{
+			return DFCJKBHFPMG.JBGOANMLBFA.IntValue + 1;
+		}
+	}
+
+	public GLFDIPNOLKN MDFIDPLLJFA
+	{
+		get
+		{
+			return DFCJKBHFPMG;
+		}
+	}
+
+	public COCECKPDIKC ACMDKLDPDLB
+	{
+		get
+		{
+			return PINNJBGMGOA;
+		}
+	}
+
+	public HMMHEPKCKCP HDLJKFNEDDK
+	{
+		get
+		{
+			return MFNPCJDPPLP;
+		}
+	}
+
+	public KAGLNJGDIPD NIFOIJHFKBA
+	{
+		get
+		{
+			return NDDIAHPADPE;
+		}
+	}
+
+	public KAGLNJGDIPD BLEHAGOOGEJ
+	{
+		get
+		{
+			return GJBHIAKMEOC;
+		}
+	}
+
+	public HLAHBGANIKK GBGIDCHPICA
+	{
+		get
+		{
+			return IFCDGLBKOPN;
+		}
+	}
+
+	internal MBKGOGKDLLH(ALLINHNNNJN MIABODPHOIP)
+	{
+		if (MIABODPHOIP.GMCGMPEEHJP < 3 || MIABODPHOIP.GMCGMPEEHJP > 7)
+		{
+			throw new ArgumentException("Bad sequence size: " + MIABODPHOIP.GMCGMPEEHJP);
+		}
+		int num = 0;
+		this.MIABODPHOIP = MIABODPHOIP;
+		if (MIABODPHOIP.ECNCPJGHBIG(num) is GLFDIPNOLKN)
+		{
+			DFCJKBHFPMG = GLFDIPNOLKN.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(num++));
+		}
+		else
+		{
+			DFCJKBHFPMG = new GLFDIPNOLKN(0);
+		}
+		PINNJBGMGOA = COCECKPDIKC.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(num++));
+		MFNPCJDPPLP = HMMHEPKCKCP.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(num++));
+		NDDIAHPADPE = KAGLNJGDIPD.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(num++));
+		if (num < MIABODPHOIP.GMCGMPEEHJP && (MIABODPHOIP.ECNCPJGHBIG(num) is ECAOIPMOFLJ || MIABODPHOIP.ECNCPJGHBIG(num) is DHKNJKJFPIP || MIABODPHOIP.ECNCPJGHBIG(num) is KAGLNJGDIPD))
+		{
+			GJBHIAKMEOC = KAGLNJGDIPD.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(num++));
+		}
+		if (num < MIABODPHOIP.GMCGMPEEHJP && !(MIABODPHOIP.ECNCPJGHBIG(num) is JIHIOOKBBLB))
+		{
+			IPJGGDKHBNA = ALLINHNNNJN.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(num++));
+		}
+		if (num < MIABODPHOIP.GMCGMPEEHJP && MIABODPHOIP.ECNCPJGHBIG(num) is JIHIOOKBBLB)
+		{
+			IFCDGLBKOPN = HLAHBGANIKK.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(num));
+		}
+	}
+
+	public static MBKGOGKDLLH BJLJCGFMFOO(PAANMJLACEF NEMEKIOEOLC, bool DHGLJHFEJFL)
+	{
+		return BJLJCGFMFOO(ALLINHNNNJN.BJLJCGFMFOO(NEMEKIOEOLC, DHGLJHFEJFL));
+	}
+
+	public static MBKGOGKDLLH BJLJCGFMFOO(object NEMEKIOEOLC)
+	{
+		MBKGOGKDLLH mBKGOGKDLLH = NEMEKIOEOLC as MBKGOGKDLLH;
+		if (NEMEKIOEOLC == null || mBKGOGKDLLH != null)
+		{
+			return mBKGOGKDLLH;
+		}
+		if (NEMEKIOEOLC is ALLINHNNNJN)
+		{
+			return new MBKGOGKDLLH((ALLINHNNNJN)NEMEKIOEOLC);
+		}
+		throw new ArgumentException("unknown object in factory: " + LHFGHNFJIKM.JKHOEKAOLPM(NEMEKIOEOLC), "obj");
+	}
+
+	public FNPNLKNFAMA[] OJNDIHEEKJK()
+	{
+		if (IPJGGDKHBNA == null)
+		{
+			return new FNPNLKNFAMA[0];
+		}
+		FNPNLKNFAMA[] array = new FNPNLKNFAMA[IPJGGDKHBNA.GMCGMPEEHJP];
+		for (int i = 0; i < array.Length; i++)
+		{
+			array[i] = new FNPNLKNFAMA(ALLINHNNNJN.BJLJCGFMFOO(IPJGGDKHBNA.ECNCPJGHBIG(i)));
+		}
+		return array;
+	}
+
+	public IEnumerable FLLBPMOPGJI()
+	{
+		if (IPJGGDKHBNA == null)
+		{
+			return LJLIJKJJKBB.GABGKBAKHDP;
+		}
+		return new NCMAHCNHPAN(IPJGGDKHBNA);
+	}
+
+	public override EDOEBJJFOBM IIHKEACDNID()
+	{
+		return MIABODPHOIP;
+	}
+}

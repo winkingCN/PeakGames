@@ -1,0 +1,48 @@
+
+open_chest.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base3
+  rotate: false
+  xy: 661, 215
+  size: 260, 39
+  orig: 260, 39
+  offset: 0, 0
+  index: -1
+reflection_team
+  rotate: false
+  xy: 656, 23
+  size: 260, 110
+  orig: 260, 110
+  offset: 0, 0
+  index: -1
+team_base1
+  rotate: false
+  xy: 398, 135
+  size: 261, 119
+  orig: 261, 119
+  offset: 0, 0
+  index: -1
+team_cap2
+  rotate: false
+  xy: 398, 13
+  size: 256, 120
+  orig: 256, 120
+  offset: 0, 0
+  index: -1
+team_cap4
+  rotate: true
+  xy: 265, 2
+  size: 252, 131
+  orig: 252, 131
+  offset: 0, 0
+  index: -1
+teamchest1
+  rotate: false
+  xy: 2, 42
+  size: 261, 212
+  orig: 261, 212
+  offset: 0, 0
+  index: -1

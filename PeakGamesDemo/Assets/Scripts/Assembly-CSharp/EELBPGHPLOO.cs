@@ -1,0 +1,122 @@
+using System;
+using Org.BouncyCastle.Crypto;
+
+public class EELBPGHPLOO : JMPFLJGHAIM
+{
+	private byte[] INPOFIMEPGC;
+
+	private byte[] LCBJKGGMJKM;
+
+	private byte[] EDGPAFNFMPG;
+
+	private bool LFBBFLCMAHI;
+
+	private readonly int NONHELBCKCH;
+
+	private readonly JMPFLJGHAIM IEDPBFAFGGJ;
+
+	public string KFKMEPMEBND
+	{
+		get
+		{
+			return IEDPBFAFGGJ.KFKMEPMEBND + "/CFB" + NONHELBCKCH * 8;
+		}
+	}
+
+	public bool ABNLKPDCGEF
+	{
+		get
+		{
+			return true;
+		}
+	}
+
+	public EELBPGHPLOO(JMPFLJGHAIM IEDPBFAFGGJ, int JIBJCKJCFAC)
+	{
+		this.IEDPBFAFGGJ = IEDPBFAFGGJ;
+		NONHELBCKCH = JIBJCKJCFAC / 8;
+		INPOFIMEPGC = new byte[IEDPBFAFGGJ.BDIGGHEPIIP()];
+		LCBJKGGMJKM = new byte[IEDPBFAFGGJ.BDIGGHEPIIP()];
+		EDGPAFNFMPG = new byte[IEDPBFAFGGJ.BDIGGHEPIIP()];
+	}
+
+	public JMPFLJGHAIM GBHNDFALCDC()
+	{
+		return IEDPBFAFGGJ;
+	}
+
+	public void DIOELAHNLKJ(bool MAEALKEJALK, IGMAJHKIIPK IJJHBEECMBP)
+	{
+		LFBBFLCMAHI = MAEALKEJALK;
+		if (IJJHBEECMBP is CHCELGDKEJG)
+		{
+			CHCELGDKEJG cHCELGDKEJG = (CHCELGDKEJG)IJJHBEECMBP;
+			byte[] array = cHCELGDKEJG.OLAEDCABKDH();
+			int num = INPOFIMEPGC.Length - array.Length;
+			Array.Copy(array, 0, INPOFIMEPGC, num, array.Length);
+			Array.Clear(INPOFIMEPGC, 0, num);
+			IJJHBEECMBP = cHCELGDKEJG.KPJHHAAOFOH;
+		}
+		OMOKOKFNBKI();
+		if (IJJHBEECMBP != null)
+		{
+			IEDPBFAFGGJ.DIOELAHNLKJ(true, IJJHBEECMBP);
+		}
+	}
+
+	public int BDIGGHEPIIP()
+	{
+		return NONHELBCKCH;
+	}
+
+	public int DPACJDFHLKB(byte[] MOPCLEEGDFB, int ELICNEDIBGB, byte[] BILGCJNPJGJ, int EMAKNGBIFDC)
+	{
+		return (!LFBBFLCMAHI) ? GFKALHGNIOJ(MOPCLEEGDFB, ELICNEDIBGB, BILGCJNPJGJ, EMAKNGBIFDC) : HDOLNBOHAJA(MOPCLEEGDFB, ELICNEDIBGB, BILGCJNPJGJ, EMAKNGBIFDC);
+	}
+
+	public int HDOLNBOHAJA(byte[] MOPCLEEGDFB, int ELICNEDIBGB, byte[] NGAGMIIBGKA, int EMAKNGBIFDC)
+	{
+		if (ELICNEDIBGB + NONHELBCKCH > MOPCLEEGDFB.Length)
+		{
+			throw new DataLengthException("input buffer too short");
+		}
+		if (EMAKNGBIFDC + NONHELBCKCH > NGAGMIIBGKA.Length)
+		{
+			throw new DataLengthException("output buffer too short");
+		}
+		IEDPBFAFGGJ.DPACJDFHLKB(LCBJKGGMJKM, 0, EDGPAFNFMPG, 0);
+		for (int i = 0; i < NONHELBCKCH; i++)
+		{
+			NGAGMIIBGKA[EMAKNGBIFDC + i] = (byte)(EDGPAFNFMPG[i] ^ MOPCLEEGDFB[ELICNEDIBGB + i]);
+		}
+		Array.Copy(LCBJKGGMJKM, NONHELBCKCH, LCBJKGGMJKM, 0, LCBJKGGMJKM.Length - NONHELBCKCH);
+		Array.Copy(NGAGMIIBGKA, EMAKNGBIFDC, LCBJKGGMJKM, LCBJKGGMJKM.Length - NONHELBCKCH, NONHELBCKCH);
+		return NONHELBCKCH;
+	}
+
+	public int GFKALHGNIOJ(byte[] MOPCLEEGDFB, int ELICNEDIBGB, byte[] NGAGMIIBGKA, int EMAKNGBIFDC)
+	{
+		if (ELICNEDIBGB + NONHELBCKCH > MOPCLEEGDFB.Length)
+		{
+			throw new DataLengthException("input buffer too short");
+		}
+		if (EMAKNGBIFDC + NONHELBCKCH > NGAGMIIBGKA.Length)
+		{
+			throw new DataLengthException("output buffer too short");
+		}
+		IEDPBFAFGGJ.DPACJDFHLKB(LCBJKGGMJKM, 0, EDGPAFNFMPG, 0);
+		Array.Copy(LCBJKGGMJKM, NONHELBCKCH, LCBJKGGMJKM, 0, LCBJKGGMJKM.Length - NONHELBCKCH);
+		Array.Copy(MOPCLEEGDFB, ELICNEDIBGB, LCBJKGGMJKM, LCBJKGGMJKM.Length - NONHELBCKCH, NONHELBCKCH);
+		for (int i = 0; i < NONHELBCKCH; i++)
+		{
+			NGAGMIIBGKA[EMAKNGBIFDC + i] = (byte)(EDGPAFNFMPG[i] ^ MOPCLEEGDFB[ELICNEDIBGB + i]);
+		}
+		return NONHELBCKCH;
+	}
+
+	public void OMOKOKFNBKI()
+	{
+		Array.Copy(INPOFIMEPGC, 0, LCBJKGGMJKM, 0, INPOFIMEPGC.Length);
+		IEDPBFAFGGJ.OMOKOKFNBKI();
+	}
+}

@@ -1,0 +1,138 @@
+using System;
+using System.Collections;
+
+public class DEPIBGIJJNK : LNKPCJLANAO
+{
+	private readonly GLFDIPNOLKN DFCJKBHFPMG;
+
+	private readonly FAGODOKGMEH OGKFOOJFLOL;
+
+	private readonly DHAJAHAODOK JIBBEJLBHEB;
+
+	private readonly FAGODOKGMEH IOILLPGGBLD;
+
+	private readonly FAGODOKGMEH DGLBMJBPDEB;
+
+	private readonly FAGODOKGMEH BBLHMGFKCNL;
+
+	public GLFDIPNOLKN AMEDMLOCCBG
+	{
+		get
+		{
+			return DFCJKBHFPMG;
+		}
+	}
+
+	public FAGODOKGMEH LDBNIOIMOKE
+	{
+		get
+		{
+			return OGKFOOJFLOL;
+		}
+	}
+
+	public DHAJAHAODOK HECKOCKNLAO
+	{
+		get
+		{
+			return JIBBEJLBHEB;
+		}
+	}
+
+	public FAGODOKGMEH DGMBHCFPAKD
+	{
+		get
+		{
+			return IOILLPGGBLD;
+		}
+	}
+
+	public FAGODOKGMEH KEPHMMEGPCJ
+	{
+		get
+		{
+			return DGLBMJBPDEB;
+		}
+	}
+
+	public FAGODOKGMEH NLNIHPGNADH
+	{
+		get
+		{
+			return BBLHMGFKCNL;
+		}
+	}
+
+	public DEPIBGIJJNK(GLFDIPNOLKN BFHJCLCALDA, FAGODOKGMEH BLGIMABEIHC, DHAJAHAODOK PIFMANMMJID, FAGODOKGMEH LMIALIMAFNE, FAGODOKGMEH EAOCIDDJMOK, FAGODOKGMEH HAFLNAGAOJB)
+	{
+		DFCJKBHFPMG = BFHJCLCALDA;
+		OGKFOOJFLOL = BLGIMABEIHC;
+		JIBBEJLBHEB = PIFMANMMJID;
+		IOILLPGGBLD = LMIALIMAFNE;
+		DGLBMJBPDEB = EAOCIDDJMOK;
+		BBLHMGFKCNL = HAFLNAGAOJB;
+	}
+
+	private DEPIBGIJJNK(ALLINHNNNJN MIABODPHOIP)
+	{
+		IEnumerator enumerator = MIABODPHOIP.GetEnumerator();
+		enumerator.MoveNext();
+		DFCJKBHFPMG = (GLFDIPNOLKN)enumerator.Current;
+		enumerator.MoveNext();
+		OGKFOOJFLOL = (FAGODOKGMEH)enumerator.Current;
+		enumerator.MoveNext();
+		JIBBEJLBHEB = DHAJAHAODOK.BJLJCGFMFOO(enumerator.Current);
+		while (enumerator.MoveNext())
+		{
+			EDOEBJJFOBM eDOEBJJFOBM = (EDOEBJJFOBM)enumerator.Current;
+			if (eDOEBJJFOBM is JIHIOOKBBLB)
+			{
+				JIHIOOKBBLB jIHIOOKBBLB = (JIHIOOKBBLB)eDOEBJJFOBM;
+				switch (jIHIOOKBBLB.JPBIKBDCEKC)
+				{
+				case 0:
+					IOILLPGGBLD = FAGODOKGMEH.BJLJCGFMFOO(jIHIOOKBBLB, false);
+					break;
+				case 1:
+					DGLBMJBPDEB = FAGODOKGMEH.BJLJCGFMFOO(jIHIOOKBBLB, false);
+					break;
+				default:
+					throw new ArgumentException("unknown tag value " + jIHIOOKBBLB.JPBIKBDCEKC);
+				}
+			}
+			else
+			{
+				BBLHMGFKCNL = (FAGODOKGMEH)eDOEBJJFOBM;
+			}
+		}
+	}
+
+	public static DEPIBGIJJNK BJLJCGFMFOO(object NEMEKIOEOLC)
+	{
+		if (NEMEKIOEOLC == null)
+		{
+			return null;
+		}
+		DEPIBGIJJNK dEPIBGIJJNK = NEMEKIOEOLC as DEPIBGIJJNK;
+		if (dEPIBGIJJNK != null)
+		{
+			return dEPIBGIJJNK;
+		}
+		return new DEPIBGIJJNK(ALLINHNNNJN.BJLJCGFMFOO(NEMEKIOEOLC));
+	}
+
+	public override EDOEBJJFOBM IIHKEACDNID()
+	{
+		DLDBGGDLOOO dLDBGGDLOOO = new DLDBGGDLOOO(DFCJKBHFPMG, OGKFOOJFLOL, JIBBEJLBHEB);
+		if (IOILLPGGBLD != null)
+		{
+			dLDBGGDLOOO.JEACJNAKLDJ(new JIHIOOKBBLB(false, 0, IOILLPGGBLD));
+		}
+		if (DGLBMJBPDEB != null)
+		{
+			dLDBGGDLOOO.JEACJNAKLDJ(new JIHIOOKBBLB(false, 1, DGLBMJBPDEB));
+		}
+		dLDBGGDLOOO.JEACJNAKLDJ(BBLHMGFKCNL);
+		return new KBOHOKHJFBA(dLDBGGDLOOO);
+	}
+}

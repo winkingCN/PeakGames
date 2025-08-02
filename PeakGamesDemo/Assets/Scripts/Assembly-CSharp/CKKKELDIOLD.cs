@@ -1,0 +1,13 @@
+public struct CKKKELDIOLD
+{
+	public int MMFFDANAEEI;
+
+	public int BHIJCAOHDCM;
+
+	public CKKKELDIOLD(int JIIFFBLNNOH, int CMAJLIAELDP)
+	{
+		this = default(CKKKELDIOLD);
+		MMFFDANAEEI = JIIFFBLNNOH;
+		BHIJCAOHDCM = CMAJLIAELDP;
+	}
+}

@@ -1,0 +1,71 @@
+using System;
+
+public class NBCMAOFMJKO : LNKPCJLANAO
+{
+	private readonly FJMKMKNJKOI HJBOEOOLOOE;
+
+	private readonly GLFDIPNOLKN FAEDCEILMBI;
+
+	public FJMKMKNJKOI DKHFDIBCCME
+	{
+		get
+		{
+			return HJBOEOOLOOE;
+		}
+	}
+
+	public GLFDIPNOLKN ODDAKJPBFDO
+	{
+		get
+		{
+			return FAEDCEILMBI;
+		}
+	}
+
+	public NBCMAOFMJKO(FJMKMKNJKOI HJBOEOOLOOE, GLFDIPNOLKN FAEDCEILMBI)
+	{
+		if (HJBOEOOLOOE == null)
+		{
+			throw new ArgumentNullException("seed");
+		}
+		if (FAEDCEILMBI == null)
+		{
+			throw new ArgumentNullException("pgenCounter");
+		}
+		this.HJBOEOOLOOE = HJBOEOOLOOE;
+		this.FAEDCEILMBI = FAEDCEILMBI;
+	}
+
+	private NBCMAOFMJKO(ALLINHNNNJN MIABODPHOIP)
+	{
+		if (MIABODPHOIP.GMCGMPEEHJP != 2)
+		{
+			throw new ArgumentException("Bad sequence size: " + MIABODPHOIP.GMCGMPEEHJP, "seq");
+		}
+		HJBOEOOLOOE = FJMKMKNJKOI.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(0));
+		FAEDCEILMBI = GLFDIPNOLKN.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(1));
+	}
+
+	public static NBCMAOFMJKO BJLJCGFMFOO(PAANMJLACEF NEMEKIOEOLC, bool DNBCBHLACCP)
+	{
+		return BJLJCGFMFOO(ALLINHNNNJN.BJLJCGFMFOO(NEMEKIOEOLC, DNBCBHLACCP));
+	}
+
+	public static NBCMAOFMJKO BJLJCGFMFOO(object NEMEKIOEOLC)
+	{
+		if (NEMEKIOEOLC == null || NEMEKIOEOLC is CKPCOMAFPHE)
+		{
+			return (NBCMAOFMJKO)NEMEKIOEOLC;
+		}
+		if (NEMEKIOEOLC is ALLINHNNNJN)
+		{
+			return new NBCMAOFMJKO((ALLINHNNNJN)NEMEKIOEOLC);
+		}
+		throw new ArgumentException("Invalid DHValidationParms: " + LHFGHNFJIKM.JKHOEKAOLPM(NEMEKIOEOLC), "obj");
+	}
+
+	public override EDOEBJJFOBM IIHKEACDNID()
+	{
+		return new KOGPLMALOEH(HJBOEOOLOOE, FAEDCEILMBI);
+	}
+}

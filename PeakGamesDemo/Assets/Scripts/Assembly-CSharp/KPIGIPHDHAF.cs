@@ -1,0 +1,25 @@
+public class KPIGIPHDHAF : IGMAJHKIIPK
+{
+	private IGMAJHKIIPK IJJHBEECMBP;
+
+	private byte[] GFKMKGFENOL;
+
+	public IGMAJHKIIPK KPJHHAAOFOH
+	{
+		get
+		{
+			return IJJHBEECMBP;
+		}
+	}
+
+	public KPIGIPHDHAF(IGMAJHKIIPK IJJHBEECMBP, byte[] GFKMKGFENOL)
+	{
+		this.IJJHBEECMBP = IJJHBEECMBP;
+		this.GFKMKGFENOL = GFKMKGFENOL;
+	}
+
+	public byte[] JCBMNCIEKKG()
+	{
+		return GFKMKGFENOL;
+	}
+}

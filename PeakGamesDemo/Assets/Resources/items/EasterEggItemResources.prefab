@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1555457677450795
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4214241520739390}
+  - component: {fileID: 114882387058509316}
+  m_Layer: 0
+  m_Name: EasterEggItemResources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4214241520739390
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555457677450795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.41905648, y: 1.2094799, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114882387058509316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555457677450795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6c0bfb32693043bb84031b8143bc8b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Prefab: {fileID: 1371683493197480, guid: 98d8d5a8443b4634bb6222df832787d4, type: 2}
+  Particles:
+  - {fileID: 114051451531710176, guid: 9dce0883c47bbbf4497fb58c4e482eb6, type: 2}
+  - {fileID: 114775406051855600, guid: a85b25204b010974f9eb849a1ad77239, type: 2}
+  Animators: []
+  AudioClips:
+  - AudioTag: 20
+    AudioClip: {fileID: 8300000, guid: 21ee46b86c073e84f90734242ab4d3f6, type: 3}
+  - AudioTag: 19
+    AudioClip: {fileID: 8300000, guid: 177b03bfa63923f48b0417bb52544524, type: 3}
+  Sprites: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1555457677450795}
+  m_IsPrefabParent: 1

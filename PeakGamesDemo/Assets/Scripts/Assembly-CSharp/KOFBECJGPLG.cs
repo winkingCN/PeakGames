@@ -1,0 +1,144 @@
+using System;
+using Org.BouncyCastle.Crypto;
+
+public class KOFBECJGPLG : JMPFLJGHAIM
+{
+	private byte[] INPOFIMEPGC;
+
+	private byte[] GCDDJOOHBAN;
+
+	private byte[] CJHCJHCDCHA;
+
+	private readonly int NONHELBCKCH;
+
+	private readonly JMPFLJGHAIM IEDPBFAFGGJ;
+
+	private bool JPAICGIPPOB = true;
+
+	private int KPDPNOGKKMO;
+
+	private int IBOMAKFAGMH;
+
+	private const int CIDLKLHOKHP = 16843012;
+
+	private const int PLJEFFLCHFO = 16843009;
+
+	public string KFKMEPMEBND
+	{
+		get
+		{
+			return IEDPBFAFGGJ.KFKMEPMEBND + "/GCTR";
+		}
+	}
+
+	public bool ABNLKPDCGEF
+	{
+		get
+		{
+			return true;
+		}
+	}
+
+	public KOFBECJGPLG(JMPFLJGHAIM IEDPBFAFGGJ)
+	{
+		this.IEDPBFAFGGJ = IEDPBFAFGGJ;
+		NONHELBCKCH = IEDPBFAFGGJ.BDIGGHEPIIP();
+		if (NONHELBCKCH != 8)
+		{
+			throw new ArgumentException("GCTR only for 64 bit block ciphers");
+		}
+		INPOFIMEPGC = new byte[IEDPBFAFGGJ.BDIGGHEPIIP()];
+		GCDDJOOHBAN = new byte[IEDPBFAFGGJ.BDIGGHEPIIP()];
+		CJHCJHCDCHA = new byte[IEDPBFAFGGJ.BDIGGHEPIIP()];
+	}
+
+	public JMPFLJGHAIM GBHNDFALCDC()
+	{
+		return IEDPBFAFGGJ;
+	}
+
+	public void DIOELAHNLKJ(bool MAEALKEJALK, IGMAJHKIIPK IJJHBEECMBP)
+	{
+		JPAICGIPPOB = true;
+		KPDPNOGKKMO = 0;
+		IBOMAKFAGMH = 0;
+		if (IJJHBEECMBP is CHCELGDKEJG)
+		{
+			CHCELGDKEJG cHCELGDKEJG = (CHCELGDKEJG)IJJHBEECMBP;
+			byte[] array = cHCELGDKEJG.OLAEDCABKDH();
+			if (array.Length < INPOFIMEPGC.Length)
+			{
+				Array.Copy(array, 0, INPOFIMEPGC, INPOFIMEPGC.Length - array.Length, array.Length);
+				for (int i = 0; i < INPOFIMEPGC.Length - array.Length; i++)
+				{
+					INPOFIMEPGC[i] = 0;
+				}
+			}
+			else
+			{
+				Array.Copy(array, 0, INPOFIMEPGC, 0, INPOFIMEPGC.Length);
+			}
+			IJJHBEECMBP = cHCELGDKEJG.KPJHHAAOFOH;
+		}
+		OMOKOKFNBKI();
+		if (IJJHBEECMBP != null)
+		{
+			IEDPBFAFGGJ.DIOELAHNLKJ(true, IJJHBEECMBP);
+		}
+	}
+
+	public int BDIGGHEPIIP()
+	{
+		return NONHELBCKCH;
+	}
+
+	public int DPACJDFHLKB(byte[] MOPCLEEGDFB, int ELICNEDIBGB, byte[] BILGCJNPJGJ, int EMAKNGBIFDC)
+	{
+		if (ELICNEDIBGB + NONHELBCKCH > MOPCLEEGDFB.Length)
+		{
+			throw new DataLengthException("input buffer too short");
+		}
+		if (EMAKNGBIFDC + NONHELBCKCH > BILGCJNPJGJ.Length)
+		{
+			throw new DataLengthException("output buffer too short");
+		}
+		if (JPAICGIPPOB)
+		{
+			JPAICGIPPOB = false;
+			IEDPBFAFGGJ.DPACJDFHLKB(GCDDJOOHBAN, 0, CJHCJHCDCHA, 0);
+			KPDPNOGKKMO = MEJAAFCIBGE(CJHCJHCDCHA, 0);
+			IBOMAKFAGMH = MEJAAFCIBGE(CJHCJHCDCHA, 4);
+		}
+		KPDPNOGKKMO += 16843009;
+		IBOMAKFAGMH += 16843012;
+		DLGDEJANENH(KPDPNOGKKMO, GCDDJOOHBAN, 0);
+		DLGDEJANENH(IBOMAKFAGMH, GCDDJOOHBAN, 4);
+		IEDPBFAFGGJ.DPACJDFHLKB(GCDDJOOHBAN, 0, CJHCJHCDCHA, 0);
+		for (int i = 0; i < NONHELBCKCH; i++)
+		{
+			BILGCJNPJGJ[EMAKNGBIFDC + i] = (byte)(CJHCJHCDCHA[i] ^ MOPCLEEGDFB[ELICNEDIBGB + i]);
+		}
+		Array.Copy(GCDDJOOHBAN, NONHELBCKCH, GCDDJOOHBAN, 0, GCDDJOOHBAN.Length - NONHELBCKCH);
+		Array.Copy(CJHCJHCDCHA, 0, GCDDJOOHBAN, GCDDJOOHBAN.Length - NONHELBCKCH, NONHELBCKCH);
+		return NONHELBCKCH;
+	}
+
+	public void OMOKOKFNBKI()
+	{
+		Array.Copy(INPOFIMEPGC, 0, GCDDJOOHBAN, 0, INPOFIMEPGC.Length);
+		IEDPBFAFGGJ.OMOKOKFNBKI();
+	}
+
+	private int MEJAAFCIBGE(byte[] AIFKJBMJOMK, int ELICNEDIBGB)
+	{
+		return (int)((AIFKJBMJOMK[ELICNEDIBGB + 3] << 24) & 0xFF000000u) + ((AIFKJBMJOMK[ELICNEDIBGB + 2] << 16) & 0xFF0000) + ((AIFKJBMJOMK[ELICNEDIBGB + 1] << 8) & 0xFF00) + (AIFKJBMJOMK[ELICNEDIBGB] & 0xFF);
+	}
+
+	private void DLGDEJANENH(int AAEGOMKANGC, byte[] NGAGMIIBGKA, int EMAKNGBIFDC)
+	{
+		NGAGMIIBGKA[EMAKNGBIFDC + 3] = (byte)(AAEGOMKANGC >> 24);
+		NGAGMIIBGKA[EMAKNGBIFDC + 2] = (byte)(AAEGOMKANGC >> 16);
+		NGAGMIIBGKA[EMAKNGBIFDC + 1] = (byte)(AAEGOMKANGC >> 8);
+		NGAGMIIBGKA[EMAKNGBIFDC] = (byte)AAEGOMKANGC;
+	}
+}

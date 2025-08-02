@@ -1,0 +1,74 @@
+using Org.BouncyCastle.Math;
+
+internal class FMDAALCCDEP : HAEJCOAFOIJ
+{
+	public static readonly BigInteger OKDPJHOEPBJ = new BigInteger(1, DCDJMDOEKHC.ILOALOLANOL("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFEE37"));
+
+	private const int IFFFEHAHLFP = 2;
+
+	protected readonly OGEPGLJFBEH IAALHPOGFAN;
+
+	public virtual BigInteger FNPELDEHJKL
+	{
+		get
+		{
+			return OKDPJHOEPBJ;
+		}
+	}
+
+	public override JGAFKLGGBGF EFOLNCNGADB
+	{
+		get
+		{
+			return IAALHPOGFAN;
+		}
+	}
+
+	public override int PJNLBAHOKGC
+	{
+		get
+		{
+			return OKDPJHOEPBJ.BitLength;
+		}
+	}
+
+	public FMDAALCCDEP()
+		: base(OKDPJHOEPBJ)
+	{
+		IAALHPOGFAN = new OGEPGLJFBEH(this, null, null);
+		CFJANGMBPML = HFENNGHNFLF(BigInteger.Zero);
+		MPDGCILOEML = HFENNGHNFLF(BigInteger.AGLOJCOAJIK(3L));
+		NNGLKCDBIBE = new BigInteger(1, DCDJMDOEKHC.ILOALOLANOL("FFFFFFFFFFFFFFFFFFFFFFFE26F2FC170F69466A74DEFD8D"));
+		LDKJJAOPAAP = BigInteger.One;
+		NHKGIJJFPEK = 2;
+	}
+
+	protected override BHPIABAGAPB LNLMICLEEPK()
+	{
+		return new FMDAALCCDEP();
+	}
+
+	public override bool ELIMDCKLHCJ(int FOOJPIGHMKH)
+	{
+		if (FOOJPIGHMKH == 2)
+		{
+			return true;
+		}
+		return false;
+	}
+
+	public override KBINBLGGLNE HFENNGHNFLF(BigInteger AMFCENFNAJJ)
+	{
+		return new DEHIGCEHECB(AMFCENFNAJJ);
+	}
+
+	protected internal override JGAFKLGGBGF IMOPAOHAOAN(KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ, bool HPGABKNMEAG)
+	{
+		return new OGEPGLJFBEH(this, AMFCENFNAJJ, CNLILOEEBOJ, HPGABKNMEAG);
+	}
+
+	protected internal override JGAFKLGGBGF IMOPAOHAOAN(KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ, KBINBLGGLNE[] IJGNIJAMCML, bool HPGABKNMEAG)
+	{
+		return new OGEPGLJFBEH(this, AMFCENFNAJJ, CNLILOEEBOJ, IJGNIJAMCML, HPGABKNMEAG);
+	}
+}

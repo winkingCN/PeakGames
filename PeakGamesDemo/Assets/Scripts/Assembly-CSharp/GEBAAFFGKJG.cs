@@ -1,0 +1,359 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using caravan.protobuf.messages;
+
+public class GEBAAFFGKJG : DLDDFKDFKEF
+{
+	public const int IMGMMENKFFJ = 5;
+
+	public static float JPNPCPMAMFL = -5f;
+
+	private const int HJLCMGEAEJN = 200;
+
+	private const int EPFCIMOFEIO = 5;
+
+	private const int PHBCCGFMGKO = 50000;
+
+	private const int EPLLFMAPIFI = 99;
+
+	private static GEBAAFFGKJG KNPOFJNFLJB;
+
+	private readonly OIOJFMEHGBF NJCPCACOCGB;
+
+	private LLCJMMBBLEH CFAGPEMDHJE;
+
+	private int CKNMMGMMAEA;
+
+	private int CHMMFCIFIEP;
+
+	private WaitForSeconds DCDOGJJOEBD;
+
+	public static GEBAAFFGKJG GABGKBAKHDP
+	{
+		get
+		{
+			if (KNPOFJNFLJB == null)
+			{
+				KNPOFJNFLJB = new GEBAAFFGKJG();
+			}
+			return KNPOFJNFLJB;
+		}
+	}
+
+	public int JBGLJOJEBNM { get; private set; }
+
+	public int AGIIAKOKGDB { get; private set; }
+
+	private GEBAAFFGKJG()
+	{
+		NJCPCACOCGB = OIOJFMEHGBF.GABGKBAKHDP;
+		JBGLJOJEBNM = NJCPCACOCGB.CPPJMCBINBE(NAAHKHPBAPA.Coins);
+	}
+
+	public bool ACBHOCGJHHF(NJGLIIMEMBI NBFBPNNEKMN)
+	{
+		byte b = (byte)GABGKBAKHDP.JFGLEMPLBKE(NAAHKHPBAPA.UserType);
+		byte b2 = (byte)(b & (byte)NBFBPNNEKMN);
+		return b2 == (byte)NBFBPNNEKMN;
+	}
+
+	public void LDHHPHHKNHL(NJGLIIMEMBI NBFBPNNEKMN, bool LFBLEHAGDNL = true)
+	{
+		byte b = (byte)GABGKBAKHDP.JFGLEMPLBKE(NAAHKHPBAPA.UserType);
+		byte nNIDKMJGAJO = (byte)(b | (byte)NBFBPNNEKMN);
+		MDCKDPBIIEN(NAAHKHPBAPA.UserType, nNIDKMJGAJO, LFBLEHAGDNL);
+	}
+
+	public void OMOKOKFNBKI()
+	{
+		NJCPCACOCGB.BBGLCADIONK();
+		KNPOFJNFLJB = null;
+	}
+
+	public bool EFPJIIBFLJI()
+	{
+		return NJCPCACOCGB.EFPJIIBFLJI();
+	}
+
+	public void PKIMELKEMAN()
+	{
+		NJCPCACOCGB.PKIMELKEMAN();
+	}
+
+	public void ENEBPKFEOJN(InventoryMetaData IPLOADIDNGG, bool PCDAFDGCJIF)
+	{
+		MDCKDPBIIEN(NAAHKHPBAPA.Coins, IPLOADIDNGG.coins, true, false);
+		JBGLJOJEBNM = IPLOADIDNGG.coins;
+		AGIIAKOKGDB = 0;
+		MDCKDPBIIEN(NAAHKHPBAPA.Anvil, IPLOADIDNGG.anvil, true, false);
+		MDCKDPBIIEN(NAAHKHPBAPA.Bomb, IPLOADIDNGG.bomb, true, false);
+		MDCKDPBIIEN(NAAHKHPBAPA.BoxingGlove, IPLOADIDNGG.boxingGlove, true, false);
+		MDCKDPBIIEN(NAAHKHPBAPA.DiscoBall, IPLOADIDNGG.discoBall, true, false);
+		MDCKDPBIIEN(NAAHKHPBAPA.Dice, IPLOADIDNGG.shuffle, true, false);
+		MDCKDPBIIEN(NAAHKHPBAPA.Extra5Moves, IPLOADIDNGG.extra5Moves, true, false);
+		MDCKDPBIIEN(NAAHKHPBAPA.Hammer, IPLOADIDNGG.hammer, true, false);
+		MDCKDPBIIEN(NAAHKHPBAPA.Rocket, IPLOADIDNGG.rocket, true, false);
+		MDCKDPBIIEN(NAAHKHPBAPA.UserType, IPLOADIDNGG.userType, true, false);
+		MDCKDPBIIEN(NAAHKHPBAPA.Stars, IPLOADIDNGG.stars, true, false);
+		MDCKDPBIIEN(NAAHKHPBAPA.UnlimitedLife, IPLOADIDNGG.unlimitedLife, true, false);
+		MDCKDPBIIEN(NAAHKHPBAPA.Key, IPLOADIDNGG.piggyBank, true, false);
+		if (IPLOADIDNGG.life < 0)
+		{
+			IPLOADIDNGG.life = 0;
+		}
+		else if (IPLOADIDNGG.life > 5)
+		{
+			IPLOADIDNGG.life = 5;
+		}
+		PJPPADHKGHN.GABGKBAKHDP.AOKIKEFDGAD(IPLOADIDNGG.life, IPLOADIDNGG.lifeTime);
+		LECPGNKOABP.GABGKBAKHDP.ILNAPPDKOOD = ACBHOCGJHHF(NJGLIIMEMBI.USER_TYPE_PAID);
+		if (LECPGNKOABP.GABGKBAKHDP.ILNAPPDKOOD)
+		{
+			OneSignal.SendTag("PayerTag", "1");
+		}
+		if (PCDAFDGCJIF)
+		{
+			JPNPCPMAMFL = -5f;
+			PKIMELKEMAN();
+		}
+	}
+
+	public bool AAPIPCCINJJ(NAAHKHPBAPA NBFBPNNEKMN)
+	{
+		return NJCPCACOCGB.AOFOEFNCFIB(NBFBPNNEKMN).FOJDLLGGJID == 1;
+	}
+
+	public int GOHFAPAOAJI(NAAHKHPBAPA NBFBPNNEKMN, int NNIDKMJGAJO, bool HKKFECMGNHL = true, bool ALJELFEPICE = false)
+	{
+		if (!ALJELFEPICE && ILIGANPENNJ())
+		{
+			NNIDKMJGAJO = NBIBHELBHPH(NBFBPNNEKMN, NNIDKMJGAJO);
+		}
+		if (NNIDKMJGAJO == 0)
+		{
+			return 0;
+		}
+		if (NNIDKMJGAJO < 0)
+		{
+			GBFAPADEBEC.LCNJJMBLOHE(PBIIDJOKNEK.InventoryHelper, "A negative value can not be added to balance for type {0}", NBFBPNNEKMN);
+			return 0;
+		}
+		NDDNNJHMMDC nDDNNJHMMDC = NJCPCACOCGB.AOFOEFNCFIB(NBFBPNNEKMN);
+		nDDNNJHMMDC.DIJPJDFKNCJ += NNIDKMJGAJO;
+		nDDNNJHMMDC.FOJDLLGGJID = 0;
+		NJCPCACOCGB.BJNFGAFBCGJ(nDDNNJHMMDC);
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.InventoryHelper, "{0} added and new balance is {1} for {2}", NNIDKMJGAJO, nDDNNJHMMDC.DIJPJDFKNCJ, NBFBPNNEKMN);
+		if (HKKFECMGNHL)
+		{
+			CHLFIMHAKLM();
+		}
+		if (NBFBPNNEKMN == NAAHKHPBAPA.Coins)
+		{
+			JBGLJOJEBNM = nDDNNJHMMDC.DIJPJDFKNCJ;
+		}
+		return NNIDKMJGAJO;
+	}
+
+	public void MDCKDPBIIEN(NAAHKHPBAPA NBFBPNNEKMN, int NNIDKMJGAJO, bool LEAIHEDDKDO = false, bool HKKFECMGNHL = true)
+	{
+		if (NNIDKMJGAJO < 0)
+		{
+			GBFAPADEBEC.LCNJJMBLOHE(PBIIDJOKNEK.InventoryHelper, "A negative value can not be set for type:", NBFBPNNEKMN);
+			return;
+		}
+		NDDNNJHMMDC nDDNNJHMMDC = NJCPCACOCGB.AOFOEFNCFIB(NBFBPNNEKMN);
+		nDDNNJHMMDC.DIJPJDFKNCJ = NNIDKMJGAJO;
+		if (LEAIHEDDKDO)
+		{
+			nDDNNJHMMDC.FOJDLLGGJID = 0;
+		}
+		NJCPCACOCGB.BJNFGAFBCGJ(nDDNNJHMMDC);
+		if (HKKFECMGNHL)
+		{
+			CHLFIMHAKLM();
+		}
+		if (NBFBPNNEKMN == NAAHKHPBAPA.Coins)
+		{
+			JBGLJOJEBNM = nDDNNJHMMDC.DIJPJDFKNCJ;
+		}
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.InventoryHelper, "Forced balance is {0} for {1}", NNIDKMJGAJO, NBFBPNNEKMN);
+	}
+
+	public int JFGLEMPLBKE(NAAHKHPBAPA NBFBPNNEKMN)
+	{
+		return NJCPCACOCGB.CPPJMCBINBE(NBFBPNNEKMN);
+	}
+
+	public bool DCAKPPKFOEP(NAAHKHPBAPA NBFBPNNEKMN, int NNIDKMJGAJO, bool HKKFECMGNHL = true)
+	{
+		if (NNIDKMJGAJO < 0)
+		{
+			GBFAPADEBEC.LCNJJMBLOHE(PBIIDJOKNEK.InventoryHelper, "A negative value can not be set for type:", NBFBPNNEKMN);
+			return false;
+		}
+		NDDNNJHMMDC nDDNNJHMMDC = NJCPCACOCGB.AOFOEFNCFIB(NBFBPNNEKMN);
+		if (NNIDKMJGAJO > nDDNNJHMMDC.DIJPJDFKNCJ)
+		{
+			GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.InventoryHelper, "Not enough balance ({0}) for value {1} of type {2}", nDDNNJHMMDC.DIJPJDFKNCJ, NNIDKMJGAJO, NBFBPNNEKMN);
+			return false;
+		}
+		nDDNNJHMMDC.DIJPJDFKNCJ -= NNIDKMJGAJO;
+		nDDNNJHMMDC.FOJDLLGGJID = 0;
+		NJCPCACOCGB.BJNFGAFBCGJ(nDDNNJHMMDC);
+		if (HKKFECMGNHL)
+		{
+			CHLFIMHAKLM();
+		}
+		if (NBFBPNNEKMN == NAAHKHPBAPA.Coins)
+		{
+			JBGLJOJEBNM = nDDNNJHMMDC.DIJPJDFKNCJ;
+			NFDHFOAMOCD.OGIABCPMENP(NNIDKMJGAJO);
+		}
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.InventoryHelper, "{0} decreased and new balance is {1} for type {2}", NNIDKMJGAJO, nDDNNJHMMDC.DIJPJDFKNCJ, NBFBPNNEKMN);
+		return true;
+	}
+
+	public void CBANNNKPJAM()
+	{
+		if (!NJCPCACOCGB.JDIDFELJKCH(NAAHKHPBAPA.Coins))
+		{
+			MDCKDPBIIEN(NAAHKHPBAPA.Coins, 200, true);
+		}
+		if (!NJCPCACOCGB.JDIDFELJKCH(NAAHKHPBAPA.Life))
+		{
+			MDCKDPBIIEN(NAAHKHPBAPA.Life, 5, true);
+		}
+		if (!NJCPCACOCGB.JDIDFELJKCH(NAAHKHPBAPA.UnlimitedLife))
+		{
+			PJPPADHKGHN.GABGKBAKHDP.PIJMPOOEADM();
+		}
+	}
+
+	public void NPGEJMKGJON(int ACFDIDGFPKJ)
+	{
+		AGIIAKOKGDB = ACFDIDGFPKJ;
+	}
+
+	public bool IBFMAELGBGP(int ACFDIDGFPKJ)
+	{
+		AGIIAKOKGDB += ACFDIDGFPKJ;
+		if (AGIIAKOKGDB >= 0)
+		{
+			return true;
+		}
+		AGIIAKOKGDB = 0;
+		return false;
+	}
+
+	private int NBIBHELBHPH(NAAHKHPBAPA HBBIFNLDKPO, int NNIDKMJGAJO)
+	{
+		int dIJPJDFKNCJ = NJCPCACOCGB.AOFOEFNCFIB(HBBIFNLDKPO).DIJPJDFKNCJ;
+		int num = dIJPJDFKNCJ + NNIDKMJGAJO;
+		int num2 = ((!ACBHOCGJHHF(NJGLIIMEMBI.USER_TYPE_HIGH_PAID)) ? 50000 : 100000);
+		switch (HBBIFNLDKPO)
+		{
+		case NAAHKHPBAPA.Coins:
+		{
+			if (num <= num2)
+			{
+				return NNIDKMJGAJO;
+			}
+			int num4 = Mathf.Max(0, num2 - dIJPJDFKNCJ);
+			DINCIHGLIAM(HBBIFNLDKPO, num2, NNIDKMJGAJO, num4);
+			return num4;
+		}
+		case NAAHKHPBAPA.Hammer:
+		case NAAHKHPBAPA.Anvil:
+		case NAAHKHPBAPA.BoxingGlove:
+		case NAAHKHPBAPA.Rocket:
+		case NAAHKHPBAPA.Bomb:
+		case NAAHKHPBAPA.DiscoBall:
+		case NAAHKHPBAPA.Dice:
+		{
+			if (num <= 99)
+			{
+				return NNIDKMJGAJO;
+			}
+			int num3 = Mathf.Max(0, 99 - dIJPJDFKNCJ);
+			DINCIHGLIAM(HBBIFNLDKPO, 99, NNIDKMJGAJO, num3);
+			return num3;
+		}
+		default:
+			return NNIDKMJGAJO;
+		}
+	}
+
+	private static void DINCIHGLIAM(NAAHKHPBAPA HBBIFNLDKPO, int GJHEBCMICMA, int DJJLHEICNPA, int COLHGMKPBME)
+	{
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.InventoryHelper, "{0} amount exceeds the limit ({1}), adding {2} instead of {3}.", HBBIFNLDKPO, GJHEBCMICMA, COLHGMKPBME, DJJLHEICNPA);
+	}
+
+	private bool ILIGANPENNJ()
+	{
+		return PlayerPrefs.GetInt("InventoryLimitFlag", 1) == 1;
+	}
+
+	private void CHLFIMHAKLM()
+	{
+		if (CFAGPEMDHJE != null)
+		{
+			if (CKNMMGMMAEA != Time.frameCount)
+			{
+				GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.InventoryHelper, "Sync is in progress.");
+				CKNMMGMMAEA = Time.frameCount;
+			}
+		}
+		else
+		{
+			CFAGPEMDHJE = new LLCJMMBBLEH(ONDBFDNOKBH(), true, IAJNLGPHGLO.App);
+		}
+	}
+
+	private void MCHNEEIKCAE()
+	{
+		CFAGPEMDHJE = null;
+	}
+
+	private void IEBMDBBJEHH()
+	{
+		JPNPCPMAMFL = -5f;
+		MCHNEEIKCAE();
+	}
+
+	private IEnumerator ONDBFDNOKBH()
+	{
+		if (CHMMFCIFIEP != IMLNKMACKMF.GABGKBAKHDP.AHGIOEDLGEE)
+		{
+			CHMMFCIFIEP = IMLNKMACKMF.GABGKBAKHDP.AHGIOEDLGEE;
+			DCDOGJJOEBD = new WaitForSeconds((float)CHMMFCIFIEP / 1000f);
+			GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.InventoryHelper, "Sync interval is changed to {0} ms.", CHMMFCIFIEP);
+		}
+		yield return DCDOGJJOEBD;
+		NCHDJAAJNIG nCHDJAAJNIG = new NCHDJAAJNIG(MCHNEEIKCAE);
+		List<IKDMCJPBBIH> hDECNOABBDG = new List<IKDMCJPBBIH> { nCHDJAAJNIG };
+		bool flag = ELBMHNOBHPN.EDAFBCMCHDH;
+		if (nCHDJAAJNIG.ELDBGPGMBBK() && !flag)
+		{
+			KIHMBFDKLJM.GABGKBAKHDP.IINKCBOCHBG(hDECNOABBDG);
+			yield break;
+		}
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.InventoryHelper, "Sync will be ignored since not needed ({0}).", flag);
+		MCHNEEIKCAE();
+	}
+
+	public void EBDHNAICMIB()
+	{
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.InventoryHelper, "Force Sync Server Now!");
+		if (CFAGPEMDHJE != null && CFAGPEMDHJE.BPLCLABMIMM)
+		{
+			CFAGPEMDHJE.BPPFBMCJOAH();
+		}
+		CFAGPEMDHJE = null;
+		NCHDJAAJNIG item = new NCHDJAAJNIG(IEBMDBBJEHH);
+		List<IKDMCJPBBIH> list = new List<IKDMCJPBBIH>();
+		list.Add(item);
+		List<IKDMCJPBBIH> hDECNOABBDG = list;
+		KIHMBFDKLJM.GABGKBAKHDP.IINKCBOCHBG(hDECNOABBDG);
+	}
+}

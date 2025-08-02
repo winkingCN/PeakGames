@@ -1,0 +1,4 @@
+public interface HGIAHEKANFO
+{
+	EDOEBJJFOBM IIHKEACDNID();
+}

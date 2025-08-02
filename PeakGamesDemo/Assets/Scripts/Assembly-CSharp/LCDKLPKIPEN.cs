@@ -1,0 +1,6 @@
+public interface LCDKLPKIPEN
+{
+	void BIOHAFKFIKP(string IGJEENPLFPB, bool FKPEGOHFGCK);
+
+	void BIOHAFKFIKP(int AIILDOGHINA, bool FKPEGOHFGCK);
+}

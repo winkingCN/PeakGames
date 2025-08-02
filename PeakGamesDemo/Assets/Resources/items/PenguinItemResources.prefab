@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1100775195793242
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4124043276199895}
+  - component: {fileID: 114403501472958988}
+  m_Layer: 0
+  m_Name: PenguinItemResources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4124043276199895
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1100775195793242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114403501472958988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1100775195793242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6c0bfb32693043bb84031b8143bc8b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Prefab: {fileID: 1727419223882106, guid: 101f574f23de51c46855445a67ec4bed, type: 2}
+  Particles:
+  - {fileID: 114707444813625268, guid: f3d7274528dd53047ab8483991ada4af, type: 2}
+  - {fileID: 114029694527958737, guid: b41ec4edd6507ea4ea94e479b63569e8, type: 2}
+  - {fileID: 114527901554744640, guid: ed138377edf20904c8474e0e7e67a332, type: 2}
+  - {fileID: 114062170431848067, guid: 910879915b1baa04584ba34455d06113, type: 2}
+  Animators:
+  - {fileID: 1423766443540189, guid: a330def290120c64d82374a31fd91033, type: 2}
+  AudioClips:
+  - AudioTag: 97
+    AudioClip: {fileID: 8300000, guid: 7d2eaf8d2f284b343ab850de389395e6, type: 3}
+  - AudioTag: 98
+    AudioClip: {fileID: 8300000, guid: 8ae6a0419ccf9394397df147c50c5b55, type: 3}
+  - AudioTag: 99
+    AudioClip: {fileID: 8300000, guid: 8bbbfa6c84273c548859c14ec9a06b79, type: 3}
+  - AudioTag: 100
+    AudioClip: {fileID: 8300000, guid: 2c7a739d38cf15e44a342afa2c39da00, type: 3}
+  Sprites: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1100775195793242}
+  m_IsPrefabParent: 1

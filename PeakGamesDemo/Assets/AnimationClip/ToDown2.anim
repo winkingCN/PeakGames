@@ -1,0 +1,5681 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ToDown2
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: -31.02227}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.15
+        value: {x: 0, y: 0, z: -6.8350005}
+        inSlope: {x: 0, y: 0, z: 1.6027907E-05}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: 0, y: 0, z: 9.0130005}
+        inSlope: {x: 0, y: 0, z: -2.28987E-06}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.55
+        value: {x: 0, y: 0, z: -3.900104}
+        inSlope: {x: 0, y: 0, z: 6.3425773E-07}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: {x: 0, y: 0, z: 1.4325962}
+        inSlope: {x: 0, y: 0, z: 0.42020184}
+        outSlope: {x: 0, y: 0, z: -0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.95
+        value: {x: 0, y: 0, z: -1.282435}
+        inSlope: {x: 0, y: 0, z: -3.109508E-06}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.0666667
+        value: {x: 0, y: 0, z: 0.6126371}
+        inSlope: {x: 0, y: 0, z: 1.9589465E-06}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: -1.4861391E-06}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: AnimationPin/GiantPinata
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: -169.00294}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: 0, y: 0, z: -10.148001}
+        inSlope: {x: 0, y: 0, z: -2.898822E-05}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: {x: 0, y: 0, z: 11.273001}
+        inSlope: {x: 0, y: 0, z: -4.4563903E-06}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: {x: 0, y: 0, z: -3.7960002}
+        inSlope: {x: 0, y: 0, z: -3.0556563E-05}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.7
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: -0.2885698}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: AnimationPin/GiantPinata/GiantPinataState1
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.05, y: -1.126, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: -1.9583147, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: {x: -0.05, y: -1.28, z: 0}
+        inSlope: {x: 0, y: -1.3530024, z: 0}
+        outSlope: {x: 0, y: 4.6579814, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: {x: -0.05, y: -0.96, z: 0}
+        inSlope: {x: 0, y: 1.9178843E-07, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: {x: -0.05, y: -1.126, z: 0}
+        inSlope: {x: 0, y: -0.75675815, z: 0}
+        outSlope: {x: 0, y: 0.7292937, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.51666665
+        value: {x: -0.05, y: -1.0536885, z: 0}
+        inSlope: {x: 0, y: -1.6786005E-07, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: {x: -0.05, y: -1.126, z: 0}
+        inSlope: {x: 0, y: 0.0036066896, z: 0}
+        outSlope: {x: 0, y: 0.003606527, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.7
+        value: {x: -0.05, y: -1.11, z: 0}
+        inSlope: {x: 0, y: -1.5515867E-07, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: {x: -0.05, y: -1.126, z: 0}
+        inSlope: {x: 0, y: 0.016435152, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: AnimationPin/GiantPinata/GiantPinataState1
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.36406302
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.5220475
+        inSlope: -9.325679E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: _bounds.m_Center.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.864063
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 1.0220478
+        inSlope: -3.3899843E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: script_0x7267F7FA_jOMlSwH
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 5.9604645E-08
+        inSlope: 1.3004649E-06
+        outSlope: 1.3004649E-06
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.086628675
+        inSlope: 3.0748555E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -8.13165E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: 1.3611329E-15
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v001.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.2356677
+        inSlope: -7.658778E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.17335892
+        inSlope: -1.5864015E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 1.679999E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v001.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.41359875
+        inSlope: 8.874865E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0
+        inSlope: 5.457413E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: 1.3611329E-15
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v002.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.41359875
+        inSlope: 8.874865E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.086628675
+        inSlope: 7.73465E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -8.13165E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: 1.3611329E-15
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v003.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.2356677
+        inSlope: -7.658778E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.17335892
+        inSlope: -1.5864015E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 1.679999E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v003.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.41359875
+        inSlope: 8.874865E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0
+        inSlope: 6.2039814
+        outSlope: 6.203982
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.35
+        value: 1.5610546
+        inSlope: -5.178252E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 1.0482417E-05
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.13240981
+        inSlope: 6.715183E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: -2.701649E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v004.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.016839266
+        inSlope: 4.0180113E-09
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 5.0767735E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v004.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.41359875
+        inSlope: -1.3613147
+        outSlope: -1.3613136
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: -0.4759923
+        inSlope: -1.3737402E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 0.4544328
+        inSlope: 16.02093
+        outSlope: 16.020931
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.35
+        value: 2.1941628
+        inSlope: 1.0932318E-05
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 1.3947339E-05
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.5989916
+        inSlope: 2.1347512E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: 1.0985238E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v005.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.035561383
+        inSlope: 7.630644E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.07748407
+        inSlope: 5.0928105E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -1.35296E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v005.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.41359875
+        inSlope: 8.874865E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.13095245
+        inSlope: 10.891026
+        outSlope: 10.891025
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 2.329165
+        inSlope: -3.4149065E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 2.463132E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.8736064
+        inSlope: 2.9582077E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: -2.6233215E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v006.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.11322039
+        inSlope: 2.429446E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.10320884
+        inSlope: -1.935028E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -5.6443238E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v006.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.41359875
+        inSlope: 8.874865E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 1.6566381
+        inSlope: -1.4057968E-05
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 0.5901934
+        inSlope: -7.6460214
+        outSlope: -7.6460223
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -4.4987863E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.8736064
+        inSlope: 2.9582077E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: -2.6233215E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v007.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.17377138
+        inSlope: 3.728729E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.10320884
+        inSlope: 6.678878E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -5.6443238E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v007.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.41359875
+        inSlope: 8.874865E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.72128856
+        inSlope: 3.868144E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: -0.43216088
+        inSlope: 7.577553E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 6.2224456E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.72161967
+        inSlope: -3.3014494E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: 2.214904E-06
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v008.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.20933282
+        inSlope: -8.2238637E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.12986404
+        inSlope: -2.439496E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -1.11663326E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v008.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.41359875
+        inSlope: 8.874865E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.086628675
+        inSlope: 7.73465E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: -0.6424375
+        inSlope: -7.762897E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 1.3097377E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.42744097
+        inSlope: 1.0602331E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: -2.9187922E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v009.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.2356677
+        inSlope: -7.658778E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.17335892
+        inSlope: -1.5864015E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 0.15629631
+        inSlope: -0.31500193
+        outSlope: -0.31500193
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -2.7300587E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v009.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 5.9604645E-08
+        inSlope: 1.3004649E-06
+        outSlope: 1.3004649E-06
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.086628675
+        inSlope: 3.0748555E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: -0.6424375
+        inSlope: -7.762897E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 1.3097377E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.42744097
+        inSlope: 1.0602331E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: -2.9187922E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v010.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.2356677
+        inSlope: -7.658778E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.17335892
+        inSlope: -1.5864015E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 0.15629631
+        inSlope: -0.31500193
+        outSlope: -0.31500193
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -2.7300587E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v010.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 5.9604645E-08
+        inSlope: 1.3004649E-06
+        outSlope: 1.300465E-06
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.72128856
+        inSlope: -4.8375814E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: -0.43216088
+        inSlope: 7.577553E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 6.2224456E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.72161967
+        inSlope: -3.3014494E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: 2.214904E-06
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v011.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.20933282
+        inSlope: -8.2238637E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.12986404
+        inSlope: -2.439496E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -1.11663326E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v011.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 5.9604645E-08
+        inSlope: 1.300465E-06
+        outSlope: 1.3004651E-06
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 1.6566381
+        inSlope: -5.063497E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 0.5901934
+        inSlope: -7.6460214
+        outSlope: -7.6460223
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -4.4987863E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.8736064
+        inSlope: 2.9582077E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: -2.6233215E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v012.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.17377138
+        inSlope: 3.728729E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.10320884
+        inSlope: 6.678878E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -5.6443238E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v012.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 5.9604645E-08
+        inSlope: 1.3004649E-06
+        outSlope: 1.300465E-06
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.13095245
+        inSlope: 2.619048
+        outSlope: 2.6190479
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 2.329165
+        inSlope: 2.535994E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 2.463132E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.8736064
+        inSlope: 2.9582077E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: -2.6233215E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v013.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.11322039
+        inSlope: 2.429446E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.10320884
+        inSlope: -1.935028E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -5.6443238E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v013.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 5.9604645E-08
+        inSlope: -1.2789768E-13
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: -0.4759923
+        inSlope: -7.9513285E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 0.4544328
+        inSlope: 16.02093
+        outSlope: 16.020931
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.35
+        value: 2.1941628
+        inSlope: 1.0932318E-05
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 1.3947339E-05
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.5989916
+        inSlope: 2.1347512E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: 1.0985238E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v014.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.035561383
+        inSlope: 7.630644E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.07748407
+        inSlope: 5.0928105E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -1.35296E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v014.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.35
+        value: 1.5610546
+        inSlope: -1.7366027E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 1.0482417E-05
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.13240981
+        inSlope: 6.715183E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: -2.701649E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v015.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.016839266
+        inSlope: 4.0180113E-09
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 5.0767735E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v015.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.41359875
+        inSlope: 8.874865E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 1.1972675
+        inSlope: 6.4206142
+        outSlope: 6.4206142
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 1.5182983
+        inSlope: -2.6103191E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -6.074187E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.8736064
+        inSlope: 2.9582077E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: -2.6233215E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v016.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.13888282
+        inSlope: -3.3777275E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.10320884
+        inSlope: 1.0042563E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -5.6443238E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v016.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 5.9604645E-08
+        inSlope: 1.3004649E-06
+        outSlope: 1.300465E-06
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 1.1972675
+        inSlope: 6.4206123
+        outSlope: 6.4206157
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 1.5182983
+        inSlope: -5.948174E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -6.074187E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.8736064
+        inSlope: 2.9582077E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: -2.6233215E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v017.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.13888282
+        inSlope: -3.3777275E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.10320884
+        inSlope: 1.0042563E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -5.6443238E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v017.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.41359875
+        inSlope: -4.2668047
+        outSlope: -4.266806
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: -0.7822478
+        inSlope: -3.5069394E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 1.1982859
+        inSlope: 7.9982204
+        outSlope: 7.9982276
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.35
+        value: 1.5315454
+        inSlope: -2.0204592E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 9.638149E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.72161967
+        inSlope: -3.3014494E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: 2.214904E-06
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v018.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.061895967
+        inSlope: -1.8507713E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.10320884
+        inSlope: 3.101485E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -5.6443238E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v018.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 5.9604645E-08
+        inSlope: -1.2789768E-13
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: -0.7822478
+        inSlope: -4.1834287E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 1.1982859
+        inSlope: 7.9982204
+        outSlope: 7.9982276
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.35
+        value: 1.5315454
+        inSlope: -2.0204592E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: 9.638149E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0.72161967
+        inSlope: -3.3014494E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -9.313226E-10
+        inSlope: 2.214904E-06
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v019.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.061895967
+        inSlope: -1.8507713E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.10320884
+        inSlope: 3.101485E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -5.6443238E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.6166667
+        value: -2.910383E-11
+        inSlope: 4.2535404E-17
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v019.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 7.200241E-05
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06646168
+        inSlope: 1.4276578E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: _bounds.m_Center.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0029538274
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.021962821
+        inSlope: -0.057108846
+        outSlope: -0.057108875
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.024342358
+        inSlope: 4.6021364E-10
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: _bounds.m_Center.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.900072
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 1.1261454
+        inSlope: -1.7566666E-06
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: script_0x560C76C_MwiRrvJ
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.8729539
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.89196277
+        inSlope: 0.37600812
+        outSlope: 0.37600815
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.9356219
+        inSlope: -1.1100697E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: script_0x7267F7FA_jOMlSwH
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -1.6374183E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v000.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.19829124
+        inSlope: 4.254868E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.02372384
+        inSlope: -4.7639264E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 5.7134017E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v000.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -1.6374183E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v001.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.19829124
+        inSlope: 4.254868E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.02372384
+        inSlope: -4.7639264E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 5.7134017E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v001.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.14151525
+        inSlope: 3.0365877E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: 9.3680694E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v002.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.19829124
+        inSlope: 4.254868E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.02372384
+        inSlope: -4.7639264E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 5.7134017E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v002.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.4901161E-08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.17289726
+        inSlope: 3.709972E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -4.0209736E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v003.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.22294691
+        inSlope: -7.931737E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: 7.931737E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v003.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -1.6374183E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v004.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.19829124
+        inSlope: 4.254868E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.02372384
+        inSlope: -4.7639264E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 5.7134017E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v004.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -1.6374183E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v005.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.19829124
+        inSlope: 4.254868E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.02372384
+        inSlope: -4.7639264E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 5.7134017E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v005.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -1.6374183E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v006.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.14170337
+        inSlope: 3.040624E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: -3.040624E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v006.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 5.9604645E-08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.0377509
+        inSlope: -8.100451E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.03399277
+        inSlope: 1.539452E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 1.4588116E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v007.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.07371026
+        inSlope: 1.5816505E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: -1.5816505E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v007.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.05
+        value: -0.042052865
+        inSlope: -0.64543855
+        outSlope: -0.6454389
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.10757316
+        inSlope: -1.9657074E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: -0.047823668
+        inSlope: 4.501838E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.43333334
+        value: -0.114354074
+        inSlope: -1.2313461E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: 0.037897527
+        inSlope: -1.5454314E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.93333334
+        value: 0
+        inSlope: 3.6927763E-09
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v008.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.05
+        value: -0.111487985
+        inSlope: 5.0453184E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.03183812
+        inSlope: 0.37949738
+        outSlope: 0.37949732
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: -0.009700775
+        inSlope: 4.802273E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.43333334
+        value: -0.04200852
+        inSlope: -3.4478916E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: -0.009941697
+        inSlope: 0.07953359
+        outSlope: 0.07953358
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.93333334
+        value: 0
+        inSlope: -6.318156E-09
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v008.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.05
+        value: -0.1406573
+        inSlope: -9.691884E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.10757316
+        inSlope: 0.27965143
+        outSlope: 0.27965146
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: -0.0754053
+        inSlope: -4.360809E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.43333334
+        value: -0.16461521
+        inSlope: -5.8476278E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: 0.05017984
+        inSlope: 2.304501E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.93333334
+        value: 0
+        inSlope: -1.0254302E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v009.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -5.9604645E-08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.05
+        value: -0.148085
+        inSlope: -4.037929E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.0789702
+        inSlope: 0.6190727
+        outSlope: 0.61907274
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: -0.0036346912
+        inSlope: 6.7328564E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.43333334
+        value: -0.079393804
+        inSlope: 1.7763632E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: -0.014737964
+        inSlope: 0.11790367
+        outSlope: 0.11790371
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.93333334
+        value: 0
+        inSlope: -5.335706E-09
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v009.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.05
+        value: -0.23547775
+        inSlope: 1.6417702E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.05838335
+        inSlope: 5.6050135E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: -0.08725834
+        inSlope: -0.39398757
+        outSlope: -0.3939877
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.43333334
+        value: -0.16344672
+        inSlope: 4.0911036E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: 0.05423355
+        inSlope: -8.434579E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.93333334
+        value: 0
+        inSlope: 7.379936E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v010.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.05
+        value: -0.08953953
+        inSlope: -0.33990678
+        outSlope: -0.3399071
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.10370232
+        inSlope: -4.036337E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 0.016977668
+        inSlope: 5.479494E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.43333334
+        value: -0.0371145
+        inSlope: -5.7073972E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: -0.02508533
+        inSlope: 0.074229
+        outSlope: 0.074229
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.93333334
+        value: 0
+        inSlope: -5.022053E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v010.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.05
+        value: -0.3308391
+        inSlope: 5.915864E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.05838335
+        inSlope: -1.0411317E-06
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: -0.08716977
+        inSlope: -0.42084098
+        outSlope: -0.42084107
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.43333334
+        value: -0.17060763
+        inSlope: -9.9904064E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: 0.051926494
+        inSlope: -7.913818E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.93333334
+        value: 0
+        inSlope: -9.504719E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v011.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.05
+        value: 0.04592395
+        inSlope: 2.2305737E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.15743025
+        inSlope: -8.6766704E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 0.05036187
+        inSlope: 8.149814E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0.030758262
+        inSlope: -0.16223678
+        outSlope: -0.16223678
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: -0.0404433
+        inSlope: 1.2487881E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.93333334
+        value: 0
+        inSlope: -1.46180446E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v011.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.05
+        value: -0.08780122
+        inSlope: 1.570008E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.06896318
+        inSlope: 0.2392929
+        outSlope: 0.23929289
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: -0.03196621
+        inSlope: 0.005783657
+        outSlope: 0.00578374
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.43333334
+        value: -0.031580627
+        inSlope: 0.0031910278
+        outSlope: 0.003191027
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: 0.02611816
+        inSlope: 1.487995E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.93333334
+        value: 0
+        inSlope: 3.2614086E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v012.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.05
+        value: 0.118679106
+        inSlope: 3.9813682E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.017139675
+        inSlope: -1.4253191E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 0.056289554
+        inSlope: 0.4987071
+        outSlope: 0.49870694
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0.11584884
+        inSlope: -4.5496524E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.76666665
+        value: -0.039158463
+        inSlope: -1.6630482E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.93333334
+        value: 0
+        inSlope: -9.104118E-09
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v012.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.03775084
+        inSlope: -8.100451E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.03399277
+        inSlope: 1.5394507E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 1.4588116E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v013.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.07371026
+        inSlope: 1.5816505E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: -1.5816505E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v013.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.03775084
+        inSlope: -8.100451E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.03399277
+        inSlope: 1.5394507E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 1.4588116E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v014.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.9802322E-08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.04274854
+        inSlope: -9.172834E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: 9.172841E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v014.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.03775084
+        inSlope: -8.100451E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.03399277
+        inSlope: 1.5394507E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 1.4588116E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v015.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.04274851
+        inSlope: -9.172834E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.051703602
+        inSlope: 2.0267223E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -9.60036E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v015.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.03775084
+        inSlope: -8.100451E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.03399277
+        inSlope: 1.5394507E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 1.4588116E-07
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v016.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.04274851
+        inSlope: -9.172834E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.051703602
+        inSlope: 2.0267223E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -9.60036E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v016.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: -4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v017.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -7.450581E-09
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.025244601
+        inSlope: -0.3102215
+        outSlope: -0.31022155
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.051703602
+        inSlope: 3.828421E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -9.60036E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v017.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -1.6374183E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v018.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.025244594
+        inSlope: -0.31022164
+        outSlope: -0.3102216
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.051703602
+        inSlope: -6.105686E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -9.60036E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v018.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -1.6374183E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v019.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.025244594
+        inSlope: -0.31022164
+        outSlope: -0.3102216
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.051703602
+        inSlope: -6.105686E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -9.60036E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v019.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -1.6374183E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v020.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.025244594
+        inSlope: -0.31022164
+        outSlope: -0.3102216
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.051703602
+        inSlope: -6.105686E-08
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -9.60036E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v020.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.14151525
+        inSlope: 3.0365877E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: 9.3680694E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v021.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.19829124
+        inSlope: 4.254868E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.02372384
+        inSlope: -4.7639264E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 5.7134017E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v021.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -1.6374183E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v022.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.19829124
+        inSlope: 4.254868E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.02372384
+        inSlope: -4.7639264E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 5.7134017E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v022.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -1.6374183E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v023.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.9802322E-08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.17240256
+        inSlope: 3.6993578E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: -3.6993572E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v023.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.06181553
+        inSlope: 4.5053318E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: -1.6374183E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v024.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.9802322E-08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.025244564
+        inSlope: -0.31022173
+        outSlope: -0.3102218
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: -0.051703602
+        inSlope: -1.4521566E-09
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -9.60036E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v024.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.14151525
+        inSlope: 3.0365877E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: 9.3680694E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v025.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.23777932
+        inSlope: 5.10219E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: -5.10219E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v025.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -2.2351742E-08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.08652252
+        inSlope: -4.5012578E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: 4.1902564E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v026.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -5.9604645E-08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.276573
+        inSlope: 5.934611E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: -5.934612E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v026.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.14151525
+        inSlope: 3.0365877E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.014493708
+        inSlope: 9.3680694E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: -6.220025E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v027.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -0.22899047
+        inSlope: 4.913602E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.02372384
+        inSlope: -5.4226604E-07
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.25
+        value: 0
+        inSlope: 5.7134017E-08
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v027.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v000.offset.x
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v000.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v002.offset.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.14285713
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.14285713
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v009.position.y
+    path: AnimationPin/GiantPinata/GiantPinataRope
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.35135135
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.35135135
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v001.position.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.7369313
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.7369313
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v001.position.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.21498774
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.21498774
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v002.position.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.7496399
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.7496399
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v002.position.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.18918923
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.18918923
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v003.position.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.515801
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.515801
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v003.position.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.53248405
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.53248405
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v006.position.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5598507
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.5598507
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v006.position.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.3523247
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.3523247
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v019.position.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.060196564
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.060196564
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v020.position.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.1822958
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.1822958
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v020.position.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.31695333
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.31695333
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v023.position.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.48784202
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.48784202
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v023.position.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.3931204
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.3931204
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v024.position.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.32771325
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.32771325
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v024.position.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.14870211
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.14870211
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v027.position.x
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.655896
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 1.1666666
+        value: 0.655896
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: v027.position.y
+    path: AnimationPin/GiantPinata/GiantPinataState1
+    classID: 114
+    script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2891246417
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 2655020815
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1919416314
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1871684347
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 411603565
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 2226657784
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1803186886
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 477971024
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 2309384639
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 4271986985
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1717830273
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 291713559
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 2371074434
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 4199844116
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1653723836
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 362209834
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 2476378417
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 3835541927
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 2086199823
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 190829209
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1103304197
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 918824595
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 2919333179
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 3641068973
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1161217592
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 842135214
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 2868161798
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 3723730320
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1210627711
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1060079337
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 2817187137
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 3505253847
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1289578050
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1004164820
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 2736721276
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 3558358506
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1377064689
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 622028391
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 3184934351
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 3402698073
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3913766809
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2655020815
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 90228588
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1919416314
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2152581573
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 4148885843
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1871684347
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 411603565
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2226657784
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 4089391470
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1803186886
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 477971024
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2309384639
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 4271986985
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1717830273
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 291713559
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2371074434
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 4199844116
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1653723836
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 362209834
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2476378417
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3835541927
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2086199823
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 190829209
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1103304197
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 918824595
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2919333179
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3641068973
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1161217592
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 842135214
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2868161798
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3723730320
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1210627711
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1060079337
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2817187137
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3505253847
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1289578050
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1004164820
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2736721276
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3558358506
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1377064689
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 622028391
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3184934351
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3402698073
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3626070020
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2938519698
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 937630522
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1088695212
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3704922169
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2882769071
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 857131783
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1142029201
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3519729790
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2798510312
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1040759616
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1225755606
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3577675843
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2721591509
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 989686653
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1308253163
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 2152581573
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 4148885843
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 4089391470
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4234863932
+      attribute: 1284621294
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1033536902
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1251849488
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1241798518
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1023633376
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3516996377
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2795907983
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1224895497
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 1040538783
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3858770685
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3328408738
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2976140340
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2986192466
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3338313412
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3311749085
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 2992797515
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3002832173
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2184417998
+      attribute: 3321669051
+      script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1.1666666
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

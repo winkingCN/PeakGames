@@ -1,0 +1,6 @@
+using System;
+
+public interface NHLBHJOEAMB
+{
+	bool NAFCDEECGEF(Uri FCPBJKBJNOJ, NGNPCPDMGBC[] GPKPPOGEAEI);
+}

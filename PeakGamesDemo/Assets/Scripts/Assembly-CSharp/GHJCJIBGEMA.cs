@@ -1,0 +1,13 @@
+using System;
+
+public interface GHJCJIBGEMA
+{
+	LKBPEOBFKMJ IPFANOLHHAK();
+
+	LKBPEOBFKMJ IOKDFBODOND();
+
+	[Obsolete("Use version taking a DerObjectIdentifier instead")]
+	PJGIGKJFGFI NMBKKGMJOBA(string GDFLIKNMBCL);
+
+	PJGIGKJFGFI NMBKKGMJOBA(KLKJHFKJLEM GDFLIKNMBCL);
+}

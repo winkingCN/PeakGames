@@ -1,0 +1,21 @@
+using NewMapScene;
+using ToonSocial;
+
+public class PDLBAPCKIBF
+{
+	public IENHAKEMDPM HBHBDHOMGPE;
+
+	public int KCAHGIBBHKJ;
+
+	public FacebookLeaderboardTabPage BCEEJPPBKIF;
+
+	public SocialHelper IPCAELIMIBN;
+
+	public PDLBAPCKIBF(IENHAKEMDPM PICPDNMCHFM, int AIILDOGHINA, FacebookLeaderboardTabPage HJENCKLHFNB, SocialHelper JANPCBNIGFG)
+	{
+		HBHBDHOMGPE = PICPDNMCHFM;
+		KCAHGIBBHKJ = AIILDOGHINA;
+		BCEEJPPBKIF = HJENCKLHFNB;
+		IPCAELIMIBN = JANPCBNIGFG;
+	}
+}

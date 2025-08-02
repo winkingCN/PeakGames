@@ -1,0 +1,100 @@
+using System;
+
+public class MFAGLJBAHJO : KPMKFMEEJCJ
+{
+	protected byte IDHLPOFDLKJ;
+
+	protected byte[] MBIJHANOCOC;
+
+	protected byte IBBBMACIBGK;
+
+	protected byte[] DEJOMANPMNN;
+
+	protected byte[] IOANFHFGPJK;
+
+	public virtual string KFKMEPMEBND
+	{
+		get
+		{
+			return "VMPC";
+		}
+	}
+
+	public virtual void DIOELAHNLKJ(bool MAEALKEJALK, IGMAJHKIIPK IJJHBEECMBP)
+	{
+		if (!(IJJHBEECMBP is CHCELGDKEJG))
+		{
+			throw new ArgumentException("VMPC Init parameters must include an IV");
+		}
+		CHCELGDKEJG cHCELGDKEJG = (CHCELGDKEJG)IJJHBEECMBP;
+		if (!(cHCELGDKEJG.KPJHHAAOFOH is JEMNCGMEABF))
+		{
+			throw new ArgumentException("VMPC Init parameters must include a key");
+		}
+		JEMNCGMEABF jEMNCGMEABF = (JEMNCGMEABF)cHCELGDKEJG.KPJHHAAOFOH;
+		DEJOMANPMNN = cHCELGDKEJG.OLAEDCABKDH();
+		if (DEJOMANPMNN == null || DEJOMANPMNN.Length < 1 || DEJOMANPMNN.Length > 768)
+		{
+			throw new ArgumentException("VMPC requires 1 to 768 bytes of IV");
+		}
+		IOANFHFGPJK = jEMNCGMEABF.MEGBFHFMBFI();
+		DKCFCKLGLII(IOANFHFGPJK, DEJOMANPMNN);
+	}
+
+	protected virtual void DKCFCKLGLII(byte[] EGJBACEEHAK, byte[] MIMCBAKIPJC)
+	{
+		IBBBMACIBGK = 0;
+		MBIJHANOCOC = new byte[256];
+		for (int i = 0; i < 256; i++)
+		{
+			MBIJHANOCOC[i] = (byte)i;
+		}
+		for (int j = 0; j < 768; j++)
+		{
+			IBBBMACIBGK = MBIJHANOCOC[(IBBBMACIBGK + MBIJHANOCOC[j & 0xFF] + EGJBACEEHAK[j % EGJBACEEHAK.Length]) & 0xFF];
+			byte b = MBIJHANOCOC[j & 0xFF];
+			MBIJHANOCOC[j & 0xFF] = MBIJHANOCOC[IBBBMACIBGK & 0xFF];
+			MBIJHANOCOC[IBBBMACIBGK & 0xFF] = b;
+		}
+		for (int k = 0; k < 768; k++)
+		{
+			IBBBMACIBGK = MBIJHANOCOC[(IBBBMACIBGK + MBIJHANOCOC[k & 0xFF] + MIMCBAKIPJC[k % MIMCBAKIPJC.Length]) & 0xFF];
+			byte b2 = MBIJHANOCOC[k & 0xFF];
+			MBIJHANOCOC[k & 0xFF] = MBIJHANOCOC[IBBBMACIBGK & 0xFF];
+			MBIJHANOCOC[IBBBMACIBGK & 0xFF] = b2;
+		}
+		IDHLPOFDLKJ = 0;
+	}
+
+	public virtual void POCAGALIPAI(byte[] MOPCLEEGDFB, int ELICNEDIBGB, int NBEDPKHALCN, byte[] BILGCJNPJGJ, int EMAKNGBIFDC)
+	{
+		AJLDFGNHDCA.OONDALLFPOP(MOPCLEEGDFB, ELICNEDIBGB, NBEDPKHALCN, "input buffer too short");
+		AJLDFGNHDCA.KLPNFGNKNKB(BILGCJNPJGJ, EMAKNGBIFDC, NBEDPKHALCN, "output buffer too short");
+		for (int i = 0; i < NBEDPKHALCN; i++)
+		{
+			IBBBMACIBGK = MBIJHANOCOC[(IBBBMACIBGK + MBIJHANOCOC[IDHLPOFDLKJ & 0xFF]) & 0xFF];
+			byte b = MBIJHANOCOC[(MBIJHANOCOC[MBIJHANOCOC[IBBBMACIBGK & 0xFF] & 0xFF] + 1) & 0xFF];
+			byte b2 = MBIJHANOCOC[IDHLPOFDLKJ & 0xFF];
+			MBIJHANOCOC[IDHLPOFDLKJ & 0xFF] = MBIJHANOCOC[IBBBMACIBGK & 0xFF];
+			MBIJHANOCOC[IBBBMACIBGK & 0xFF] = b2;
+			IDHLPOFDLKJ = (byte)((uint)(IDHLPOFDLKJ + 1) & 0xFFu);
+			BILGCJNPJGJ[i + EMAKNGBIFDC] = (byte)(MOPCLEEGDFB[i + ELICNEDIBGB] ^ b);
+		}
+	}
+
+	public virtual void OMOKOKFNBKI()
+	{
+		DKCFCKLGLII(IOANFHFGPJK, DEJOMANPMNN);
+	}
+
+	public virtual byte IODEANDNHIP(byte MOPCLEEGDFB)
+	{
+		IBBBMACIBGK = MBIJHANOCOC[(IBBBMACIBGK + MBIJHANOCOC[IDHLPOFDLKJ & 0xFF]) & 0xFF];
+		byte b = MBIJHANOCOC[(MBIJHANOCOC[MBIJHANOCOC[IBBBMACIBGK & 0xFF] & 0xFF] + 1) & 0xFF];
+		byte b2 = MBIJHANOCOC[IDHLPOFDLKJ & 0xFF];
+		MBIJHANOCOC[IDHLPOFDLKJ & 0xFF] = MBIJHANOCOC[IBBBMACIBGK & 0xFF];
+		MBIJHANOCOC[IBBBMACIBGK & 0xFF] = b2;
+		IDHLPOFDLKJ = (byte)((uint)(IDHLPOFDLKJ + 1) & 0xFFu);
+		return (byte)(MOPCLEEGDFB ^ b);
+	}
+}

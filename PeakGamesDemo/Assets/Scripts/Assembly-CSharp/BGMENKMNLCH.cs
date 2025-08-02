@@ -1,0 +1,46 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class BGMENKMNLCH : MGAOAPKCDHP
+{
+	public long EEFMIHDPJPG;
+
+	public long AFPDGDAEENM;
+
+	public long KFBCFDALGBB;
+
+	public long KEMNAAPNAPA;
+
+	public string PNGPLGHKFDI;
+
+	public long GMCGMPEEHJP;
+
+	public string FGPGOGEKDAM;
+
+	public string KFIDBPPKCJP;
+
+	public bool GGKOJOMPGEK;
+
+	public long KOPMPMIFHNF;
+
+	public float FGEEJNGADHH = Time.realtimeSinceStartup;
+
+	public BGMENKMNLCH(Dictionary<string, object> EAPGOBAJLJE)
+	{
+		EEFMIHDPJPG = MGAOAPKCDHP.EICLJDHEHHP("id", EAPGOBAJLJE, 0L);
+		AFPDGDAEENM = MGAOAPKCDHP.EICLJDHEHHP("manager", EAPGOBAJLJE, 0L);
+		KOPMPMIFHNF = MGAOAPKCDHP.EICLJDHEHHP("level", EAPGOBAJLJE, 0L);
+		GMCGMPEEHJP = MGAOAPKCDHP.EICLJDHEHHP("count", EAPGOBAJLJE, 0L);
+		KFBCFDALGBB = MGAOAPKCDHP.EICLJDHEHHP("helpCount", EAPGOBAJLJE, 0L);
+		KEMNAAPNAPA = MGAOAPKCDHP.EICLJDHEHHP("helpWeek", EAPGOBAJLJE, 0L);
+		PNGPLGHKFDI = MGAOAPKCDHP.JDANMONKNGD("name", EAPGOBAJLJE);
+		FGPGOGEKDAM = MGAOAPKCDHP.JDANMONKNGD("badge", EAPGOBAJLJE);
+		KFIDBPPKCJP = MGAOAPKCDHP.JDANMONKNGD("desc", EAPGOBAJLJE);
+		GGKOJOMPGEK = MGAOAPKCDHP.EICLJDHEHHP("closed", EAPGOBAJLJE, 0L) == 1;
+	}
+
+	public override string ToString()
+	{
+		return string.Format("SuggestedTeam: Id: {0}, Name: {1}, Count: {2}, Badge: {3}", EEFMIHDPJPG, PNGPLGHKFDI, GMCGMPEEHJP, FGPGOGEKDAM);
+	}
+}

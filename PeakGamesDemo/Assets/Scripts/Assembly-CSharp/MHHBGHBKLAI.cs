@@ -1,0 +1,33 @@
+using System.IO;
+
+public class MHHBGHBKLAI : JJFCLCMEGJC
+{
+	private readonly Stream BILGCJNPJGJ;
+
+	private readonly Stream MEBHMFEMDBP;
+
+	public MHHBGHBKLAI(Stream BILGCJNPJGJ, Stream MEBHMFEMDBP)
+	{
+		this.BILGCJNPJGJ = BILGCJNPJGJ;
+		this.MEBHMFEMDBP = MEBHMFEMDBP;
+	}
+
+	public override void Close()
+	{
+		LHFGHNFJIKM.PCHCAFHEJJM(BILGCJNPJGJ);
+		LHFGHNFJIKM.PCHCAFHEJJM(MEBHMFEMDBP);
+		base.Close();
+	}
+
+	public override void Write(byte[] DJDKLOJBJCO, int IBNDGNOIEEF, int ENMLICFLHAO)
+	{
+		BILGCJNPJGJ.Write(DJDKLOJBJCO, IBNDGNOIEEF, ENMLICFLHAO);
+		MEBHMFEMDBP.Write(DJDKLOJBJCO, IBNDGNOIEEF, ENMLICFLHAO);
+	}
+
+	public override void WriteByte(byte BCIHLCMFAEK)
+	{
+		BILGCJNPJGJ.WriteByte(BCIHLCMFAEK);
+		MEBHMFEMDBP.WriteByte(BCIHLCMFAEK);
+	}
+}

@@ -1,0 +1,36 @@
+using System;
+using Org.BouncyCastle.Math;
+
+public class LIMDDDMOCCB : DOGLMBOAGOG
+{
+	protected internal EKGPBAENHIF HJHDLHEGMJF;
+
+	public virtual void DIOELAHNLKJ(IGMAJHKIIPK IJJHBEECMBP)
+	{
+		if (IJJHBEECMBP is MDAKJDOFCEP)
+		{
+			IJJHBEECMBP = ((MDAKJDOFCEP)IJJHBEECMBP).KPJHHAAOFOH;
+		}
+		HJHDLHEGMJF = (EKGPBAENHIF)IJJHBEECMBP;
+	}
+
+	public virtual int BGGKNJOAMKN()
+	{
+		return (HJHDLHEGMJF.KPJHHAAOFOH.ECFGFKNLLGH.PJNLBAHOKGC + 7) / 8;
+	}
+
+	public virtual BigInteger CFEKCGNAKCD(IGMAJHKIIPK OAENDHNGECA)
+	{
+		EGEBOHHBFLK eGEBOHHBFLK = (EGEBOHHBFLK)OAENDHNGECA;
+		if (!eGEBOHHBFLK.KPJHHAAOFOH.Equals(HJHDLHEGMJF.KPJHHAAOFOH))
+		{
+			throw new InvalidOperationException("ECDH public key has wrong domain parameters");
+		}
+		JGAFKLGGBGF jGAFKLGGBGF = eGEBOHHBFLK.FNPELDEHJKL.IBJBIGNPNEM(HJHDLHEGMJF.INCIODEICNM).MIHJHLFLHNA();
+		if (jGAFKLGGBGF.IFCDKFANPBO)
+		{
+			throw new InvalidOperationException("Infinity is not a valid agreement value for ECDH");
+		}
+		return jGAFKLGGBGF.HBEBMBOOIMD.DOJBPIFPALJ();
+	}
+}

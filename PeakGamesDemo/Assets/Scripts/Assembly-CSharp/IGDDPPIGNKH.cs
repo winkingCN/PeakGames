@@ -1,0 +1,46 @@
+using System;
+using Org.BouncyCastle.Math;
+
+public class IGDDPPIGNKH : LNKPCJLANAO
+{
+	internal GLFDIPNOLKN HPHBDNBJPHB;
+
+	internal GLFDIPNOLKN HJMBDGKAOBP;
+
+	public BigInteger MBIJHANOCOC
+	{
+		get
+		{
+			return HPHBDNBJPHB.DMPHAJNKNKB;
+		}
+	}
+
+	public BigInteger HBGOKILMBJG
+	{
+		get
+		{
+			return HJMBDGKAOBP.DMPHAJNKNKB;
+		}
+	}
+
+	public IGDDPPIGNKH(BigInteger HPHBDNBJPHB, BigInteger HJMBDGKAOBP)
+	{
+		this.HPHBDNBJPHB = new GLFDIPNOLKN(HPHBDNBJPHB);
+		this.HJMBDGKAOBP = new GLFDIPNOLKN(HJMBDGKAOBP);
+	}
+
+	public IGDDPPIGNKH(ALLINHNNNJN MIABODPHOIP)
+	{
+		if (MIABODPHOIP.GMCGMPEEHJP != 2)
+		{
+			throw new ArgumentException("Wrong number of elements in sequence", "seq");
+		}
+		HPHBDNBJPHB = GLFDIPNOLKN.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(0));
+		HJMBDGKAOBP = GLFDIPNOLKN.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(1));
+	}
+
+	public override EDOEBJJFOBM IIHKEACDNID()
+	{
+		return new KOGPLMALOEH(HPHBDNBJPHB, HJMBDGKAOBP);
+	}
+}

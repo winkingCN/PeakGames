@@ -1,0 +1,93 @@
+using Org.BouncyCastle.Math;
+using Org.BouncyCastle.Security;
+
+public class EEIEMDJCLIL : IJNFIACGEKI
+{
+	private AJJFGJKHKGH IKNCPEPOKGJ;
+
+	private FBIJJFGLKMK GECCLOFELEC;
+
+	public virtual string KFKMEPMEBND
+	{
+		get
+		{
+			return "GOST3410";
+		}
+	}
+
+	public virtual void DIOELAHNLKJ(bool KGPBDABMHKH, IGMAJHKIIPK IJJHBEECMBP)
+	{
+		if (KGPBDABMHKH)
+		{
+			if (IJJHBEECMBP is MDAKJDOFCEP)
+			{
+				MDAKJDOFCEP mDAKJDOFCEP = (MDAKJDOFCEP)IJJHBEECMBP;
+				GECCLOFELEC = mDAKJDOFCEP.IPFKDIJBGIM;
+				IJJHBEECMBP = mDAKJDOFCEP.KPJHHAAOFOH;
+			}
+			else
+			{
+				GECCLOFELEC = new FBIJJFGLKMK();
+			}
+			if (!(IJJHBEECMBP is CDPJMMFADGE))
+			{
+				throw new InvalidKeyException("GOST3410 private key required for signing");
+			}
+			IKNCPEPOKGJ = (CDPJMMFADGE)IJJHBEECMBP;
+		}
+		else
+		{
+			if (!(IJJHBEECMBP is EBIECGDGAPI))
+			{
+				throw new InvalidKeyException("GOST3410 public key required for signing");
+			}
+			IKNCPEPOKGJ = (EBIECGDGAPI)IJJHBEECMBP;
+		}
+	}
+
+	public virtual BigInteger[] HMJHAKCMGHC(byte[] OEFCOJLNCKP)
+	{
+		byte[] array = new byte[OEFCOJLNCKP.Length];
+		for (int i = 0; i != array.Length; i++)
+		{
+			array[i] = OEFCOJLNCKP[array.Length - 1 - i];
+		}
+		BigInteger hIMINGHNIKN = new BigInteger(1, array);
+		ALFDDLOKJAC aLFDDLOKJAC = IKNCPEPOKGJ.KPJHHAAOFOH;
+		BigInteger bigInteger;
+		do
+		{
+			bigInteger = new BigInteger(aLFDDLOKJAC.FNPELDEHJKL.BitLength, GECCLOFELEC);
+		}
+		while (bigInteger.JLPDKNFCNPO(aLFDDLOKJAC.FNPELDEHJKL) >= 0);
+		BigInteger bigInteger2 = aLFDDLOKJAC.JEHECJGFJEB.ICEOCBALAGC(bigInteger, aLFDDLOKJAC.MBIJHANOCOC).MODIHOCEKBK(aLFDDLOKJAC.FNPELDEHJKL);
+		BigInteger bigInteger3 = bigInteger.IBJBIGNPNEM(hIMINGHNIKN).JEACJNAKLDJ(((CDPJMMFADGE)IKNCPEPOKGJ).CBPFFIBINEH.IBJBIGNPNEM(bigInteger2)).MODIHOCEKBK(aLFDDLOKJAC.FNPELDEHJKL);
+		return new BigInteger[2] { bigInteger2, bigInteger3 };
+	}
+
+	public virtual bool HLJBBONKPDG(byte[] OEFCOJLNCKP, BigInteger GPGDCCMECGF, BigInteger IBBBMACIBGK)
+	{
+		byte[] array = new byte[OEFCOJLNCKP.Length];
+		for (int i = 0; i != array.Length; i++)
+		{
+			array[i] = OEFCOJLNCKP[array.Length - 1 - i];
+		}
+		BigInteger bigInteger = new BigInteger(1, array);
+		ALFDDLOKJAC aLFDDLOKJAC = IKNCPEPOKGJ.KPJHHAAOFOH;
+		if (GPGDCCMECGF.SignValue < 0 || aLFDDLOKJAC.FNPELDEHJKL.JLPDKNFCNPO(GPGDCCMECGF) <= 0)
+		{
+			return false;
+		}
+		if (IBBBMACIBGK.SignValue < 0 || aLFDDLOKJAC.FNPELDEHJKL.JLPDKNFCNPO(IBBBMACIBGK) <= 0)
+		{
+			return false;
+		}
+		BigInteger hIMINGHNIKN = bigInteger.ICEOCBALAGC(aLFDDLOKJAC.FNPELDEHJKL.FBGIHKPECCO(BigInteger.Two), aLFDDLOKJAC.FNPELDEHJKL);
+		BigInteger eKFOKNPODBK = IBBBMACIBGK.IBJBIGNPNEM(hIMINGHNIKN).MODIHOCEKBK(aLFDDLOKJAC.FNPELDEHJKL);
+		BigInteger eKFOKNPODBK2 = aLFDDLOKJAC.FNPELDEHJKL.FBGIHKPECCO(GPGDCCMECGF).IBJBIGNPNEM(hIMINGHNIKN).MODIHOCEKBK(aLFDDLOKJAC.FNPELDEHJKL);
+		eKFOKNPODBK = aLFDDLOKJAC.JEHECJGFJEB.ICEOCBALAGC(eKFOKNPODBK, aLFDDLOKJAC.MBIJHANOCOC);
+		eKFOKNPODBK2 = ((EBIECGDGAPI)IKNCPEPOKGJ).MOAGLBJDKKL.ICEOCBALAGC(eKFOKNPODBK2, aLFDDLOKJAC.MBIJHANOCOC);
+		BigInteger bigInteger2 = eKFOKNPODBK.IBJBIGNPNEM(eKFOKNPODBK2).MODIHOCEKBK(aLFDDLOKJAC.MBIJHANOCOC).MODIHOCEKBK(aLFDDLOKJAC.FNPELDEHJKL);
+		return bigInteger2.Equals(GPGDCCMECGF);
+	}
+}

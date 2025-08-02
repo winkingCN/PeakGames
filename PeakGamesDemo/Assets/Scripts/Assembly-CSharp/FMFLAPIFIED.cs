@@ -1,0 +1,42 @@
+public interface FMFLAPIFIED
+{
+	string AONMFPNNLIM();
+
+	string AENAALIAGII();
+
+	string OILBLNGAOLI();
+
+	string DNKACDHBHKN();
+
+	string FLDOKPAGCKL();
+
+	string PLPEAPFFJOH();
+
+	string LPIEFCFABDD();
+
+	string ODPBBHCGPLH();
+
+	double ACNCDOAKHLF();
+
+	double OJAEPEOMPPI();
+
+	bool NOELCGDNPEI();
+
+	bool IBCMHFCIFPO();
+
+	bool DDFKLKLDMHJ();
+
+	int PENIEIEFMDN();
+
+	string BAHIGHGMMBB(int EHJNMODJEAN);
+
+	string JKPFAGHOBNI(int EHJNMODJEAN);
+
+	bool IPLGJAJEANC(int EHJNMODJEAN);
+
+	void NOGLIIIOGGE(int EHJNMODJEAN, object EIKIFAIBFGJ);
+
+	HKELKEKNLIC LCJFOMPGBNI(int EHJNMODJEAN);
+
+	string EKNNCGHEDNA(int EHJNMODJEAN);
+}

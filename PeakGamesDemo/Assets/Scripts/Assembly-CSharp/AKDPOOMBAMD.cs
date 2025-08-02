@@ -1,0 +1,90 @@
+using System.IO;
+
+public class AKDPOOMBAMD : JLODNMAAHAC
+{
+	private string BCGDLHHMHID;
+
+	public override string JBGOANMLBFA
+	{
+		get
+		{
+			return BCGDLHHMHID;
+		}
+		set
+		{
+			BCGDLHHMHID = value;
+		}
+	}
+
+	public AKDPOOMBAMD(string LOPFNIFAMGK)
+	{
+		BCGDLHHMHID = LOPFNIFAMGK;
+	}
+
+	public AKDPOOMBAMD(float LOPFNIFAMGK)
+	{
+		JJAOJGHMNED = LOPFNIFAMGK;
+	}
+
+	public AKDPOOMBAMD(double LOPFNIFAMGK)
+	{
+		PMICJHNDLKP = LOPFNIFAMGK;
+	}
+
+	public AKDPOOMBAMD(bool LOPFNIFAMGK)
+	{
+		OLICILPDIGA = LOPFNIFAMGK;
+	}
+
+	public AKDPOOMBAMD(int LOPFNIFAMGK)
+	{
+		JJNCOPEDMJA = LOPFNIFAMGK;
+	}
+
+	public override string ToString()
+	{
+		return "\"" + JLODNMAAHAC.CDFEDEOOJDC(BCGDLHHMHID) + "\"";
+	}
+
+	public override string NHMGCGBMCNM(string KECKLEJAGKP)
+	{
+		return "\"" + JLODNMAAHAC.CDFEDEOOJDC(BCGDLHHMHID) + "\"";
+	}
+
+	public override void LFIJNCAPDMO(BinaryWriter DOLOAHGOLMI)
+	{
+		AKDPOOMBAMD aKDPOOMBAMD = new AKDPOOMBAMD(string.Empty);
+		aKDPOOMBAMD.JJNCOPEDMJA = JJNCOPEDMJA;
+		if (aKDPOOMBAMD.BCGDLHHMHID == BCGDLHHMHID)
+		{
+			DOLOAHGOLMI.Write((byte)4);
+			DOLOAHGOLMI.Write(JJNCOPEDMJA);
+			return;
+		}
+		aKDPOOMBAMD.JJAOJGHMNED = JJAOJGHMNED;
+		if (aKDPOOMBAMD.BCGDLHHMHID == BCGDLHHMHID)
+		{
+			DOLOAHGOLMI.Write((byte)7);
+			DOLOAHGOLMI.Write(JJAOJGHMNED);
+			return;
+		}
+		aKDPOOMBAMD.PMICJHNDLKP = PMICJHNDLKP;
+		if (aKDPOOMBAMD.BCGDLHHMHID == BCGDLHHMHID)
+		{
+			DOLOAHGOLMI.Write((byte)5);
+			DOLOAHGOLMI.Write(PMICJHNDLKP);
+			return;
+		}
+		aKDPOOMBAMD.OLICILPDIGA = OLICILPDIGA;
+		if (aKDPOOMBAMD.BCGDLHHMHID == BCGDLHHMHID)
+		{
+			DOLOAHGOLMI.Write((byte)6);
+			DOLOAHGOLMI.Write(OLICILPDIGA);
+		}
+		else
+		{
+			DOLOAHGOLMI.Write((byte)3);
+			DOLOAHGOLMI.Write(BCGDLHHMHID);
+		}
+	}
+}

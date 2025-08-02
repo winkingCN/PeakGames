@@ -1,0 +1,120 @@
+using Org.BouncyCastle.Math;
+
+public abstract class KBINBLGGLNE
+{
+	public abstract string DALLCADGMKK { get; }
+
+	public abstract int PJNLBAHOKGC { get; }
+
+	public virtual int LBAGICKMJNP
+	{
+		get
+		{
+			return DOJBPIFPALJ().BitLength;
+		}
+	}
+
+	public virtual bool EOJCHPEGABD
+	{
+		get
+		{
+			return LBAGICKMJNP == 1;
+		}
+	}
+
+	public virtual bool EJJHHCOFAAI
+	{
+		get
+		{
+			return 0 == DOJBPIFPALJ().SignValue;
+		}
+	}
+
+	public abstract BigInteger DOJBPIFPALJ();
+
+	public abstract KBINBLGGLNE JEACJNAKLDJ(KBINBLGGLNE BCIHLCMFAEK);
+
+	public abstract KBINBLGGLNE AOAINNMNBHC();
+
+	public abstract KBINBLGGLNE FBGIHKPECCO(KBINBLGGLNE BCIHLCMFAEK);
+
+	public abstract KBINBLGGLNE IBJBIGNPNEM(KBINBLGGLNE BCIHLCMFAEK);
+
+	public abstract KBINBLGGLNE MCPDGENJCDB(KBINBLGGLNE BCIHLCMFAEK);
+
+	public abstract KBINBLGGLNE BHKOFHMDACN();
+
+	public abstract KBINBLGGLNE MIOEHGDPGAG();
+
+	public abstract KBINBLGGLNE LEIECFOMCNL();
+
+	public abstract KBINBLGGLNE PAEDNKEIDOM();
+
+	public virtual KBINBLGGLNE MEBMJLIHOEJ(KBINBLGGLNE BCIHLCMFAEK, KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ)
+	{
+		return IBJBIGNPNEM(BCIHLCMFAEK).FBGIHKPECCO(AMFCENFNAJJ.IBJBIGNPNEM(CNLILOEEBOJ));
+	}
+
+	public virtual KBINBLGGLNE CIDGMJAFLHM(KBINBLGGLNE BCIHLCMFAEK, KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ)
+	{
+		return IBJBIGNPNEM(BCIHLCMFAEK).JEACJNAKLDJ(AMFCENFNAJJ.IBJBIGNPNEM(CNLILOEEBOJ));
+	}
+
+	public virtual KBINBLGGLNE NGOGEEMPMGH(KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ)
+	{
+		return MIOEHGDPGAG().FBGIHKPECCO(AMFCENFNAJJ.IBJBIGNPNEM(CNLILOEEBOJ));
+	}
+
+	public virtual KBINBLGGLNE FGLCIBKKKFF(KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ)
+	{
+		return MIOEHGDPGAG().JEACJNAKLDJ(AMFCENFNAJJ.IBJBIGNPNEM(CNLILOEEBOJ));
+	}
+
+	public virtual KBINBLGGLNE LHPDNIJHMIA(int DELAPGFJHAP)
+	{
+		KBINBLGGLNE kBINBLGGLNE = this;
+		for (int i = 0; i < DELAPGFJHAP; i++)
+		{
+			kBINBLGGLNE = kBINBLGGLNE.MIOEHGDPGAG();
+		}
+		return kBINBLGGLNE;
+	}
+
+	public virtual bool OFGNPBCCHAA()
+	{
+		return DOJBPIFPALJ().NJHNJHGDCIJ(0);
+	}
+
+	public override bool Equals(object NEMEKIOEOLC)
+	{
+		return KIFDKLPDKMD(NEMEKIOEOLC as KBINBLGGLNE);
+	}
+
+	public virtual bool KIFDKLPDKMD(KBINBLGGLNE CJHEIBNHNNE)
+	{
+		if (this == CJHEIBNHNNE)
+		{
+			return true;
+		}
+		if (CJHEIBNHNNE == null)
+		{
+			return false;
+		}
+		return DOJBPIFPALJ().Equals(CJHEIBNHNNE.DOJBPIFPALJ());
+	}
+
+	public override int GetHashCode()
+	{
+		return DOJBPIFPALJ().GetHashCode();
+	}
+
+	public override string ToString()
+	{
+		return DOJBPIFPALJ().NHMGCGBMCNM(16);
+	}
+
+	public virtual byte[] PPCPBIEGJKM()
+	{
+		return ODBELJAHGIG.HOGKINKACAF((PJNLBAHOKGC + 7) / 8, DOJBPIFPALJ());
+	}
+}

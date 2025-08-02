@@ -1,0 +1,241 @@
+using System;
+using Org.BouncyCastle.Math;
+
+internal class NIEHNAHMENL : KBINBLGGLNE
+{
+	protected readonly ulong[] AMFCENFNAJJ;
+
+	public override bool EOJCHPEGABD
+	{
+		get
+		{
+			return AKOICJCJNFB.OAHHAKMHOKG(AMFCENFNAJJ);
+		}
+	}
+
+	public override bool EJJHHCOFAAI
+	{
+		get
+		{
+			return AKOICJCJNFB.NKNOMEDBEDI(AMFCENFNAJJ);
+		}
+	}
+
+	public override string DALLCADGMKK
+	{
+		get
+		{
+			return "SecT233Field";
+		}
+	}
+
+	public override int PJNLBAHOKGC
+	{
+		get
+		{
+			return 233;
+		}
+	}
+
+	public virtual int ODKKDJMPBEO
+	{
+		get
+		{
+			return 2;
+		}
+	}
+
+	public virtual int IGBPKOOBCMA
+	{
+		get
+		{
+			return 233;
+		}
+	}
+
+	public virtual int JDADINDBJLD
+	{
+		get
+		{
+			return 74;
+		}
+	}
+
+	public virtual int AELMELOBNJJ
+	{
+		get
+		{
+			return 0;
+		}
+	}
+
+	public virtual int CKKHLMGICAB
+	{
+		get
+		{
+			return 0;
+		}
+	}
+
+	public NIEHNAHMENL(BigInteger AMFCENFNAJJ)
+	{
+		if (AMFCENFNAJJ == null || AMFCENFNAJJ.SignValue < 0 || AMFCENFNAJJ.BitLength > 233)
+		{
+			throw new ArgumentException("value invalid for SecT233FieldElement", "x");
+		}
+		this.AMFCENFNAJJ = NDCMHJHOLJP.HFENNGHNFLF(AMFCENFNAJJ);
+	}
+
+	public NIEHNAHMENL()
+	{
+		AMFCENFNAJJ = AKOICJCJNFB.JLMPJDKAODG();
+	}
+
+	protected internal NIEHNAHMENL(ulong[] AMFCENFNAJJ)
+	{
+		this.AMFCENFNAJJ = AMFCENFNAJJ;
+	}
+
+	public override bool OFGNPBCCHAA()
+	{
+		return (AMFCENFNAJJ[0] & 1) != 0;
+	}
+
+	public override BigInteger DOJBPIFPALJ()
+	{
+		return AKOICJCJNFB.CLJANJOEBFJ(AMFCENFNAJJ);
+	}
+
+	public override KBINBLGGLNE JEACJNAKLDJ(KBINBLGGLNE BCIHLCMFAEK)
+	{
+		ulong[] array = AKOICJCJNFB.JLMPJDKAODG();
+		NDCMHJHOLJP.JEACJNAKLDJ(AMFCENFNAJJ, ((NIEHNAHMENL)BCIHLCMFAEK).AMFCENFNAJJ, array);
+		return new NIEHNAHMENL(array);
+	}
+
+	public override KBINBLGGLNE AOAINNMNBHC()
+	{
+		ulong[] array = AKOICJCJNFB.JLMPJDKAODG();
+		NDCMHJHOLJP.AOAINNMNBHC(AMFCENFNAJJ, array);
+		return new NIEHNAHMENL(array);
+	}
+
+	public override KBINBLGGLNE FBGIHKPECCO(KBINBLGGLNE BCIHLCMFAEK)
+	{
+		return JEACJNAKLDJ(BCIHLCMFAEK);
+	}
+
+	public override KBINBLGGLNE IBJBIGNPNEM(KBINBLGGLNE BCIHLCMFAEK)
+	{
+		ulong[] array = AKOICJCJNFB.JLMPJDKAODG();
+		NDCMHJHOLJP.IBJBIGNPNEM(AMFCENFNAJJ, ((NIEHNAHMENL)BCIHLCMFAEK).AMFCENFNAJJ, array);
+		return new NIEHNAHMENL(array);
+	}
+
+	public override KBINBLGGLNE MEBMJLIHOEJ(KBINBLGGLNE BCIHLCMFAEK, KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ)
+	{
+		return CIDGMJAFLHM(BCIHLCMFAEK, AMFCENFNAJJ, CNLILOEEBOJ);
+	}
+
+	public override KBINBLGGLNE CIDGMJAFLHM(KBINBLGGLNE BCIHLCMFAEK, KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ)
+	{
+		ulong[] aMFCENFNAJJ = this.AMFCENFNAJJ;
+		ulong[] aMFCENFNAJJ2 = ((NIEHNAHMENL)BCIHLCMFAEK).AMFCENFNAJJ;
+		ulong[] aMFCENFNAJJ3 = ((NIEHNAHMENL)AMFCENFNAJJ).AMFCENFNAJJ;
+		ulong[] aMFCENFNAJJ4 = ((NIEHNAHMENL)CNLILOEEBOJ).AMFCENFNAJJ;
+		ulong[] array = AKOICJCJNFB.JFMBFIGDFCE();
+		NDCMHJHOLJP.OMJFFHEIEFH(aMFCENFNAJJ, aMFCENFNAJJ2, array);
+		NDCMHJHOLJP.OMJFFHEIEFH(aMFCENFNAJJ3, aMFCENFNAJJ4, array);
+		ulong[] array2 = AKOICJCJNFB.JLMPJDKAODG();
+		NDCMHJHOLJP.BKCHMGKFECM(array, array2);
+		return new NIEHNAHMENL(array2);
+	}
+
+	public override KBINBLGGLNE MCPDGENJCDB(KBINBLGGLNE BCIHLCMFAEK)
+	{
+		return IBJBIGNPNEM(BCIHLCMFAEK.LEIECFOMCNL());
+	}
+
+	public override KBINBLGGLNE BHKOFHMDACN()
+	{
+		return this;
+	}
+
+	public override KBINBLGGLNE MIOEHGDPGAG()
+	{
+		ulong[] array = AKOICJCJNFB.JLMPJDKAODG();
+		NDCMHJHOLJP.MIOEHGDPGAG(AMFCENFNAJJ, array);
+		return new NIEHNAHMENL(array);
+	}
+
+	public override KBINBLGGLNE NGOGEEMPMGH(KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ)
+	{
+		return FGLCIBKKKFF(AMFCENFNAJJ, CNLILOEEBOJ);
+	}
+
+	public override KBINBLGGLNE FGLCIBKKKFF(KBINBLGGLNE AMFCENFNAJJ, KBINBLGGLNE CNLILOEEBOJ)
+	{
+		ulong[] aMFCENFNAJJ = this.AMFCENFNAJJ;
+		ulong[] aMFCENFNAJJ2 = ((NIEHNAHMENL)AMFCENFNAJJ).AMFCENFNAJJ;
+		ulong[] aMFCENFNAJJ3 = ((NIEHNAHMENL)CNLILOEEBOJ).AMFCENFNAJJ;
+		ulong[] array = AKOICJCJNFB.JFMBFIGDFCE();
+		NDCMHJHOLJP.OALFNDHHFAA(aMFCENFNAJJ, array);
+		NDCMHJHOLJP.OMJFFHEIEFH(aMFCENFNAJJ2, aMFCENFNAJJ3, array);
+		ulong[] array2 = AKOICJCJNFB.JLMPJDKAODG();
+		NDCMHJHOLJP.BKCHMGKFECM(array, array2);
+		return new NIEHNAHMENL(array2);
+	}
+
+	public override KBINBLGGLNE LHPDNIJHMIA(int DELAPGFJHAP)
+	{
+		if (DELAPGFJHAP < 1)
+		{
+			return this;
+		}
+		ulong[] array = AKOICJCJNFB.JLMPJDKAODG();
+		NDCMHJHOLJP.OIEFGPHNOFN(AMFCENFNAJJ, DELAPGFJHAP, array);
+		return new NIEHNAHMENL(array);
+	}
+
+	public override KBINBLGGLNE LEIECFOMCNL()
+	{
+		ulong[] array = AKOICJCJNFB.JLMPJDKAODG();
+		NDCMHJHOLJP.LEIECFOMCNL(AMFCENFNAJJ, array);
+		return new NIEHNAHMENL(array);
+	}
+
+	public override KBINBLGGLNE PAEDNKEIDOM()
+	{
+		ulong[] array = AKOICJCJNFB.JLMPJDKAODG();
+		NDCMHJHOLJP.PAEDNKEIDOM(AMFCENFNAJJ, array);
+		return new NIEHNAHMENL(array);
+	}
+
+	public virtual bool KIFDKLPDKMD(object NEMEKIOEOLC)
+	{
+		return KIFDKLPDKMD(NEMEKIOEOLC as NIEHNAHMENL);
+	}
+
+	public override bool KIFDKLPDKMD(KBINBLGGLNE CJHEIBNHNNE)
+	{
+		return KIFDKLPDKMD(CJHEIBNHNNE as NIEHNAHMENL);
+	}
+
+	public virtual bool KIFDKLPDKMD(NIEHNAHMENL CJHEIBNHNNE)
+	{
+		if (this == CJHEIBNHNNE)
+		{
+			return true;
+		}
+		if (CJHEIBNHNNE == null)
+		{
+			return false;
+		}
+		return AKOICJCJNFB.BIMHNKJNNFO(AMFCENFNAJJ, CJHEIBNHNNE.AMFCENFNAJJ);
+	}
+
+	public override int GetHashCode()
+	{
+		return 0x238DDA ^ NOGCEBKPPJE.ILMFICENEMK(AMFCENFNAJJ, 0, 4);
+	}
+}

@@ -1,0 +1,74 @@
+using UnityEngine;
+
+public static class BFGGHJGIHLJ
+{
+	public const int PPOCBFGIEFL = 0;
+
+	public const int KFGEEKGAPDP = 9;
+
+	public const int BPLHOCDDLCG = 10;
+
+	public const int CMAHDOOFNJE = 11;
+
+	public const int AHANCLBKKID = 12;
+
+	public const int GKFAOPDLFEM = 13;
+
+	public const int GICJNKNDDPM = 14;
+
+	public const int MEBLOMPDLEJ = 15;
+
+	private const int HBIBCKIMHBC = 16;
+
+	private static int ECMEHGKFPMB;
+
+	private static IPMKHEFLFNC DFLPLEOFNFO;
+
+	private static IPMKHEFLFNC[] KMEAJEEOPDN;
+
+	private static EIAGCGNPMGO FIOMEGKJLCB;
+
+	public static int DIOELAHNLKJ(EIAGCGNPMGO GMANJFBCGFM, int HJBOEOOLOOE = 0)
+	{
+		FIOMEGKJLCB = GMANJFBCGFM;
+		ECMEHGKFPMB = HJBOEOOLOOE;
+		if (ECMEHGKFPMB == 0)
+		{
+			ECMEHGKFPMB = Random.Range(int.MinValue, int.MaxValue);
+		}
+		switch (FIOMEGKJLCB)
+		{
+		case EIAGCGNPMGO.Csharp:
+			DFLPLEOFNFO = new JDEMDBDKFGG(ECMEHGKFPMB);
+			break;
+		case EIAGCGNPMGO.PeakXorShift:
+			DFLPLEOFNFO = new CPBMGNAHLKB(ECMEHGKFPMB);
+			break;
+		}
+		IOBHEPLLNGM();
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.LevelBuilder, "Random initialized with Type: {0}", GMANJFBCGFM);
+		return ECMEHGKFPMB;
+	}
+
+	public static void GMAIJJHDBJL()
+	{
+		IOBHEPLLNGM();
+	}
+
+	public static int FDFDDKBDPEG(int IJHGDODBFCD, int NHLJFKPLKLI, int GMANJFBCGFM)
+	{
+		IPMKHEFLFNC iPMKHEFLFNC = KMEAJEEOPDN[GMANJFBCGFM];
+		return (NHLJFKPLKLI <= IJHGDODBFCD) ? iPMKHEFLFNC.BDAKKAIBMIM(NHLJFKPLKLI, IJHGDODBFCD) : iPMKHEFLFNC.BDAKKAIBMIM(IJHGDODBFCD, NHLJFKPLKLI);
+	}
+
+	public static float FDFDDKBDPEG(float IJHGDODBFCD, float NHLJFKPLKLI, int GMANJFBCGFM)
+	{
+		IPMKHEFLFNC iPMKHEFLFNC = KMEAJEEOPDN[GMANJFBCGFM];
+		return (!(NHLJFKPLKLI > IJHGDODBFCD)) ? ((float)iPMKHEFLFNC.IJMGAMPJIAL() * (IJHGDODBFCD - NHLJFKPLKLI) + NHLJFKPLKLI) : ((float)iPMKHEFLFNC.IJMGAMPJIAL() * (NHLJFKPLKLI - IJHGDODBFCD) + IJHGDODBFCD);
+	}
+
+	private static void IOBHEPLLNGM()
+	{
+		KMEAJEEOPDN = DFLPLEOFNFO.DOEJJMHNNNI(16);
+	}
+}

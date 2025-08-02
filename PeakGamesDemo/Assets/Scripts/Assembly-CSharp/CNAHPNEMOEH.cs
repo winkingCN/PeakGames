@@ -1,0 +1,22 @@
+using Assets.Scripts.GamePlayScene.Tutorials;
+
+public class CNAHPNEMOEH : JDEEAANINKF
+{
+	public override void DIOELAHNLKJ(TutorialManager NGIFIPBOMBO)
+	{
+		base.DIOELAHNLKJ(NGIFIPBOMBO);
+		MIFPEGLLOKK = 0.56f;
+		EEABKKPJAOO = new string[1] { "Tutorial_0161" };
+		JKGGHKMHGPF = NOALGNJECAD.GiantPinata;
+		IHKCOPJADPD = new float[2] { 3.5f, 8.24f };
+		HBMJLKHHLFH = new int[54]
+		{
+			1, 1, 1, 3, 1, 4, 1, 5, 1, 6,
+			1, 7, 2, 3, 2, 4, 2, 5, 2, 6,
+			2, 7, 5, 1, 5, 3, 5, 4, 5, 5,
+			5, 6, 5, 7, 6, 3, 6, 4, 6, 5,
+			6, 6, 6, 7, 3, 4, 3, 6, 3, 7,
+			4, 6, 4, 7
+		};
+	}
+}

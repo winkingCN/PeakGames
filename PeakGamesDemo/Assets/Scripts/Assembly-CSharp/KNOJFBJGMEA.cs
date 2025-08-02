@@ -1,0 +1,1 @@
+internal delegate void KNOJFBJGMEA(object NEMEKIOEOLC, JGHOOMMOCFJ GHLABECMBPB);

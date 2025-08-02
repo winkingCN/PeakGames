@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1477610896747959
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4315392105948903}
+  - component: {fileID: 114808249654176252}
+  m_Layer: 0
+  m_Name: SafeItemResources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4315392105948903
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1477610896747959}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114808249654176252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1477610896747959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6c0bfb32693043bb84031b8143bc8b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Prefab: {fileID: 1565218071696899, guid: e51b3741ed750dd4b8482a3c4a8a3e3c, type: 2}
+  Particles:
+  - {fileID: 114757953050583170, guid: b2d5f5a438759ad4a87c0fad1d94c28f, type: 2}
+  - {fileID: 114196379991971379, guid: a7e35dc5aad11f549b7d7bc24917ef85, type: 2}
+  - {fileID: 114656224238436037, guid: 0f51aef742a975b4b9dc7b58aad4ee79, type: 2}
+  Animators:
+  - {fileID: 1007016601679755, guid: 150b0e274e922da4da9b7ec41642e6ee, type: 2}
+  AudioClips:
+  - AudioTag: 196
+    AudioClip: {fileID: 8300000, guid: 36012b65af1882544ba74c80b30a9909, type: 3}
+  - AudioTag: 197
+    AudioClip: {fileID: 8300000, guid: 6ee312a8672956b488f2f868e0d983f9, type: 3}
+  - AudioTag: 198
+    AudioClip: {fileID: 8300000, guid: c971abb1f2ea4634bb65b6ae02bd9c05, type: 3}
+  - AudioTag: 199
+    AudioClip: {fileID: 8300000, guid: 571cf5437a5e0144a92b97b586010b55, type: 3}
+  Sprites:
+  - {fileID: 21300000, guid: 38dda47e46c341a4d904afa60ceb85c5, type: 2}
+  - {fileID: 21300000, guid: a6697db7976a1ab4d8fc0af13dd8478f, type: 2}
+  - {fileID: 21300000, guid: f518a46055d5c9a4eac940659c7ef8b6, type: 2}
+  - {fileID: 21300000, guid: f841a4134f4b0f54daf5c153653c13c4, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1477610896747959}
+  m_IsPrefabParent: 1

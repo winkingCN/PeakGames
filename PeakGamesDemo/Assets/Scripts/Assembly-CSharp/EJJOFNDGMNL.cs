@@ -1,0 +1,6 @@
+public class EJJOFNDGMNL
+{
+	public DPEOGFEJGPI BMIOECELGCA;
+
+	public DPEOGFEJGPI LLAEDBFNCCP;
+}

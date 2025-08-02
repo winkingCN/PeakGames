@@ -1,0 +1,6 @@
+public class LFMKFEKMMIK
+{
+	public FGLNAAKGCPN GPLIOLJFDPM;
+
+	public BFIJOGBGCNK IDFKOGCNBHM;
+}

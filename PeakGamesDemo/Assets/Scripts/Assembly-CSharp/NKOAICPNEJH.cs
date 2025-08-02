@@ -1,0 +1,55 @@
+using System;
+using System.IO;
+
+public class NKOAICPNEJH
+{
+	protected readonly FBMKOGABPFL AMHHLNEDDPL;
+
+	protected readonly byte[] HDKIPBJPFEP;
+
+	public virtual FBMKOGABPFL GOFDFGBGLFC
+	{
+		get
+		{
+			return AMHHLNEDDPL;
+		}
+	}
+
+	public virtual byte[] ACMDKLDPDLB
+	{
+		get
+		{
+			return HDKIPBJPFEP;
+		}
+	}
+
+	public NKOAICPNEJH(FBMKOGABPFL ADLMOHOLCGL, byte[] PINNJBGMGOA)
+	{
+		if (PINNJBGMGOA == null)
+		{
+			throw new ArgumentNullException("signature");
+		}
+		AMHHLNEDDPL = ADLMOHOLCGL;
+		HDKIPBJPFEP = PINNJBGMGOA;
+	}
+
+	public virtual void LMDBBPLCJDM(Stream BILGCJNPJGJ)
+	{
+		if (AMHHLNEDDPL != null)
+		{
+			AMHHLNEDDPL.LMDBBPLCJDM(BILGCJNPJGJ);
+		}
+		KINEBFNENMB.HIPJBHBLGEI(HDKIPBJPFEP, BILGCJNPJGJ);
+	}
+
+	public static NKOAICPNEJH DHCLOMIANOE(CGDEGBGOKJO MBEMNOCDDBC, Stream MOPCLEEGDFB)
+	{
+		FBMKOGABPFL aDLMOHOLCGL = null;
+		if (KINEBFNENMB.OHGCLELCPMD(MBEMNOCDDBC))
+		{
+			aDLMOHOLCGL = FBMKOGABPFL.DHCLOMIANOE(MOPCLEEGDFB);
+		}
+		byte[] pINNJBGMGOA = KINEBFNENMB.HDGCNMILKAA(MOPCLEEGDFB);
+		return new NKOAICPNEJH(aDLMOHOLCGL, pINNJBGMGOA);
+	}
+}

@@ -1,0 +1,203 @@
+using System;
+
+public class MCOMPDEIMMJ
+{
+	internal string DLBHDKFHPMF;
+
+	internal string EFLEAKOMEOB;
+
+	internal string BACPOLKIMMO;
+
+	internal string CPGMDMICEHF;
+
+	internal bool? EAOFBGOOBEH;
+
+	internal bool? OGFJGBBEGOC;
+
+	internal bool? ACEBOEBPPIG;
+
+	internal bool? DMHNNOMDNGA;
+
+	internal bool BJPJJMDNLFN;
+
+	internal OCINAFLCMOD? PDGNEDBOGLE;
+
+	internal LBMNNDHMHOC FABIICFNEKN;
+
+	internal Action<string> DPEHODMADMM;
+
+	internal Action<GJONJCCECNK> EFIDHMEDFIC;
+
+	internal Action<IIGNELNPHML> DHLBHGJEOIE;
+
+	internal Action<DIAELPNNMEH> DEKCEOHFMMJ;
+
+	internal Action<LOHACGBPPIN> KNPBJDGKNFC;
+
+	internal Action<EPJLEKACDBC> FENOBIPNFIM;
+
+	internal long? LCPEEGNIPCL;
+
+	internal long? PHJKNJFJDGO;
+
+	internal long? NACBFDKLBMD;
+
+	internal long? ACDAJFEKFKG;
+
+	internal long? NHHEJLHLGOG;
+
+	internal double? NPHGJJEMLIE;
+
+	internal string BFHJLOILJBB;
+
+	internal bool? LHLKJJEGABB;
+
+	internal Action<string> OODHCIKAPCA;
+
+	public MCOMPDEIMMJ(string DLBHDKFHPMF, LBMNNDHMHOC FABIICFNEKN)
+	{
+		EFLEAKOMEOB = string.Empty;
+		BFHJLOILJBB = string.Empty;
+		this.DLBHDKFHPMF = DLBHDKFHPMF;
+		this.FABIICFNEKN = FABIICFNEKN;
+	}
+
+	public MCOMPDEIMMJ(string DLBHDKFHPMF, LBMNNDHMHOC FABIICFNEKN, bool DMHNNOMDNGA)
+	{
+		EFLEAKOMEOB = string.Empty;
+		BFHJLOILJBB = string.Empty;
+		this.DLBHDKFHPMF = DLBHDKFHPMF;
+		this.FABIICFNEKN = FABIICFNEKN;
+		this.DMHNNOMDNGA = DMHNNOMDNGA;
+	}
+
+	public void JKFJEIHFNCE(OCINAFLCMOD PDGNEDBOGLE)
+	{
+		this.PDGNEDBOGLE = PDGNEDBOGLE;
+	}
+
+	public void LKDBJOHEKGM(string CPGMDMICEHF)
+	{
+		this.CPGMDMICEHF = CPGMDMICEHF;
+	}
+
+	public void DJCMBFAJFEA(bool BJPJJMDNLFN)
+	{
+		this.BJPJJMDNLFN = BJPJJMDNLFN;
+	}
+
+	public void KNEONHIHGKN(bool OGFJGBBEGOC)
+	{
+		this.OGFJGBBEGOC = OGFJGBBEGOC;
+	}
+
+	public void JPGPMDPOEBH(bool ACEBOEBPPIG)
+	{
+		this.ACEBOEBPPIG = ACEBOEBPPIG;
+	}
+
+	public void BCDFIEBFKPD(double NPHGJJEMLIE)
+	{
+		this.NPHGJJEMLIE = NPHGJJEMLIE;
+	}
+
+	public void AJKNFAFGHCJ(string BACPOLKIMMO)
+	{
+		this.BACPOLKIMMO = BACPOLKIMMO;
+	}
+
+	public void IGLBPDFNPIA(bool EAOFBGOOBEH)
+	{
+		this.EAOFBGOOBEH = EAOFBGOOBEH;
+	}
+
+	public void OMKJBBJKLBO(Action<string> DPEHODMADMM, string EFLEAKOMEOB = "Adjust")
+	{
+		this.DPEHODMADMM = DPEHODMADMM;
+		this.EFLEAKOMEOB = EFLEAKOMEOB;
+	}
+
+	public Action<string> POCDECGGEGE()
+	{
+		return DPEHODMADMM;
+	}
+
+	public void ALECNEEPKLJ(Action<EPJLEKACDBC> FENOBIPNFIM, string EFLEAKOMEOB = "Adjust")
+	{
+		this.FENOBIPNFIM = FENOBIPNFIM;
+		this.EFLEAKOMEOB = EFLEAKOMEOB;
+	}
+
+	public Action<EPJLEKACDBC> OAFNOFHFIII()
+	{
+		return FENOBIPNFIM;
+	}
+
+	public void ANMDAFOKBDB(Action<GJONJCCECNK> EFIDHMEDFIC, string EFLEAKOMEOB = "Adjust")
+	{
+		this.EFIDHMEDFIC = EFIDHMEDFIC;
+		this.EFLEAKOMEOB = EFLEAKOMEOB;
+	}
+
+	public Action<GJONJCCECNK> NPMODIFDIFB()
+	{
+		return EFIDHMEDFIC;
+	}
+
+	public void LCECKOEBADJ(Action<IIGNELNPHML> DHLBHGJEOIE, string EFLEAKOMEOB = "Adjust")
+	{
+		this.DHLBHGJEOIE = DHLBHGJEOIE;
+		this.EFLEAKOMEOB = EFLEAKOMEOB;
+	}
+
+	public Action<IIGNELNPHML> LNLKOHPAFKK()
+	{
+		return DHLBHGJEOIE;
+	}
+
+	public void FJDIKHNNCCN(Action<DIAELPNNMEH> DEKCEOHFMMJ, string EFLEAKOMEOB = "Adjust")
+	{
+		this.DEKCEOHFMMJ = DEKCEOHFMMJ;
+		this.EFLEAKOMEOB = EFLEAKOMEOB;
+	}
+
+	public Action<DIAELPNNMEH> MJGIENFOOEC()
+	{
+		return DEKCEOHFMMJ;
+	}
+
+	public void ACGAOMLOHFA(Action<LOHACGBPPIN> KNPBJDGKNFC, string EFLEAKOMEOB = "Adjust")
+	{
+		this.KNPBJDGKNFC = KNPBJDGKNFC;
+		this.EFLEAKOMEOB = EFLEAKOMEOB;
+	}
+
+	public Action<LOHACGBPPIN> EPIMMNHEDNH()
+	{
+		return KNPBJDGKNFC;
+	}
+
+	public void ENBPNHHGNJD(long NHHEJLHLGOG, long LCPEEGNIPCL, long PHJKNJFJDGO, long NACBFDKLBMD, long ACDAJFEKFKG)
+	{
+		this.NHHEJLHLGOG = NHHEJLHLGOG;
+		this.LCPEEGNIPCL = LCPEEGNIPCL;
+		this.PHJKNJFJDGO = PHJKNJFJDGO;
+		this.NACBFDKLBMD = NACBFDKLBMD;
+		this.ACDAJFEKFKG = ACDAJFEKFKG;
+	}
+
+	public void ELOJCKIJLNN(string BFHJLOILJBB)
+	{
+		this.BFHJLOILJBB = BFHJLOILJBB;
+	}
+
+	public void COJIFEGMDGA(bool EAAIBACPNJD)
+	{
+		LHLKJJEGABB = EAAIBACPNJD;
+	}
+
+	public void DMPOABKANBK(Action<string> OODHCIKAPCA)
+	{
+		this.OODHCIKAPCA = OODHCIKAPCA;
+	}
+}

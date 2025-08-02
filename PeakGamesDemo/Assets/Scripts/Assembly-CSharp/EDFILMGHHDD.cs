@@ -1,0 +1,7 @@
+public static class EDFILMGHHDD
+{
+	public static DPKJGBCDECA DHCLOMIANOE(string LGMNAIAFHAH)
+	{
+		return DPKJGBCDECA.DHCLOMIANOE(LGMNAIAFHAH);
+	}
+}

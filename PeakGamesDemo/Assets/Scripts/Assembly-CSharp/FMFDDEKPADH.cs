@@ -1,0 +1,15 @@
+internal class FMFDDEKPADH : KPKGCNEJIAM, JFEIHACOLNL, CGDEGBGOKJO
+{
+	public override bool DLHCCNKGKJP
+	{
+		get
+		{
+			return false;
+		}
+	}
+
+	internal FMFDDEKPADH(FBIJJFGLKMK ENKGBJPFHAO, PDCALMCFKGD BOHAELIJHGF)
+		: base(ENKGBJPFHAO, BOHAELIJHGF)
+	{
+	}
+}

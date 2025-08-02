@@ -1,0 +1,40 @@
+using System.Runtime.InteropServices;
+using UnityEngine;
+
+[StructLayout(LayoutKind.Sequential, Size = 1)]
+public struct KAJFMDNGDCP
+{
+	private static float FNPELDEHJKL(Vector2 MNIMEAMHNMI, Vector2 BCIHLCMFAEK, Vector2 LLIEHCKNJEM)
+	{
+		return LLIEHCKNJEM.x * (BCIHLCMFAEK.y - MNIMEAMHNMI.y) + LLIEHCKNJEM.y * (MNIMEAMHNMI.x - BCIHLCMFAEK.x) + MNIMEAMHNMI.y * BCIHLCMFAEK.x - MNIMEAMHNMI.x * BCIHLCMFAEK.y;
+	}
+
+	public static bool PGKFNNNLKPP(Vector2 MGBFNGCLLGC, Vector2 PLHOEAGGBAD, Vector2 NFAGPAFLBFK, Vector2 GNGLLMMGOJI)
+	{
+		return FNPELDEHJKL(MGBFNGCLLGC, PLHOEAGGBAD, GNGLLMMGOJI) >= 0f && FNPELDEHJKL(PLHOEAGGBAD, NFAGPAFLBFK, GNGLLMMGOJI) >= 0f && FNPELDEHJKL(NFAGPAFLBFK, MGBFNGCLLGC, GNGLLMMGOJI) >= 0f;
+	}
+
+	public static bool FPJCKMIHJPH(Vector2 MGBFNGCLLGC, Vector2 PLHOEAGGBAD, Vector2 NFAGPAFLBFK, Vector2 GNGLLMMGOJI)
+	{
+		float num = FNPELDEHJKL(MGBFNGCLLGC, PLHOEAGGBAD, PLHOEAGGBAD);
+		float num2 = FNPELDEHJKL(PLHOEAGGBAD, NFAGPAFLBFK, GNGLLMMGOJI);
+		float num3 = FNPELDEHJKL(NFAGPAFLBFK, MGBFNGCLLGC, GNGLLMMGOJI);
+		return (num >= 0f && num2 >= 0f && num3 >= 0f) || (num < 0f && num2 < 0f && num3 < 0f);
+	}
+
+	public static float EDCBCGKJCLN(Vector2 BEGCLEDLFOO, Vector2 LGKCEADGHNL, Vector2 IDBIBADIOEE)
+	{
+		Vector2 vector = BEGCLEDLFOO - IDBIBADIOEE;
+		Vector2 vector2 = LGKCEADGHNL - IDBIBADIOEE;
+		return (vector.x * vector2.y - vector.y * vector2.x) / 2f;
+	}
+
+	public static Vector3 FJHEOABEHCD(Vector2 PKIBIMAALJE, Vector2 OFFFLJCPAJE, Vector2 FIOEFJJCLPN, Vector2 HPHBDNBJPHB)
+	{
+		Vector3 result = default(Vector3);
+		result.x = ((OFFFLJCPAJE.y - FIOEFJJCLPN.y) * (HPHBDNBJPHB.x - FIOEFJJCLPN.x) + (FIOEFJJCLPN.x - OFFFLJCPAJE.x) * (HPHBDNBJPHB.y - FIOEFJJCLPN.y)) / ((OFFFLJCPAJE.y - FIOEFJJCLPN.y) * (PKIBIMAALJE.x - FIOEFJJCLPN.x) + (FIOEFJJCLPN.x - OFFFLJCPAJE.x) * (PKIBIMAALJE.y - FIOEFJJCLPN.y));
+		result.y = ((FIOEFJJCLPN.y - PKIBIMAALJE.y) * (HPHBDNBJPHB.x - FIOEFJJCLPN.x) + (PKIBIMAALJE.x - FIOEFJJCLPN.x) * (HPHBDNBJPHB.y - FIOEFJJCLPN.y)) / ((FIOEFJJCLPN.y - PKIBIMAALJE.y) * (OFFFLJCPAJE.x - FIOEFJJCLPN.x) + (PKIBIMAALJE.x - FIOEFJJCLPN.x) * (OFFFLJCPAJE.y - FIOEFJJCLPN.y));
+		result.z = 1f - result.x - result.y;
+		return result;
+	}
+}

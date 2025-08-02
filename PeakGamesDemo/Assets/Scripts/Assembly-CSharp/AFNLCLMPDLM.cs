@@ -1,0 +1,7 @@
+public enum AFNLCLMPDLM
+{
+	STANDART = 0,
+	EDIT_VERTICS = 1,
+	EDIT_BOUNDS = 2,
+	EDIT_COLOR = 3
+}

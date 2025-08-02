@@ -1,0 +1,69 @@
+internal abstract class CKHAEFEPMDE
+{
+	private const ulong LCFCCGFGHHA = 1431655765uL;
+
+	private const ulong GHJPEBJJMCB = 6148914691236517205uL;
+
+	internal static uint FMNKAFMKNLH(uint AMFCENFNAJJ)
+	{
+		AMFCENFNAJJ &= 0xFFu;
+		AMFCENFNAJJ = (AMFCENFNAJJ | (AMFCENFNAJJ << 4)) & 0xF0Fu;
+		AMFCENFNAJJ = (AMFCENFNAJJ | (AMFCENFNAJJ << 2)) & 0x3333u;
+		AMFCENFNAJJ = (AMFCENFNAJJ | (AMFCENFNAJJ << 1)) & 0x5555u;
+		return AMFCENFNAJJ;
+	}
+
+	internal static uint OJEPCJEJJPL(uint AMFCENFNAJJ)
+	{
+		AMFCENFNAJJ &= 0xFFFFu;
+		AMFCENFNAJJ = (AMFCENFNAJJ | (AMFCENFNAJJ << 8)) & 0xFF00FFu;
+		AMFCENFNAJJ = (AMFCENFNAJJ | (AMFCENFNAJJ << 4)) & 0xF0F0F0Fu;
+		AMFCENFNAJJ = (AMFCENFNAJJ | (AMFCENFNAJJ << 2)) & 0x33333333u;
+		AMFCENFNAJJ = (AMFCENFNAJJ | (AMFCENFNAJJ << 1)) & 0x55555555u;
+		return AMFCENFNAJJ;
+	}
+
+	internal static ulong BNODDEBMLOM(uint AMFCENFNAJJ)
+	{
+		uint num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 8)) & 0xFF00u;
+		AMFCENFNAJJ ^= num ^ (num << 8);
+		num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 4)) & 0xF000F0u;
+		AMFCENFNAJJ ^= num ^ (num << 4);
+		num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 2)) & 0xC0C0C0Cu;
+		AMFCENFNAJJ ^= num ^ (num << 2);
+		num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 1)) & 0x22222222u;
+		AMFCENFNAJJ ^= num ^ (num << 1);
+		return (((ulong)(AMFCENFNAJJ >> 1) & 0x55555555uL) << 32) | ((ulong)AMFCENFNAJJ & 0x55555555uL);
+	}
+
+	internal static void NILPKHOFBII(ulong AMFCENFNAJJ, ulong[] IGNEOOOFEMO, int NDAAKFPMLOL)
+	{
+		ulong num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 16)) & 0xFFFF0000u;
+		AMFCENFNAJJ ^= num ^ (num << 16);
+		num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 8)) & 0xFF000000FF00uL;
+		AMFCENFNAJJ ^= num ^ (num << 8);
+		num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 4)) & 0xF000F000F000F0uL;
+		AMFCENFNAJJ ^= num ^ (num << 4);
+		num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 2)) & 0xC0C0C0C0C0C0C0CuL;
+		AMFCENFNAJJ ^= num ^ (num << 2);
+		num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 1)) & 0x2222222222222222uL;
+		AMFCENFNAJJ ^= num ^ (num << 1);
+		IGNEOOOFEMO[NDAAKFPMLOL] = AMFCENFNAJJ & 0x5555555555555555uL;
+		IGNEOOOFEMO[NDAAKFPMLOL + 1] = (AMFCENFNAJJ >> 1) & 0x5555555555555555uL;
+	}
+
+	internal static ulong CHBDGGMNNFA(ulong AMFCENFNAJJ)
+	{
+		ulong num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 1)) & 0x2222222222222222uL;
+		AMFCENFNAJJ ^= num ^ (num << 1);
+		num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 2)) & 0xC0C0C0C0C0C0C0CuL;
+		AMFCENFNAJJ ^= num ^ (num << 2);
+		num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 4)) & 0xF000F000F000F0uL;
+		AMFCENFNAJJ ^= num ^ (num << 4);
+		num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 8)) & 0xFF000000FF00uL;
+		AMFCENFNAJJ ^= num ^ (num << 8);
+		num = (AMFCENFNAJJ ^ (AMFCENFNAJJ >> 16)) & 0xFFFF0000u;
+		AMFCENFNAJJ ^= num ^ (num << 16);
+		return AMFCENFNAJJ;
+	}
+}

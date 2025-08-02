@@ -1,0 +1,93 @@
+using System;
+using Org.BouncyCastle.Math;
+
+public class DLICBBHNDFH : EDOEBJJFOBM
+{
+	private readonly byte[] DIPNEDDIHBK;
+
+	private static readonly DLICBBHNDFH[] EMGEPAJHHLN = new DLICBBHNDFH[12];
+
+	public BigInteger JBGOANMLBFA
+	{
+		get
+		{
+			return new BigInteger(DIPNEDDIHBK);
+		}
+	}
+
+	public DLICBBHNDFH(int HIMINGHNIKN)
+	{
+		DIPNEDDIHBK = BigInteger.AGLOJCOAJIK(HIMINGHNIKN).EDHFCNLPGJC();
+	}
+
+	public DLICBBHNDFH(BigInteger HIMINGHNIKN)
+	{
+		DIPNEDDIHBK = HIMINGHNIKN.EDHFCNLPGJC();
+	}
+
+	public DLICBBHNDFH(byte[] DIPNEDDIHBK)
+	{
+		this.DIPNEDDIHBK = DIPNEDDIHBK;
+	}
+
+	public static DLICBBHNDFH BJLJCGFMFOO(object NEMEKIOEOLC)
+	{
+		if (NEMEKIOEOLC == null || NEMEKIOEOLC is DLICBBHNDFH)
+		{
+			return (DLICBBHNDFH)NEMEKIOEOLC;
+		}
+		throw new ArgumentException("illegal object in GetInstance: " + LHFGHNFJIKM.JKHOEKAOLPM(NEMEKIOEOLC));
+	}
+
+	public static DLICBBHNDFH BJLJCGFMFOO(PAANMJLACEF NEMEKIOEOLC, bool DNBCBHLACCP)
+	{
+		EDOEBJJFOBM eDOEBJJFOBM = NEMEKIOEOLC.NFMFKPLPLLH();
+		if (DNBCBHLACCP || eDOEBJJFOBM is DLICBBHNDFH)
+		{
+			return BJLJCGFMFOO(eDOEBJJFOBM);
+		}
+		return DADPGGIAGHN(((PJGIGKJFGFI)eDOEBJJFOBM).KLHNEKMCKKI());
+	}
+
+	internal override void LMDBBPLCJDM(JBLJHINPLMC NMHOOGAGLOA)
+	{
+		NMHOOGAGLOA.AGNEJPEMPAP(10, DIPNEDDIHBK);
+	}
+
+	protected override bool IMHPDJGGAGJ(EDOEBJJFOBM LABMKGMAEGK)
+	{
+		DLICBBHNDFH dLICBBHNDFH = LABMKGMAEGK as DLICBBHNDFH;
+		if (dLICBBHNDFH == null)
+		{
+			return false;
+		}
+		return NOGCEBKPPJE.ICKLINNFHKK(DIPNEDDIHBK, dLICBBHNDFH.DIPNEDDIHBK);
+	}
+
+	protected override int BGFGDLGFEPI()
+	{
+		return NOGCEBKPPJE.ILMFICENEMK(DIPNEDDIHBK);
+	}
+
+	internal static DLICBBHNDFH DADPGGIAGHN(byte[] LALAKHICDBP)
+	{
+		if (LALAKHICDBP.Length == 0)
+		{
+			throw new ArgumentException("ENUMERATED has zero length", "enc");
+		}
+		if (LALAKHICDBP.Length == 1)
+		{
+			int num = LALAKHICDBP[0];
+			if (num < EMGEPAJHHLN.Length)
+			{
+				DLICBBHNDFH dLICBBHNDFH = EMGEPAJHHLN[num];
+				if (dLICBBHNDFH != null)
+				{
+					return dLICBBHNDFH;
+				}
+				return EMGEPAJHHLN[num] = new DLICBBHNDFH(NOGCEBKPPJE.IKBFGGABMKP(LALAKHICDBP));
+			}
+		}
+		return new DLICBBHNDFH(NOGCEBKPPJE.IKBFGGABMKP(LALAKHICDBP));
+	}
+}

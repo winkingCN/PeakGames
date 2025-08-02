@@ -1,0 +1,20 @@
+using UnityEngine;
+
+internal struct LIMIJHEGEDE
+{
+	public readonly AudioClip NNHKHAGCFEH;
+
+	public readonly AudioSource PDDHKECLNFH;
+
+	public readonly KOOGPFAPGGD BNEMAJGEKKB;
+
+	public readonly float OOKPAHPCFBJ;
+
+	public LIMIJHEGEDE(AudioClip AICMMKJMNKA, AudioSource JNCFHKGILOI, KOOGPFAPGGD MOKLDCMGFFB, float LAAIPKIPGJL)
+	{
+		NNHKHAGCFEH = AICMMKJMNKA;
+		PDDHKECLNFH = JNCFHKGILOI;
+		BNEMAJGEKKB = MOKLDCMGFFB;
+		OOKPAHPCFBJ = LAAIPKIPGJL;
+	}
+}

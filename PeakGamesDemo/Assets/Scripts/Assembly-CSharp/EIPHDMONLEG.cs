@@ -1,0 +1,39 @@
+using caravan.protobuf.messages;
+
+public class EIPHDMONLEG : NADPOFCHCON
+{
+	private readonly ValidatePaymentResponseMessage HGAODBJLOGM;
+
+	private readonly BMDCGIHCEDE BGBHNAIMJEE;
+
+	public EIPHDMONLEG(BMDCGIHCEDE KAGBOIDKAED, ValidatePaymentResponseMessage FKMLFBJGCMF, GBJNCLLOCJB KFNJHBPIHOI)
+		: base(KAGBOIDKAED, KFNJHBPIHOI)
+	{
+		HGAODBJLOGM = FKMLFBJGCMF;
+		BGBHNAIMJEE = KAGBOIDKAED;
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.ValidatePaymentReply, "Requested transactionId:{0} and response from backend:{1}", KAGBOIDKAED.MKAHOEOFHDM, FKMLFBJGCMF.transactions);
+		if (!string.IsNullOrEmpty(FKMLFBJGCMF.transactions) && !FKMLFBJGCMF.transactions.Contains(KAGBOIDKAED.MKAHOEOFHDM))
+		{
+			AFJPGLHKOID.CPIGOAGGLBM("RenderType", MADFPPJCOIM.GABGKBAKHDP.NAJIPFBGLLC() + 1, 4, LECPGNKOABP.GABGKBAKHDP.GDMECFECCOM.ToString());
+		}
+	}
+
+	public override void JLECFJEAFCD()
+	{
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.ValidatePaymentReply, "Payment verified. {0}", HGAODBJLOGM.result);
+		BGBHNAIMJEE.GPMFHHMEBOO = true;
+		BGBHNAIMJEE.CDLDCBCKJFG = HGAODBJLOGM.result == 200;
+		BGBHNAIMJEE.LIGMDMEJIDB = true;
+		BGBHNAIMJEE.IJGFHAKOCNH = HGAODBJLOGM.products;
+		BGBHNAIMJEE.EOHFELACNEA = HGAODBJLOGM.adviceConsume != 2;
+	}
+
+	public override void AIGOFKAJFBM()
+	{
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.ValidatePaymentReply, "Payment failed.");
+		BGBHNAIMJEE.GPMFHHMEBOO = true;
+		BGBHNAIMJEE.CDLDCBCKJFG = false;
+		BGBHNAIMJEE.LIGMDMEJIDB = true;
+		BGBHNAIMJEE.EOHFELACNEA = false;
+	}
+}

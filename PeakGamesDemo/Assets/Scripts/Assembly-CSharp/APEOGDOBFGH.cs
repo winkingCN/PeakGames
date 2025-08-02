@@ -1,0 +1,21 @@
+using NewMapScene;
+using ToonSocial;
+
+public class APEOGDOBFGH
+{
+	public OFGGFEJGABH HBHBDHOMGPE;
+
+	public int KCAHGIBBHKJ;
+
+	public PlayersLeaderboardTabPage BCEEJPPBKIF;
+
+	public SocialHelper IPCAELIMIBN;
+
+	public APEOGDOBFGH(OFGGFEJGABH PICPDNMCHFM, int AIILDOGHINA, PlayersLeaderboardTabPage HJENCKLHFNB, SocialHelper JANPCBNIGFG)
+	{
+		HBHBDHOMGPE = PICPDNMCHFM;
+		KCAHGIBBHKJ = AIILDOGHINA;
+		BCEEJPPBKIF = HJENCKLHFNB;
+		IPCAELIMIBN = JANPCBNIGFG;
+	}
+}

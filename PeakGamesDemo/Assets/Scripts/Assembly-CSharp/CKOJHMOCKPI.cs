@@ -1,0 +1,64 @@
+using System;
+
+public class CKOJHMOCKPI : LHPKOCNBCPP
+{
+	private readonly string GFPBBLPMOOL;
+
+	public CKOJHMOCKPI(byte[] GFPBBLPMOOL)
+		: this(CCGLOIJJMKC.DNHBLFMKDDH(GFPBBLPMOOL))
+	{
+	}
+
+	public CKOJHMOCKPI(string GFPBBLPMOOL)
+	{
+		if (GFPBBLPMOOL == null)
+		{
+			throw new ArgumentNullException("str");
+		}
+		this.GFPBBLPMOOL = GFPBBLPMOOL;
+	}
+
+	public static CKOJHMOCKPI BJLJCGFMFOO(object NEMEKIOEOLC)
+	{
+		if (NEMEKIOEOLC == null || NEMEKIOEOLC is CKOJHMOCKPI)
+		{
+			return (CKOJHMOCKPI)NEMEKIOEOLC;
+		}
+		throw new ArgumentException("illegal object in GetInstance: " + LHFGHNFJIKM.JKHOEKAOLPM(NEMEKIOEOLC));
+	}
+
+	public static CKOJHMOCKPI BJLJCGFMFOO(PAANMJLACEF NEMEKIOEOLC, bool DNBCBHLACCP)
+	{
+		EDOEBJJFOBM eDOEBJJFOBM = NEMEKIOEOLC.NFMFKPLPLLH();
+		if (DNBCBHLACCP || eDOEBJJFOBM is CKOJHMOCKPI)
+		{
+			return BJLJCGFMFOO(eDOEBJJFOBM);
+		}
+		return new CKOJHMOCKPI(((PJGIGKJFGFI)eDOEBJJFOBM).KLHNEKMCKKI());
+	}
+
+	public override string JDANMONKNGD()
+	{
+		return GFPBBLPMOOL;
+	}
+
+	public byte[] KLHNEKMCKKI()
+	{
+		return CCGLOIJJMKC.IFHLAPJLHNG(GFPBBLPMOOL);
+	}
+
+	internal override void LMDBBPLCJDM(JBLJHINPLMC NMHOOGAGLOA)
+	{
+		NMHOOGAGLOA.AGNEJPEMPAP(27, KLHNEKMCKKI());
+	}
+
+	protected override bool IMHPDJGGAGJ(EDOEBJJFOBM LABMKGMAEGK)
+	{
+		CKOJHMOCKPI cKOJHMOCKPI = LABMKGMAEGK as CKOJHMOCKPI;
+		if (cKOJHMOCKPI == null)
+		{
+			return false;
+		}
+		return GFPBBLPMOOL.Equals(cKOJHMOCKPI.GFPBBLPMOOL);
+	}
+}

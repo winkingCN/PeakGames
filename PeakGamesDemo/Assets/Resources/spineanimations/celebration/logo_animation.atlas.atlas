@@ -1,0 +1,62 @@
+
+logo_animation.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ToonBlast_2K
+  rotate: false
+  xy: 2, 593
+  size: 417, 420
+  orig: 417, 420
+  offset: 0, 0
+  index: -1
+blast
+  rotate: false
+  xy: 421, 592
+  size: 404, 130
+  orig: 404, 130
+  offset: 0, 0
+  index: -1
+n
+  rotate: false
+  xy: 599, 345
+  size: 198, 245
+  orig: 198, 245
+  offset: 0, 0
+  index: -1
+o1
+  rotate: true
+  xy: 2, 2
+  size: 183, 235
+  orig: 183, 235
+  offset: 0, 0
+  index: -1
+o2
+  rotate: true
+  xy: 239, 8
+  size: 177, 221
+  orig: 177, 221
+  offset: 0, 0
+  index: -1
+seperateLogo
+  rotate: false
+  xy: 2, 187
+  size: 391, 404
+  orig: 391, 404
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 421, 724
+  size: 429, 289
+  orig: 429, 289
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 395, 315
+  size: 202, 275
+  orig: 202, 275
+  offset: 0, 0
+  index: -1

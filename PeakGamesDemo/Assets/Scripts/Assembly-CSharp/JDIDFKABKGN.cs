@@ -1,0 +1,38 @@
+using System;
+
+public interface JDIDFKABKGN
+{
+	PHHKFLHAFHG BINDEBHMEJC { get; }
+
+	bool AJJAPHGCFDD { get; }
+
+	string KNLPPACLPOJ();
+
+	void BNJIGCHGOAJ();
+
+	void EHHCGDDCFML();
+
+	void OGNENMNMAIN(string FCEEGNFABAF, string OEFCOJLNCKP, string NIIMJJEBHCA, string LNCBFPEKHDJ);
+
+	void JNOCJCGINCB();
+
+	bool KJNBMEGHDGE();
+
+	bool GFMLBLFOHDG();
+
+	bool KPBDKDPAKBC();
+
+	void NJJBJKCPJLA(string HHIHHPHCEJG);
+
+	void KAMLFGLNNNE();
+
+	void LMGDDIIJMHF(string IKNCPEPOKGJ, Action<string> CMACNIMFJHP);
+
+	void EGGICLINDJH(string IKNCPEPOKGJ, string EDDNOJDPMCF);
+
+	void EFBEHJNKFCD(string FCEEGNFABAF, string HOMONAAFMFH, string LDHECNOPBNK, string ICPIDDPDMKP, string KMJJAKAMOKO, string OELLFNCIJFH, string KGKGAEMGFIF);
+
+	void NKPAGBPCFMI();
+
+	LEJICLFDBAJ BEEIBDODHCD();
+}

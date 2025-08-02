@@ -1,0 +1,167 @@
+
+loading_anim.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bruno_arm
+  rotate: false
+  xy: 709, 514
+  size: 78, 112
+  orig: 78, 112
+  offset: 0, 0
+  index: -1
+Bruno_body
+  rotate: true
+  xy: 2, 38
+  size: 132, 194
+  orig: 132, 194
+  offset: 0, 0
+  index: -1
+Bruno_ear
+  rotate: false
+  xy: 827, 647
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+Cooper_hands
+  rotate: false
+  xy: 481, 348
+  size: 72, 46
+  orig: 72, 46
+  offset: 0, 0
+  index: -1
+Cooper_head
+  rotate: false
+  xy: 827, 669
+  size: 94, 120
+  orig: 94, 120
+  offset: 0, 0
+  index: -1
+Wally_body
+  rotate: true
+  xy: 923, 696
+  size: 93, 87
+  orig: 93, 87
+  offset: 0, 0
+  index: -1
+Wally_hands
+  rotate: true
+  xy: 404, 232
+  size: 78, 41
+  orig: 78, 41
+  offset: 0, 0
+  index: -1
+Wally_head
+  rotate: false
+  xy: 272, 79
+  size: 95, 91
+  orig: 95, 91
+  offset: 0, 0
+  index: -1
+Zephyr_back
+  rotate: true
+  xy: 2, 2
+  size: 34, 97
+  orig: 34, 97
+  offset: 0, 0
+  index: -1
+Zephyr_chamurluk
+  rotate: false
+  xy: 369, 125
+  size: 24, 45
+  orig: 24, 45
+  offset: 0, 0
+  index: -1
+Zephyr_front
+  rotate: false
+  xy: 444, 396
+  size: 263, 230
+  orig: 263, 230
+  offset: 0, 0
+  index: -1
+Zephyr_mid
+  rotate: false
+  xy: 198, 43
+  size: 72, 127
+  orig: 72, 127
+  offset: 0, 0
+  index: -1
+Zephyr_mirror
+  rotate: false
+  xy: 555, 346
+  size: 53, 48
+  orig: 53, 48
+  offset: 0, 0
+  index: -1
+Zephyr_tire_left
+  rotate: false
+  xy: 766, 405
+  size: 68, 94
+  orig: 68, 94
+  offset: 0, 0
+  index: -1
+Zephyr_tire_right
+  rotate: false
+  xy: 404, 312
+  size: 75, 82
+  orig: 75, 82
+  offset: 0, 0
+  index: -1
+Zephyr_tire_smelly
+  rotate: true
+  xy: 923, 676
+  size: 18, 45
+  orig: 18, 45
+  offset: 0, 0
+  index: -1
+loading_bkg
+  rotate: false
+  xy: 444, 628
+  size: 381, 381
+  orig: 381, 381
+  offset: 0, 0
+  index: -1
+loading_bkg_clouds
+  rotate: false
+  xy: 272, 31
+  size: 84, 46
+  orig: 84, 46
+  offset: 0, 0
+  index: -1
+loading_bkg_tree
+  rotate: false
+  xy: 827, 791
+  size: 184, 218
+  orig: 184, 218
+  offset: 0, 0
+  index: -1
+loading_road_line
+  rotate: true
+  xy: 709, 383
+  size: 129, 55
+  orig: 129, 55
+  offset: 0, 0
+  index: -1
+loading_road_line2
+  rotate: true
+  xy: 789, 501
+  size: 125, 49
+  orig: 125, 49
+  offset: 0, 0
+  index: -1
+ring
+  rotate: false
+  xy: 2, 574
+  size: 440, 435
+  orig: 440, 435
+  offset: 0, 0
+  index: -1
+ring_loading
+  rotate: false
+  xy: 2, 172
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1

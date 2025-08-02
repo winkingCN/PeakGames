@@ -1,0 +1,21 @@
+public struct NNKPJCPJPPA
+{
+	public readonly float LJFPAJMHLKJ;
+
+	public readonly float ELNEKNHAKJN;
+
+	public readonly float KEDHKAPOGDE;
+
+	public readonly float GAEGHOBIDHO;
+
+	public readonly float EKKDMBPODHB;
+
+	public NNKPJCPJPPA(float DABCOPBMFBP, float LPBNMNHLOAL, float IGGMKIMKEFD, float MFPJIMPEJAP, float IKCMCPCLDGC)
+	{
+		EKKDMBPODHB = DABCOPBMFBP;
+		GAEGHOBIDHO = LPBNMNHLOAL;
+		KEDHKAPOGDE = IGGMKIMKEFD;
+		ELNEKNHAKJN = MFPJIMPEJAP;
+		LJFPAJMHLKJ = IKCMCPCLDGC;
+	}
+}

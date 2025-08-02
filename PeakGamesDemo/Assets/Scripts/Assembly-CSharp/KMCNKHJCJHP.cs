@@ -1,0 +1,18 @@
+public class KMCNKHJCJHP : NNAHJJGNIIC
+{
+	private int NAJNLOODBFL;
+
+	public int JJPIAOFDOCL
+	{
+		get
+		{
+			return NAJNLOODBFL;
+		}
+	}
+
+	public KMCNKHJCJHP(byte[] GEKBHANECEA, byte[] NJPMJNHGDNE, int CAKFBGMFKLF, int NAJNLOODBFL)
+		: base(GEKBHANECEA, NJPMJNHGDNE, CAKFBGMFKLF)
+	{
+		this.NAJNLOODBFL = NAJNLOODBFL;
+	}
+}

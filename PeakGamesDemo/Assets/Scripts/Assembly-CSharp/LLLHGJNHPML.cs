@@ -1,0 +1,20 @@
+public class LLLHGJNHPML
+{
+	public string IOCMOCCFALN;
+
+	public FPKBHJDENLL MIIBBFPMFLH;
+
+	public OJNJAENHLDC KOAHCFNOCII;
+
+	public OJNJAENHLDC GNNCGBHEEHM;
+
+	public DHEAGKNEONI AEJMNBDDDLL;
+
+	public DHEAGKNEONI APGBHBKMKKN;
+
+	public object FDCGLBIAFPB;
+
+	public int HHHMOGOKFHF;
+
+	public int JKNPBEOPMPK;
+}

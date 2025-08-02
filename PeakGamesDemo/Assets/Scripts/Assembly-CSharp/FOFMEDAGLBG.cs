@@ -1,0 +1,6 @@
+public interface FOFMEDAGLBG
+{
+	bool LJILJHPCBNM(byte[] MBBPBGHKLJM);
+
+	bool LJILJHPCBNM(byte[] JKHLMLIANAI, int JBAJPGIAPFF, int EOFAGACBNFP);
+}

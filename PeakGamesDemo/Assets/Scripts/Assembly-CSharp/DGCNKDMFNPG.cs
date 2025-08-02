@@ -1,0 +1,12 @@
+internal class DGCNKDMFNPG
+{
+	public char HGINOPNKMND;
+
+	public int LDMDBPLADGD;
+
+	public DGCNKDMFNPG(char HGINOPNKMND, int LDMDBPLADGD)
+	{
+		this.HGINOPNKMND = HGINOPNKMND;
+		this.LDMDBPLADGD = LDMDBPLADGD;
+	}
+}

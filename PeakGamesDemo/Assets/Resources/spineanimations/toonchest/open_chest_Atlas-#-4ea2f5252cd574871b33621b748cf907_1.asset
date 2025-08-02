@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954aac3217e2c6b005b08be3c3ee04c4, type: 3}
+  m_Name: open_chest_Atlas-#-4ea2f5252cd574871b33621b748cf907_1
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: f1c9b97b1b684364eac6c7d29bca3bae, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 626bbe605ec774e49917c6b97765ff53, type: 2}

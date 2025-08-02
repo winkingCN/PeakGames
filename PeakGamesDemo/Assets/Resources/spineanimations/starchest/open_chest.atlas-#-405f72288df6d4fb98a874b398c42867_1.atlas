@@ -1,0 +1,48 @@
+
+open_chest.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+starbase1
+  rotate: false
+  xy: 699, 4
+  size: 260, 115
+  orig: 260, 115
+  offset: 0, 0
+  index: -1
+starbase2
+  rotate: false
+  xy: 2, 2
+  size: 260, 32
+  orig: 260, 32
+  offset: 0, 0
+  index: -1
+starcap2
+  rotate: false
+  xy: 699, 121
+  size: 258, 130
+  orig: 258, 130
+  offset: 0, 0
+  index: -1
+starcap4
+  rotate: true
+  xy: 527, 4
+  size: 247, 170
+  orig: 247, 170
+  offset: 0, 0
+  index: -1
+starchest1
+  rotate: false
+  xy: 2, 36
+  size: 262, 215
+  orig: 262, 215
+  offset: 0, 0
+  index: -1
+starchest_reflection
+  rotate: false
+  xy: 266, 48
+  size: 259, 203
+  orig: 259, 203
+  offset: 0, 0
+  index: -1

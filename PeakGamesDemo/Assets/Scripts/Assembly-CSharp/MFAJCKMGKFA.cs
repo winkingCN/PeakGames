@@ -1,0 +1,7 @@
+public static class MFAJCKMGKFA
+{
+	public static JLODNMAAHAC DHCLOMIANOE(string LGMNAIAFHAH)
+	{
+		return JLODNMAAHAC.DHCLOMIANOE(LGMNAIAFHAH);
+	}
+}

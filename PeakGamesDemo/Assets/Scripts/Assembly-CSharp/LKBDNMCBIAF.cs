@@ -1,0 +1,23 @@
+using System;
+
+internal class LKBDNMCBIAF : FOFMEDAGLBG
+{
+	private readonly OHPHNNNHCOO FLHHMPBBBJG;
+
+	internal LKBDNMCBIAF(OHPHNNNHCOO FLHHMPBBBJG)
+	{
+		this.FLHHMPBBBJG = FLHHMPBBBJG;
+	}
+
+	public bool LJILJHPCBNM(byte[] PINNJBGMGOA)
+	{
+		return FLHHMPBBBJG.HLJBBONKPDG(PINNJBGMGOA);
+	}
+
+	public bool LJILJHPCBNM(byte[] PINNJBGMGOA, int JBAJPGIAPFF, int EOFAGACBNFP)
+	{
+		byte[] array = new byte[EOFAGACBNFP];
+		Array.Copy(PINNJBGMGOA, 0, array, JBAJPGIAPFF, array.Length);
+		return FLHHMPBBBJG.HLJBBONKPDG(PINNJBGMGOA);
+	}
+}

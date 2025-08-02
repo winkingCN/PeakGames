@@ -1,0 +1,101 @@
+using Spine;
+
+public class BLIEJOGKBBN : FPOBLOBNHGG
+{
+	public const int JMPDFJHAGOA = 2;
+
+	protected const int AMJGBMFEPLB = -2;
+
+	protected const int PPEPMBOPPKI = -1;
+
+	protected const int KHGELJAJLBC = 1;
+
+	internal int CFOGCDKFLIH;
+
+	internal float[] ENBKHCNKHCC;
+
+	public override int ODHLEJHEBGD
+	{
+		get
+		{
+			return 184549376 + CFOGCDKFLIH;
+		}
+	}
+
+	public int IEJCFPCBKCA
+	{
+		get
+		{
+			return CFOGCDKFLIH;
+		}
+		set
+		{
+			CFOGCDKFLIH = value;
+		}
+	}
+
+	public float[] IKOJIGLMFNG
+	{
+		get
+		{
+			return ENBKHCNKHCC;
+		}
+		set
+		{
+			ENBKHCNKHCC = value;
+		}
+	}
+
+	public BLIEJOGKBBN(int IJKENLLBMOJ)
+		: base(IJKENLLBMOJ)
+	{
+		ENBKHCNKHCC = new float[IJKENLLBMOJ * 2];
+	}
+
+	public void BCEFHMIKFDC(int JHFDIBIBCPH, float HFLODNLEGFL, float EDDNOJDPMCF)
+	{
+		JHFDIBIBCPH *= 2;
+		ENBKHCNKHCC[JHFDIBIBCPH] = HFLODNLEGFL;
+		ENBKHCNKHCC[JHFDIBIBCPH + 1] = EDDNOJDPMCF;
+	}
+
+	public override void FCHLOGCODOA(GCJKICAPOFL GDNININLMFD, float CGICCPOKJHB, float HFLODNLEGFL, ExposedList<DCBJAMHBAJB> ELMIMIMBNHP, float KBKMPEOMABI, BFCFMFBHBCH IFKBABBBDJM, ODPDBCNBOAK AJLDJAHHGOJ)
+	{
+		KNKKDGIBGLM kNKKDGIBGLM = GDNININLMFD.NDOOCKKIMHO.Items[CFOGCDKFLIH];
+		float[] eNBKHCNKHCC = ENBKHCNKHCC;
+		if (HFLODNLEGFL < eNBKHCNKHCC[0])
+		{
+			switch (IFKBABBBDJM)
+			{
+			case BFCFMFBHBCH.Setup:
+				kNKKDGIBGLM.LDMDBPLADGD = kNKKDGIBGLM.MBBPBGHKLJM.LDMDBPLADGD;
+				break;
+			case BFCFMFBHBCH.Current:
+				kNKKDGIBGLM.LDMDBPLADGD += (kNKKDGIBGLM.MBBPBGHKLJM.LDMDBPLADGD - kNKKDGIBGLM.LDMDBPLADGD) * KBKMPEOMABI;
+				break;
+			}
+			return;
+		}
+		float num;
+		if (HFLODNLEGFL >= eNBKHCNKHCC[eNBKHCNKHCC.Length - 2])
+		{
+			num = eNBKHCNKHCC[eNBKHCNKHCC.Length + -1];
+		}
+		else
+		{
+			int num2 = GNGKKPOGGGM.EIAMMDBFDFO(eNBKHCNKHCC, HFLODNLEGFL, 2);
+			num = eNBKHCNKHCC[num2 + -1];
+			float num3 = eNBKHCNKHCC[num2];
+			float num4 = IFMKHGLKEMB(num2 / 2 - 1, 1f - (HFLODNLEGFL - num3) / (eNBKHCNKHCC[num2 + -2] - num3));
+			num += (eNBKHCNKHCC[num2 + 1] - num) * num4;
+		}
+		if (IFKBABBBDJM == BFCFMFBHBCH.Setup)
+		{
+			kNKKDGIBGLM.LDMDBPLADGD = kNKKDGIBGLM.MBBPBGHKLJM.LDMDBPLADGD + (num - kNKKDGIBGLM.MBBPBGHKLJM.LDMDBPLADGD) * KBKMPEOMABI;
+		}
+		else
+		{
+			kNKKDGIBGLM.LDMDBPLADGD += (num - kNKKDGIBGLM.LDMDBPLADGD) * KBKMPEOMABI;
+		}
+	}
+}

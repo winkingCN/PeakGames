@@ -1,0 +1,4 @@
+public interface KHBOIMGJNEN
+{
+	KCBOLLFKMGG POKFAOGOBOF(object POCKCKJDAJO);
+}

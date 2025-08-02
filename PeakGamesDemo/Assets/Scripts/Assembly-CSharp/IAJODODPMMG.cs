@@ -1,0 +1,6 @@
+public interface IAJODODPMMG : OPCLIKBOHJP
+{
+	FBMKOGABPFL GANJGAOCHJL { get; }
+
+	byte[] NPDKOKDCPAF(byte[] AIELCDIFLFB);
+}

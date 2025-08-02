@@ -1,0 +1,4 @@
+public interface LCCNGCJDGCF
+{
+	event NBLGHLNFAGA NNLKEDBCNEM;
+}

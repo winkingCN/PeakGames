@@ -1,0 +1,43 @@
+using System.IO;
+
+public class GDAIELDPMAD
+{
+	protected readonly long AKCICHODAIF;
+
+	protected readonly byte[] KCJABOPDCKH;
+
+	public virtual long GHAEMCLPKJN
+	{
+		get
+		{
+			return AKCICHODAIF;
+		}
+	}
+
+	public virtual byte[] LFOBEOEKGHK
+	{
+		get
+		{
+			return KCJABOPDCKH;
+		}
+	}
+
+	public GDAIELDPMAD(long LKJHCDGAPPI, byte[] HHALHMGMPCO)
+	{
+		AKCICHODAIF = LKJHCDGAPPI;
+		KCJABOPDCKH = HHALHMGMPCO;
+	}
+
+	public virtual void LMDBBPLCJDM(Stream BILGCJNPJGJ)
+	{
+		KINEBFNENMB.FOBOHGGJHJA(AKCICHODAIF, BILGCJNPJGJ);
+		KINEBFNENMB.HIPJBHBLGEI(KCJABOPDCKH, BILGCJNPJGJ);
+	}
+
+	public static GDAIELDPMAD DHCLOMIANOE(Stream MOPCLEEGDFB)
+	{
+		long lKJHCDGAPPI = KINEBFNENMB.FBOFKNIKMFC(MOPCLEEGDFB);
+		byte[] hHALHMGMPCO = KINEBFNENMB.HDGCNMILKAA(MOPCLEEGDFB);
+		return new GDAIELDPMAD(lKJHCDGAPPI, hHALHMGMPCO);
+	}
+}

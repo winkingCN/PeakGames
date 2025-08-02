@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1038088355180186
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4623544180437732}
+  - component: {fileID: 114922955470571290}
+  m_Layer: 0
+  m_Name: BarrelItemResources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4623544180437732
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1038088355180186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -85.51, y: 0.56299996, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114922955470571290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1038088355180186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6c0bfb32693043bb84031b8143bc8b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Prefab: {fileID: 1828765296831992, guid: b8332eda6e0413a4e82767de04fd2e3f, type: 2}
+  Particles:
+  - {fileID: 114706526396558738, guid: b29b7f22090b0ce43b0a5c92354adca8, type: 2}
+  - {fileID: 114161416316948740, guid: 0267b956235c827428d67785f26792c9, type: 2}
+  Animators: []
+  AudioClips:
+  - AudioTag: 112
+    AudioClip: {fileID: 8300000, guid: af0dfbf2ddd3b044092701316f5dc976, type: 3}
+  - AudioTag: 113
+    AudioClip: {fileID: 8300000, guid: 43347748a40b259418489b9d7f3d665f, type: 3}
+  Sprites:
+  - {fileID: 21300000, guid: 2e65cce1623331c458162fec6acc4cf5, type: 2}
+  - {fileID: 21300000, guid: 09ed3da16cfbef04fb05f61616aac998, type: 2}
+  - {fileID: 21300000, guid: 4a85e273f41990b478e03dbf4267e214, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1038088355180186}
+  m_IsPrefabParent: 1

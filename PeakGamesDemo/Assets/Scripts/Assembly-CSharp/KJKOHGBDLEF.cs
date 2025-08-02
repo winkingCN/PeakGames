@@ -1,0 +1,12 @@
+internal class KJKOHGBDLEF
+{
+	public int LLAEDBFNCCP;
+
+	public int BMIOECELGCA;
+
+	public KJKOHGBDLEF(int LLAEDBFNCCP, int BMIOECELGCA)
+	{
+		this.LLAEDBFNCCP = LLAEDBFNCCP;
+		this.BMIOECELGCA = BMIOECELGCA;
+	}
+}

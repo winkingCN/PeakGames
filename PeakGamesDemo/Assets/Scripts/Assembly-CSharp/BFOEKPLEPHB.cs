@@ -1,0 +1,23 @@
+using System.Collections.Generic;
+
+public class BFOEKPLEPHB : NADPOFCHCON
+{
+	private readonly List<NIGFCEFLHML> FAJIDNPPGEO;
+
+	public BFOEKPLEPHB(JOPDCIADIEB KAGBOIDKAED, List<NIGFCEFLHML> HAANBKOOOIP, GBJNCLLOCJB OJCKIOENBEL)
+		: base(KAGBOIDKAED, OJCKIOENBEL)
+	{
+		FAJIDNPPGEO = HAANBKOOOIP;
+	}
+
+	public override void JLECFJEAFCD()
+	{
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.LevelProgressReply, "PerformSuccessOperation");
+		MADFPPJCOIM.GABGKBAKHDP.CNGDJEHLCBA(FAJIDNPPGEO);
+	}
+
+	public override void AIGOFKAJFBM()
+	{
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.LevelProgressReply, "PerformFailureOperation");
+	}
+}

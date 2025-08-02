@@ -1,0 +1,29 @@
+using System.IO;
+
+internal class HPMACIICIKB : MemoryStream
+{
+	private class GDAAJHPNGDF : JJFCLCMEGJC
+	{
+		private readonly OHPHNNNHCOO IBBBMACIBGK;
+
+		internal GDAAJHPNGDF(OHPHNNNHCOO IBBBMACIBGK)
+		{
+			this.IBBBMACIBGK = IBBBMACIBGK;
+		}
+
+		public override void WriteByte(byte BCIHLCMFAEK)
+		{
+			IBBBMACIBGK.BPAJGOINFNL(BCIHLCMFAEK);
+		}
+
+		public override void Write(byte[] GHPCHPOHELF, int JBAJPGIAPFF, int NBEDPKHALCN)
+		{
+			IBBBMACIBGK.GONEEEFEDGF(GHPCHPOHELF, JBAJPGIAPFF, NBEDPKHALCN);
+		}
+	}
+
+	internal void CNOKJEIHKJI(OHPHNNNHCOO IBBBMACIBGK)
+	{
+		WriteTo(new GDAAJHPNGDF(IBBBMACIBGK));
+	}
+}

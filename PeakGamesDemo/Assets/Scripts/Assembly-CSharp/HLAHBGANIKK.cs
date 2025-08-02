@@ -1,0 +1,264 @@
+using System;
+using System.Collections;
+
+public class HLAHBGANIKK : LNKPCJLANAO
+{
+	public static readonly KLKJHFKJLEM GJPCBPBHGEC = new KLKJHFKJLEM("2.5.29.9");
+
+	public static readonly KLKJHFKJLEM EGOJLNCFDJH = new KLKJHFKJLEM("2.5.29.14");
+
+	public static readonly KLKJHFKJLEM CCBGCJNNMEA = new KLKJHFKJLEM("2.5.29.15");
+
+	public static readonly KLKJHFKJLEM PAGBALJFGME = new KLKJHFKJLEM("2.5.29.16");
+
+	public static readonly KLKJHFKJLEM FCALAKCJJDP = new KLKJHFKJLEM("2.5.29.17");
+
+	public static readonly KLKJHFKJLEM GFBIMMBBHDG = new KLKJHFKJLEM("2.5.29.18");
+
+	public static readonly KLKJHFKJLEM KPKNGFLECBB = new KLKJHFKJLEM("2.5.29.19");
+
+	public static readonly KLKJHFKJLEM IGBJHKHBGKP = new KLKJHFKJLEM("2.5.29.20");
+
+	public static readonly KLKJHFKJLEM BAMIEHOIKJK = new KLKJHFKJLEM("2.5.29.21");
+
+	public static readonly KLKJHFKJLEM HCOAHJDNPDL = new KLKJHFKJLEM("2.5.29.23");
+
+	public static readonly KLKJHFKJLEM FCMHGAJPNCN = new KLKJHFKJLEM("2.5.29.24");
+
+	public static readonly KLKJHFKJLEM LLHEPAKIEEI = new KLKJHFKJLEM("2.5.29.27");
+
+	public static readonly KLKJHFKJLEM FJIPBEMCOAP = new KLKJHFKJLEM("2.5.29.28");
+
+	public static readonly KLKJHFKJLEM EHEFIEOAIFF = new KLKJHFKJLEM("2.5.29.29");
+
+	public static readonly KLKJHFKJLEM OJKBKPHBDLH = new KLKJHFKJLEM("2.5.29.30");
+
+	public static readonly KLKJHFKJLEM HCKLHHJNABE = new KLKJHFKJLEM("2.5.29.31");
+
+	public static readonly KLKJHFKJLEM MONOIPOGGOP = new KLKJHFKJLEM("2.5.29.32");
+
+	public static readonly KLKJHFKJLEM AFABJDEKCHL = new KLKJHFKJLEM("2.5.29.33");
+
+	public static readonly KLKJHFKJLEM HBBFNLEBBAN = new KLKJHFKJLEM("2.5.29.35");
+
+	public static readonly KLKJHFKJLEM LGEOINAELJF = new KLKJHFKJLEM("2.5.29.36");
+
+	public static readonly KLKJHFKJLEM AIFIOKLKLJE = new KLKJHFKJLEM("2.5.29.37");
+
+	public static readonly KLKJHFKJLEM GNFGBKBBDMD = new KLKJHFKJLEM("2.5.29.46");
+
+	public static readonly KLKJHFKJLEM JENGJDIPOEJ = new KLKJHFKJLEM("2.5.29.54");
+
+	public static readonly KLKJHFKJLEM DPGGICCIJHM = new KLKJHFKJLEM("1.3.6.1.5.5.7.1.1");
+
+	public static readonly KLKJHFKJLEM BNOGLHCPENG = new KLKJHFKJLEM("1.3.6.1.5.5.7.1.11");
+
+	public static readonly KLKJHFKJLEM MFCBCLJAMOP = new KLKJHFKJLEM("1.3.6.1.5.5.7.1.12");
+
+	public static readonly KLKJHFKJLEM MGONDINOGEH = new KLKJHFKJLEM("1.3.6.1.5.5.7.1.2");
+
+	public static readonly KLKJHFKJLEM ABCLDLJAICH = new KLKJHFKJLEM("1.3.6.1.5.5.7.1.3");
+
+	public static readonly KLKJHFKJLEM BCHIJJFBFKM = new KLKJHFKJLEM("1.3.6.1.5.5.7.1.4");
+
+	public static readonly KLKJHFKJLEM KBBMEIIABMJ = new KLKJHFKJLEM("2.5.29.56");
+
+	public static readonly KLKJHFKJLEM CKLKIBBLOML = new KLKJHFKJLEM("2.5.29.55");
+
+	private readonly IDictionary GPFBAMMMLIA = LHFGHNFJIKM.JBEOCJEMGCE();
+
+	private readonly IList PPHKFIKMECC;
+
+	public IEnumerable OCIDJJFCKOB
+	{
+		get
+		{
+			return new FLJIAKGGJBO(PPHKFIKMECC);
+		}
+	}
+
+	private HLAHBGANIKK(ALLINHNNNJN MIABODPHOIP)
+	{
+		PPHKFIKMECC = LHFGHNFJIKM.PPPFFFBMGML();
+		foreach (LNKPCJLANAO item in MIABODPHOIP)
+		{
+			ALLINHNNNJN aLLINHNNNJN = ALLINHNNNJN.BJLJCGFMFOO(item.IIHKEACDNID());
+			if (aLLINHNNNJN.GMCGMPEEHJP < 2 || aLLINHNNNJN.GMCGMPEEHJP > 3)
+			{
+				throw new ArgumentException("Bad sequence size: " + aLLINHNNNJN.GMCGMPEEHJP);
+			}
+			KLKJHFKJLEM kLKJHFKJLEM = KLKJHFKJLEM.BJLJCGFMFOO(aLLINHNNNJN.ECNCPJGHBIG(0).IIHKEACDNID());
+			bool fAGCDIIJFAB = aLLINHNNNJN.GMCGMPEEHJP == 3 && PNKAJJJPEPA.BJLJCGFMFOO(aLLINHNNNJN.ECNCPJGHBIG(1).IIHKEACDNID()).ELAOLKPILED;
+			PJGIGKJFGFI eDDNOJDPMCF = PJGIGKJFGFI.BJLJCGFMFOO(aLLINHNNNJN.ECNCPJGHBIG(aLLINHNNNJN.GMCGMPEEHJP - 1).IIHKEACDNID());
+			GPFBAMMMLIA.Add(kLKJHFKJLEM, new BJHANHIGLGB(fAGCDIIJFAB, eDDNOJDPMCF));
+			PPHKFIKMECC.Add(kLKJHFKJLEM);
+		}
+	}
+
+	public HLAHBGANIKK(IDictionary GPFBAMMMLIA)
+		: this(null, GPFBAMMMLIA)
+	{
+	}
+
+	public HLAHBGANIKK(IList PPHKFIKMECC, IDictionary GPFBAMMMLIA)
+	{
+		if (PPHKFIKMECC == null)
+		{
+			this.PPHKFIKMECC = LHFGHNFJIKM.PPPFFFBMGML(GPFBAMMMLIA.Keys);
+		}
+		else
+		{
+			this.PPHKFIKMECC = LHFGHNFJIKM.PPPFFFBMGML(PPHKFIKMECC);
+		}
+		foreach (KLKJHFKJLEM item in this.PPHKFIKMECC)
+		{
+			this.GPFBAMMMLIA.Add(item, (BJHANHIGLGB)GPFBAMMMLIA[item]);
+		}
+	}
+
+	public HLAHBGANIKK(IList MJNANGPLADC, IList OLNMBMEIBPL)
+	{
+		PPHKFIKMECC = LHFGHNFJIKM.PPPFFFBMGML(MJNANGPLADC);
+		int num = 0;
+		foreach (KLKJHFKJLEM item in PPHKFIKMECC)
+		{
+			GPFBAMMMLIA.Add(item, (BJHANHIGLGB)OLNMBMEIBPL[num++]);
+		}
+	}
+
+	[Obsolete]
+	public HLAHBGANIKK(Hashtable GPFBAMMMLIA)
+		: this(null, GPFBAMMMLIA)
+	{
+	}
+
+	[Obsolete]
+	public HLAHBGANIKK(ArrayList PPHKFIKMECC, Hashtable GPFBAMMMLIA)
+	{
+		if (PPHKFIKMECC == null)
+		{
+			this.PPHKFIKMECC = LHFGHNFJIKM.PPPFFFBMGML(GPFBAMMMLIA.Keys);
+		}
+		else
+		{
+			this.PPHKFIKMECC = LHFGHNFJIKM.PPPFFFBMGML(PPHKFIKMECC);
+		}
+		foreach (KLKJHFKJLEM item in this.PPHKFIKMECC)
+		{
+			this.GPFBAMMMLIA.Add(item, (BJHANHIGLGB)GPFBAMMMLIA[item]);
+		}
+	}
+
+	[Obsolete]
+	public HLAHBGANIKK(ArrayList MJNANGPLADC, ArrayList OLNMBMEIBPL)
+	{
+		PPHKFIKMECC = LHFGHNFJIKM.PPPFFFBMGML(MJNANGPLADC);
+		int num = 0;
+		foreach (KLKJHFKJLEM item in PPHKFIKMECC)
+		{
+			GPFBAMMMLIA.Add(item, (BJHANHIGLGB)OLNMBMEIBPL[num++]);
+		}
+	}
+
+	public static HLAHBGANIKK BJLJCGFMFOO(PAANMJLACEF NEMEKIOEOLC, bool DHGLJHFEJFL)
+	{
+		return BJLJCGFMFOO(ALLINHNNNJN.BJLJCGFMFOO(NEMEKIOEOLC, DHGLJHFEJFL));
+	}
+
+	public static HLAHBGANIKK BJLJCGFMFOO(object NEMEKIOEOLC)
+	{
+		if (NEMEKIOEOLC == null || NEMEKIOEOLC is HLAHBGANIKK)
+		{
+			return (HLAHBGANIKK)NEMEKIOEOLC;
+		}
+		if (NEMEKIOEOLC is ALLINHNNNJN)
+		{
+			return new HLAHBGANIKK((ALLINHNNNJN)NEMEKIOEOLC);
+		}
+		if (NEMEKIOEOLC is PAANMJLACEF)
+		{
+			return BJLJCGFMFOO(((PAANMJLACEF)NEMEKIOEOLC).NFMFKPLPLLH());
+		}
+		throw new ArgumentException("unknown object in factory: " + LHFGHNFJIKM.JKHOEKAOLPM(NEMEKIOEOLC), "obj");
+	}
+
+	[Obsolete("Use ExtensionOids IEnumerable property")]
+	public IEnumerator FAJNAGGLCPL()
+	{
+		return OCIDJJFCKOB.GetEnumerator();
+	}
+
+	public BJHANHIGLGB GLMCDHHLBOB(KLKJHFKJLEM GDFLIKNMBCL)
+	{
+		return (BJHANHIGLGB)GPFBAMMMLIA[GDFLIKNMBCL];
+	}
+
+	public override EDOEBJJFOBM IIHKEACDNID()
+	{
+		DLDBGGDLOOO dLDBGGDLOOO = new DLDBGGDLOOO();
+		foreach (KLKJHFKJLEM item in PPHKFIKMECC)
+		{
+			BJHANHIGLGB bJHANHIGLGB = (BJHANHIGLGB)GPFBAMMMLIA[item];
+			DLDBGGDLOOO dLDBGGDLOOO2 = new DLDBGGDLOOO(item);
+			if (bJHANHIGLGB.JFCNIPIMMAL)
+			{
+				dLDBGGDLOOO2.JEACJNAKLDJ(PNKAJJJPEPA.OKKOIIMLJOM);
+			}
+			dLDBGGDLOOO2.JEACJNAKLDJ(bJHANHIGLGB.JBGOANMLBFA);
+			dLDBGGDLOOO.JEACJNAKLDJ(new KOGPLMALOEH(dLDBGGDLOOO2));
+		}
+		return new KOGPLMALOEH(dLDBGGDLOOO);
+	}
+
+	public bool JPJBOPBLPPJ(HLAHBGANIKK CJHEIBNHNNE)
+	{
+		if (GPFBAMMMLIA.Count != CJHEIBNHNNE.GPFBAMMMLIA.Count)
+		{
+			return false;
+		}
+		foreach (KLKJHFKJLEM key in GPFBAMMMLIA.Keys)
+		{
+			if (!GPFBAMMMLIA[key].Equals(CJHEIBNHNNE.GPFBAMMMLIA[key]))
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public KLKJHFKJLEM[] MPAJBFANLKP()
+	{
+		return IALNCEBOACH(PPHKFIKMECC);
+	}
+
+	public KLKJHFKJLEM[] IOKDFBODOND()
+	{
+		return MPAJBFANLKP(false);
+	}
+
+	public KLKJHFKJLEM[] IPFANOLHHAK()
+	{
+		return MPAJBFANLKP(true);
+	}
+
+	private KLKJHFKJLEM[] MPAJBFANLKP(bool GLFPKMKPHHA)
+	{
+		IList list = LHFGHNFJIKM.PPPFFFBMGML();
+		foreach (KLKJHFKJLEM item in PPHKFIKMECC)
+		{
+			BJHANHIGLGB bJHANHIGLGB = (BJHANHIGLGB)GPFBAMMMLIA[item];
+			if (bJHANHIGLGB.JFCNIPIMMAL == GLFPKMKPHHA)
+			{
+				list.Add(item);
+			}
+		}
+		return IALNCEBOACH(list);
+	}
+
+	private static KLKJHFKJLEM[] IALNCEBOACH(IList MJNANGPLADC)
+	{
+		KLKJHFKJLEM[] array = new KLKJHFKJLEM[MJNANGPLADC.Count];
+		MJNANGPLADC.CopyTo(array, 0);
+		return array;
+	}
+}

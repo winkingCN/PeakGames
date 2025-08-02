@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+  m_Name: TextMeshInline
+  m_EditorClassIdentifier:
+  hashCode: -1112185593
+  material: {fileID: 2100000, guid: 882b20c86fa25c245a8b23c3890dcf74, type: 2}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: eb635cb72f53e714ab0b90d9a60dbd31, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 1
+    y: 171
+    width: 83
+    height: 84
+    xOffset: -12.5
+    yOffset: 65.17
+    xAdvance: 81
+    scale: 1
+    name: coin
+    hashCode: 3533451
+    unicode: 0
+    pivot: {x: -41, y: 42}
+    sprite: {fileID: 21300000, guid: 2366855bfa1e92b47aa363862346e773, type: 2}
+  - id: 1
+    x: 1
+    y: 112
+    width: 63
+    height: 57
+    xOffset: -31.5
+    yOffset: 28.5
+    xAdvance: 63
+    scale: 1
+    name: check
+    hashCode: 116652422
+    unicode: 0
+    pivot: {x: -31.5, y: 28.5}
+    sprite: {fileID: 21300000, guid: 6f65ae9fdee7b8a4c942bc7059382d99, type: 2}
+  fallbackSpriteAssets: []

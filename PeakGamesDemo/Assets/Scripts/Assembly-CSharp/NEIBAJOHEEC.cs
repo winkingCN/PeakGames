@@ -1,0 +1,61 @@
+public struct NEIBAJOHEEC<T>
+{
+	public T[] IEPKPNEPPHF;
+
+	public int EHJNMODJEAN;
+
+	public NEIBAJOHEEC(T[] DMALBIJEBBI)
+	{
+		IEPKPNEPPHF = DMALBIJEBBI;
+		EHJNMODJEAN = 0;
+	}
+
+	public void BOPEPLONIFL()
+	{
+		EHJNMODJEAN = 0;
+	}
+
+	public void GLLKOHHOLLP(T EJCNAJOHBFI)
+	{
+		IEPKPNEPPHF[0] = EJCNAJOHBFI;
+		EHJNMODJEAN = 1;
+	}
+
+	public void JEACJNAKLDJ(T EJCNAJOHBFI)
+	{
+		if (EHJNMODJEAN < IEPKPNEPPHF.Length)
+		{
+			IEPKPNEPPHF[EHJNMODJEAN] = EJCNAJOHBFI;
+			EHJNMODJEAN++;
+		}
+	}
+
+	public T CJOHLENDJGO()
+	{
+		EHJNMODJEAN--;
+		if (EHJNMODJEAN <= 0)
+		{
+			EHJNMODJEAN = 1;
+			return IEPKPNEPPHF[0];
+		}
+		return IEPKPNEPPHF[EHJNMODJEAN - 1];
+	}
+
+	public T LBFCDKPCDPB()
+	{
+		if (EHJNMODJEAN > 0)
+		{
+			return IEPKPNEPPHF[EHJNMODJEAN - 1];
+		}
+		return IEPKPNEPPHF[0];
+	}
+
+	public T JHKBMLGGFHH()
+	{
+		if (EHJNMODJEAN > 1)
+		{
+			return IEPKPNEPPHF[EHJNMODJEAN - 2];
+		}
+		return IEPKPNEPPHF[0];
+	}
+}

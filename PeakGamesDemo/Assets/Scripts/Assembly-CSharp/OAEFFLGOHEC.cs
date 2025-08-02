@@ -1,0 +1,6 @@
+public class OAEFFLGOHEC
+{
+	public ANEMLFEAJAP BMIOECELGCA;
+
+	public ANEMLFEAJAP LLAEDBFNCCP;
+}

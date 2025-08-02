@@ -1,0 +1,16 @@
+public interface BJLAMONNNDD
+{
+	string KFKMEPMEBND { get; }
+
+	int EEMLLAMENHO();
+
+	int MNAIJEEKPCP();
+
+	void BPAJGOINFNL(byte MOPCLEEGDFB);
+
+	void GONEEEFEDGF(byte[] MOPCLEEGDFB, int ELICNEDIBGB, int EOFAGACBNFP);
+
+	int LCNOFBMOHHM(byte[] BILGCJNPJGJ, int EMAKNGBIFDC);
+
+	void OMOKOKFNBKI();
+}

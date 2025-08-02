@@ -1,0 +1,279 @@
+using System;
+
+public abstract class NLPPJKFFBON
+{
+	public const string LNJOGBBNDBD = "1.2.840.113549.1.1";
+
+	public static readonly KLKJHFKJLEM FFGIEGPCJEG = new KLKJHFKJLEM("1.2.840.113549.1.1.1");
+
+	public static readonly KLKJHFKJLEM IOAJGDJJEOD = new KLKJHFKJLEM("1.2.840.113549.1.1.2");
+
+	public static readonly KLKJHFKJLEM OICNHJDHIDM = new KLKJHFKJLEM("1.2.840.113549.1.1.3");
+
+	public static readonly KLKJHFKJLEM PMNPHGFIJKB = new KLKJHFKJLEM("1.2.840.113549.1.1.4");
+
+	public static readonly KLKJHFKJLEM HHJOGJKDABE = new KLKJHFKJLEM("1.2.840.113549.1.1.5");
+
+	public static readonly KLKJHFKJLEM FMLJCIPDCDO = new KLKJHFKJLEM("1.2.840.113549.1.1.6");
+
+	public static readonly KLKJHFKJLEM APKGEGJDFEH = new KLKJHFKJLEM("1.2.840.113549.1.1.7");
+
+	public static readonly KLKJHFKJLEM NKBNJIMIGJP = new KLKJHFKJLEM("1.2.840.113549.1.1.8");
+
+	public static readonly KLKJHFKJLEM GKAEANKJIHJ = new KLKJHFKJLEM("1.2.840.113549.1.1.9");
+
+	public static readonly KLKJHFKJLEM NLKEIILLMGF = new KLKJHFKJLEM("1.2.840.113549.1.1.10");
+
+	public static readonly KLKJHFKJLEM OAIONFDMHJG = new KLKJHFKJLEM("1.2.840.113549.1.1.11");
+
+	public static readonly KLKJHFKJLEM DCHKOPOOPDP = new KLKJHFKJLEM("1.2.840.113549.1.1.12");
+
+	public static readonly KLKJHFKJLEM ACLCPAOCHDL = new KLKJHFKJLEM("1.2.840.113549.1.1.13");
+
+	public static readonly KLKJHFKJLEM PJFNBLDALME = new KLKJHFKJLEM("1.2.840.113549.1.1.14");
+
+	public const string NBMFHCDFILH = "1.2.840.113549.1.3";
+
+	public static readonly KLKJHFKJLEM JDDKJFLACKJ = new KLKJHFKJLEM("1.2.840.113549.1.3.1");
+
+	public const string ELMOOIMKKDH = "1.2.840.113549.1.5";
+
+	public static readonly KLKJHFKJLEM MBDDCILCGIK = new KLKJHFKJLEM("1.2.840.113549.1.5.1");
+
+	public static readonly KLKJHFKJLEM JJGLPPBPIDH = new KLKJHFKJLEM("1.2.840.113549.1.5.4");
+
+	public static readonly KLKJHFKJLEM JNFDBPHKMGK = new KLKJHFKJLEM("1.2.840.113549.1.5.3");
+
+	public static readonly KLKJHFKJLEM JKGACIEPNPJ = new KLKJHFKJLEM("1.2.840.113549.1.5.6");
+
+	public static readonly KLKJHFKJLEM BIJNFODEKJG = new KLKJHFKJLEM("1.2.840.113549.1.5.10");
+
+	public static readonly KLKJHFKJLEM DEILBAMBKPI = new KLKJHFKJLEM("1.2.840.113549.1.5.11");
+
+	public static readonly KLKJHFKJLEM CFEOCFNGCDK = new KLKJHFKJLEM("1.2.840.113549.1.5.13");
+
+	public static readonly KLKJHFKJLEM HNAPJDBOMIL = new KLKJHFKJLEM("1.2.840.113549.1.5.12");
+
+	public const string PFFJBIELAHM = "1.2.840.113549.3";
+
+	public static readonly KLKJHFKJLEM OGBEMHELJNK = new KLKJHFKJLEM("1.2.840.113549.3.7");
+
+	public static readonly KLKJHFKJLEM JNLCCIAHCGC = new KLKJHFKJLEM("1.2.840.113549.3.2");
+
+	public const string GJBMLOIMJAA = "1.2.840.113549.2";
+
+	public static readonly KLKJHFKJLEM LEJDEOPIHPN = new KLKJHFKJLEM("1.2.840.113549.2.2");
+
+	public static readonly KLKJHFKJLEM PKOKJMOJEHF = new KLKJHFKJLEM("1.2.840.113549.2.4");
+
+	public static readonly KLKJHFKJLEM HCEBKEDMKGI = new KLKJHFKJLEM("1.2.840.113549.2.5");
+
+	public static readonly KLKJHFKJLEM AICOAGPOAAF = new KLKJHFKJLEM("1.2.840.113549.2.7");
+
+	public static readonly KLKJHFKJLEM BGMLBCKBKGB = new KLKJHFKJLEM("1.2.840.113549.2.8");
+
+	public static readonly KLKJHFKJLEM KMNFAGOHJJN = new KLKJHFKJLEM("1.2.840.113549.2.9");
+
+	public static readonly KLKJHFKJLEM CPJKKDJHFEP = new KLKJHFKJLEM("1.2.840.113549.2.10");
+
+	public static readonly KLKJHFKJLEM LNIGDGKBIFL = new KLKJHFKJLEM("1.2.840.113549.2.11");
+
+	public const string DDKNMHBJFIL = "1.2.840.113549.1.7";
+
+	public static readonly KLKJHFKJLEM LJDLCPHOBHB = new KLKJHFKJLEM("1.2.840.113549.1.7.1");
+
+	public static readonly KLKJHFKJLEM HIGAMNPBLBO = new KLKJHFKJLEM("1.2.840.113549.1.7.2");
+
+	public static readonly KLKJHFKJLEM NBICPDCODFG = new KLKJHFKJLEM("1.2.840.113549.1.7.3");
+
+	public static readonly KLKJHFKJLEM BFBKGFPBOLH = new KLKJHFKJLEM("1.2.840.113549.1.7.4");
+
+	public static readonly KLKJHFKJLEM EBJJECDGOFK = new KLKJHFKJLEM("1.2.840.113549.1.7.5");
+
+	public static readonly KLKJHFKJLEM KKEFHPKPONC = new KLKJHFKJLEM("1.2.840.113549.1.7.6");
+
+	public const string PLABBCNLHOM = "1.2.840.113549.1.9";
+
+	public static readonly KLKJHFKJLEM CNHHPJILNFC = new KLKJHFKJLEM("1.2.840.113549.1.9.1");
+
+	public static readonly KLKJHFKJLEM HGHNBDBGPJN = new KLKJHFKJLEM("1.2.840.113549.1.9.2");
+
+	public static readonly KLKJHFKJLEM FODFJIPOFHC = new KLKJHFKJLEM("1.2.840.113549.1.9.3");
+
+	public static readonly KLKJHFKJLEM CHHPPHGMBME = new KLKJHFKJLEM("1.2.840.113549.1.9.4");
+
+	public static readonly KLKJHFKJLEM HJKBAGDCHHI = new KLKJHFKJLEM("1.2.840.113549.1.9.5");
+
+	public static readonly KLKJHFKJLEM DFGOOCOOEPI = new KLKJHFKJLEM("1.2.840.113549.1.9.6");
+
+	public static readonly KLKJHFKJLEM EMDLOHCKMIA = new KLKJHFKJLEM("1.2.840.113549.1.9.7");
+
+	public static readonly KLKJHFKJLEM GKCMIBCIBHF = new KLKJHFKJLEM("1.2.840.113549.1.9.8");
+
+	public static readonly KLKJHFKJLEM AINCPBALABF = new KLKJHFKJLEM("1.2.840.113549.1.9.9");
+
+	public static readonly KLKJHFKJLEM DPBPFDIODDF = new KLKJHFKJLEM("1.2.840.113549.1.9.13");
+
+	public static readonly KLKJHFKJLEM IOAEKNGNPAF = new KLKJHFKJLEM("1.2.840.113549.1.9.14");
+
+	public static readonly KLKJHFKJLEM FKEFOCMCHAG = new KLKJHFKJLEM("1.2.840.113549.1.9.15");
+
+	public static readonly KLKJHFKJLEM KACDMJCAHFA = new KLKJHFKJLEM("1.2.840.113549.1.9.16");
+
+	public static readonly KLKJHFKJLEM ECLDDPNOKOA = new KLKJHFKJLEM("1.2.840.113549.1.9.20");
+
+	public static readonly KLKJHFKJLEM GBGGIMIJAJB = new KLKJHFKJLEM("1.2.840.113549.1.9.21");
+
+	[Obsolete("Use X509Certificate instead")]
+	public static readonly KLKJHFKJLEM FAOGDLHIEBF = new KLKJHFKJLEM("1.2.840.113549.1.9.22.1");
+
+	public const string HMEKCPBGMFE = "1.2.840.113549.1.9.22";
+
+	public static readonly KLKJHFKJLEM PGNFFKNBJPO = new KLKJHFKJLEM("1.2.840.113549.1.9.22.1");
+
+	public static readonly KLKJHFKJLEM HBMHPADNMLP = new KLKJHFKJLEM("1.2.840.113549.1.9.22.2");
+
+	public const string FOGNAGDOJML = "1.2.840.113549.1.9.23";
+
+	public static readonly KLKJHFKJLEM DCNPPAEAIAM = new KLKJHFKJLEM("1.2.840.113549.1.9.23.1");
+
+	public static readonly KLKJHFKJLEM CNABGJIJGFG = KACDMJCAHFA.BCDAGLPENOK("3");
+
+	public static readonly KLKJHFKJLEM OGMHIFBCPLP = CNABGJIJGFG.BCDAGLPENOK("5");
+
+	public static readonly KLKJHFKJLEM JOIFHOFLOPE = CNABGJIJGFG.BCDAGLPENOK("6");
+
+	public static readonly KLKJHFKJLEM JEKIIKGEBEC = CNABGJIJGFG.BCDAGLPENOK("7");
+
+	public static readonly KLKJHFKJLEM JJCJPDEOFLM = CNABGJIJGFG.BCDAGLPENOK("9");
+
+	public static readonly KLKJHFKJLEM NPEBJGJEJNC = CNABGJIJGFG.BCDAGLPENOK("10");
+
+	public static readonly KLKJHFKJLEM KGAEJHFOPGM = CNABGJIJGFG.BCDAGLPENOK("14");
+
+	public static readonly KLKJHFKJLEM EAPKGCCNFEF = FKEFOCMCHAG.BCDAGLPENOK("1");
+
+	public static readonly KLKJHFKJLEM BMPCLNCIPCI = FKEFOCMCHAG.BCDAGLPENOK("2");
+
+	public static readonly KLKJHFKJLEM CGGLBIBLDNL = FKEFOCMCHAG.BCDAGLPENOK("3");
+
+	public static readonly KLKJHFKJLEM GCCDKPKGLPG = KACDMJCAHFA.BCDAGLPENOK("2.1");
+
+	public const string NENECALPNFH = "1.2.840.113549.1.9.16.1";
+
+	public static readonly KLKJHFKJLEM LKNANLPFBNE = new KLKJHFKJLEM("1.2.840.113549.1.9.16.1.2");
+
+	public static readonly KLKJHFKJLEM IGGNNLOGPGF = new KLKJHFKJLEM("1.2.840.113549.1.9.16.1.4");
+
+	public static readonly KLKJHFKJLEM IIGLICPMKGH = new KLKJHFKJLEM("1.2.840.113549.1.9.16.1.9");
+
+	public static readonly KLKJHFKJLEM IBKMBNLBCJO = new KLKJHFKJLEM("1.2.840.113549.1.9.16.1.23");
+
+	public static readonly KLKJHFKJLEM HHCFMJJKEMK = new KLKJHFKJLEM("1.2.840.113549.1.9.16.1.31");
+
+	public const string AFDCLHHCGGO = "1.2.840.113549.1.9.16.6";
+
+	public static readonly KLKJHFKJLEM DKNFOCEGFAG = new KLKJHFKJLEM("1.2.840.113549.1.9.16.6.1");
+
+	public static readonly KLKJHFKJLEM DDEOBNIIGKH = new KLKJHFKJLEM("1.2.840.113549.1.9.16.6.2");
+
+	public static readonly KLKJHFKJLEM IFBJFCBCBMK = new KLKJHFKJLEM("1.2.840.113549.1.9.16.6.3");
+
+	public static readonly KLKJHFKJLEM MOKOAFMLHIL = new KLKJHFKJLEM("1.2.840.113549.1.9.16.6.4");
+
+	public static readonly KLKJHFKJLEM OJGAEEECJKH = new KLKJHFKJLEM("1.2.840.113549.1.9.16.6.5");
+
+	public static readonly KLKJHFKJLEM AJAFHBJEILC = new KLKJHFKJLEM("1.2.840.113549.1.9.16.6.6");
+
+	public const string DLJIJANBGFL = "1.2.840.113549.1.9.16.2";
+
+	public static readonly KLKJHFKJLEM JFPLFOBGINK = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.4");
+
+	public static readonly KLKJHFKJLEM JCCNLKOOEDK = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.5");
+
+	public static readonly KLKJHFKJLEM DHGKEOCICCH = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.10");
+
+	public static readonly KLKJHFKJLEM ANDCNKIPEFP = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.11");
+
+	public static readonly KLKJHFKJLEM IGPPIAPNEFM = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.12");
+
+	public static readonly KLKJHFKJLEM JJFFCOOCLCH = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.47");
+
+	public static readonly KLKJHFKJLEM KGBKFCJHBCC = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.7");
+
+	public static readonly KLKJHFKJLEM PKOBCKLCDHO = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.14");
+
+	public static readonly KLKJHFKJLEM IHPIGGNGKNK = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.15");
+
+	public static readonly KLKJHFKJLEM PBHAEHIGHND = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.16");
+
+	public static readonly KLKJHFKJLEM LOIFMNJOOPM = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.17");
+
+	public static readonly KLKJHFKJLEM NENGKPCKMPO = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.18");
+
+	public static readonly KLKJHFKJLEM JOFGIJHOKJI = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.19");
+
+	public static readonly KLKJHFKJLEM JFODIGKAGAP = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.20");
+
+	public static readonly KLKJHFKJLEM FEBHNOPPHLD = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.21");
+
+	public static readonly KLKJHFKJLEM AEDJGELMEPB = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.22");
+
+	public static readonly KLKJHFKJLEM KEJOOKBODHI = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.23");
+
+	public static readonly KLKJHFKJLEM NNENGBEIPAM = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.24");
+
+	public static readonly KLKJHFKJLEM OHGABNLIDNA = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.25");
+
+	public static readonly KLKJHFKJLEM FLDMNGPIHAL = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.26");
+
+	public static readonly KLKJHFKJLEM CHAAKPAFGHL = new KLKJHFKJLEM("1.2.840.113549.1.9.16.2.27");
+
+	[Obsolete("Use 'IdAAEtsSigPolicyID' instead")]
+	public static readonly KLKJHFKJLEM AJLCLPHNEGA = IHPIGGNGKNK;
+
+	[Obsolete("Use 'IdAAEtsCommitmentType' instead")]
+	public static readonly KLKJHFKJLEM NDPCMJAJILA = PBHAEHIGHND;
+
+	[Obsolete("Use 'IdAAEtsSignerLocation' instead")]
+	public static readonly KLKJHFKJLEM OHHNAMHKCDB = LOIFMNJOOPM;
+
+	[Obsolete("Use 'IdAAEtsOtherSigCert' instead")]
+	public static readonly KLKJHFKJLEM IENDAPMIGEG = JOFGIJHOKJI;
+
+	public const string INHAOHCKIPA = "1.2.840.113549.1.9.16.5";
+
+	public static readonly KLKJHFKJLEM EONBECHEOFI = new KLKJHFKJLEM("1.2.840.113549.1.9.16.5.1");
+
+	public static readonly KLKJHFKJLEM AMMDMANHNHJ = new KLKJHFKJLEM("1.2.840.113549.1.9.16.5.2");
+
+	public const string CGDIBHPNADF = "1.2.840.113549.1.12";
+
+	public const string PLHNOKACDKN = "1.2.840.113549.1.12.10.1";
+
+	public static readonly KLKJHFKJLEM DPGGNGMGEFP = new KLKJHFKJLEM("1.2.840.113549.1.12.10.1.1");
+
+	public static readonly KLKJHFKJLEM JILMPBGEJDA = new KLKJHFKJLEM("1.2.840.113549.1.12.10.1.2");
+
+	public static readonly KLKJHFKJLEM NFKIDGIGPNK = new KLKJHFKJLEM("1.2.840.113549.1.12.10.1.3");
+
+	public static readonly KLKJHFKJLEM CPOOOHGAGOJ = new KLKJHFKJLEM("1.2.840.113549.1.12.10.1.4");
+
+	public static readonly KLKJHFKJLEM MDCBMPKJLBJ = new KLKJHFKJLEM("1.2.840.113549.1.12.10.1.5");
+
+	public static readonly KLKJHFKJLEM IOCHBKMPABA = new KLKJHFKJLEM("1.2.840.113549.1.12.10.1.6");
+
+	public const string FCCIIKPAPPG = "1.2.840.113549.1.12.1";
+
+	public static readonly KLKJHFKJLEM OPJELKIKALL = new KLKJHFKJLEM("1.2.840.113549.1.12.1.1");
+
+	public static readonly KLKJHFKJLEM FFMODGBMHHI = new KLKJHFKJLEM("1.2.840.113549.1.12.1.2");
+
+	public static readonly KLKJHFKJLEM IBMIHPNIBGE = new KLKJHFKJLEM("1.2.840.113549.1.12.1.3");
+
+	public static readonly KLKJHFKJLEM GCEFNLLCCDJ = new KLKJHFKJLEM("1.2.840.113549.1.12.1.4");
+
+	public static readonly KLKJHFKJLEM IKLIKPMPFPI = new KLKJHFKJLEM("1.2.840.113549.1.12.1.5");
+
+	public static readonly KLKJHFKJLEM ONJOMPEFCLG = new KLKJHFKJLEM("1.2.840.113549.1.12.1.6");
+}

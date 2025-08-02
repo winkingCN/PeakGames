@@ -1,0 +1,18 @@
+using Assets.Scripts.CasualTools.Common.DB;
+
+public class NDDNNJHMMDC : Entity
+{
+	public int DIJPJDFKNCJ;
+
+	public int MAFKLHGEBPH;
+
+	public int FOJDLLGGJID;
+
+	public NDDNNJHMMDC(int? BDKFNEDHAOJ, int HBMKHCHGHHF, int NNIDKMJGAJO, int POKMOKOPEKI)
+	{
+		PNLKNJNILDD(BDKFNEDHAOJ);
+		MAFKLHGEBPH = HBMKHCHGHHF;
+		DIJPJDFKNCJ = NNIDKMJGAJO;
+		FOJDLLGGJID = POKMOKOPEKI;
+	}
+}

@@ -1,0 +1,100 @@
+using Spine;
+
+public class LPMOMNEGONC : DABFMEODJHE
+{
+	internal int PBPEMFGPGFC;
+
+	internal float[] ENBKHCNKHCC;
+
+	private string[] IMDNOAJADOJ;
+
+	public int ONPPEPBHGCK
+	{
+		get
+		{
+			return PBPEMFGPGFC;
+		}
+		set
+		{
+			PBPEMFGPGFC = value;
+		}
+	}
+
+	public float[] IKOJIGLMFNG
+	{
+		get
+		{
+			return ENBKHCNKHCC;
+		}
+		set
+		{
+			ENBKHCNKHCC = value;
+		}
+	}
+
+	public string[] NGLDKIKNPLO
+	{
+		get
+		{
+			return IMDNOAJADOJ;
+		}
+		set
+		{
+			IMDNOAJADOJ = value;
+		}
+	}
+
+	public int DABCDPAEDEE
+	{
+		get
+		{
+			return ENBKHCNKHCC.Length;
+		}
+	}
+
+	public int ODHLEJHEBGD
+	{
+		get
+		{
+			return 67108864 + PBPEMFGPGFC;
+		}
+	}
+
+	public LPMOMNEGONC(int IJKENLLBMOJ)
+	{
+		ENBKHCNKHCC = new float[IJKENLLBMOJ];
+		IMDNOAJADOJ = new string[IJKENLLBMOJ];
+	}
+
+	public void BCEFHMIKFDC(int JHFDIBIBCPH, float HFLODNLEGFL, string FKAJNAAKEFH)
+	{
+		ENBKHCNKHCC[JHFDIBIBCPH] = HFLODNLEGFL;
+		IMDNOAJADOJ[JHFDIBIBCPH] = FKAJNAAKEFH;
+	}
+
+	public void FCHLOGCODOA(GCJKICAPOFL GDNININLMFD, float CGICCPOKJHB, float HFLODNLEGFL, ExposedList<DCBJAMHBAJB> ELMIMIMBNHP, float KBKMPEOMABI, BFCFMFBHBCH IFKBABBBDJM, ODPDBCNBOAK AJLDJAHHGOJ)
+	{
+		LBBAMMPJKDA lBBAMMPJKDA = GDNININLMFD.MAKCMFCFDLP.Items[PBPEMFGPGFC];
+		if (AJLDJAHHGOJ == ODPDBCNBOAK.Out && IFKBABBBDJM == BFCFMFBHBCH.Setup)
+		{
+			string fKAJNAAKEFH = lBBAMMPJKDA.MBBPBGHKLJM.FKAJNAAKEFH;
+			lBBAMMPJKDA.AIKFOHCPLKG = ((fKAJNAAKEFH != null) ? GDNININLMFD.JGHJDGIANDD(PBPEMFGPGFC, fKAJNAAKEFH) : null);
+			return;
+		}
+		float[] eNBKHCNKHCC = ENBKHCNKHCC;
+		if (HFLODNLEGFL < eNBKHCNKHCC[0])
+		{
+			if (IFKBABBBDJM == BFCFMFBHBCH.Setup)
+			{
+				string fKAJNAAKEFH = lBBAMMPJKDA.MBBPBGHKLJM.FKAJNAAKEFH;
+				lBBAMMPJKDA.AIKFOHCPLKG = ((fKAJNAAKEFH != null) ? GDNININLMFD.JGHJDGIANDD(PBPEMFGPGFC, fKAJNAAKEFH) : null);
+			}
+		}
+		else
+		{
+			int num = ((!(HFLODNLEGFL >= eNBKHCNKHCC[eNBKHCNKHCC.Length - 1])) ? (GNGKKPOGGGM.EIAMMDBFDFO(eNBKHCNKHCC, HFLODNLEGFL, 1) - 1) : (eNBKHCNKHCC.Length - 1));
+			string fKAJNAAKEFH = IMDNOAJADOJ[num];
+			lBBAMMPJKDA.AIKFOHCPLKG = ((fKAJNAAKEFH != null) ? GDNININLMFD.JGHJDGIANDD(PBPEMFGPGFC, fKAJNAAKEFH) : null);
+		}
+	}
+}

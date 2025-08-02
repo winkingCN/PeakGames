@@ -1,0 +1,41 @@
+using Assets.Scripts.CasualTools.Common.DB;
+
+public class IENHAKEMDPM : Entity
+{
+	public string EHNKLBBAKCA;
+
+	public string PNGPLGHKFDI;
+
+	public string FGPGOGEKDAM;
+
+	public string EFHEIFMEJCN;
+
+	public string KJACEODCOHN;
+
+	public int OADDPGNIINO;
+
+	public int KOPMPMIFHNF;
+
+	public int DJADMBLKBKJ;
+
+	public int GGBEMNJNAEE;
+
+	public IENHAKEMDPM(int? BDKFNEDHAOJ, string FAHBFGOFJGI, string IOCMOCCFALN, int GIOFHACJEGA = 0, int EMNOJOHFMEH = -1, string PMKHOPIMKNH = "none", int MGCMMJPNJPH = 0, string GKNCJMICJEL = "", string FBKDKPCDMMK = "", int OLFDKEDGHHF = 0)
+	{
+		PNLKNJNILDD(BDKFNEDHAOJ);
+		EHNKLBBAKCA = FAHBFGOFJGI;
+		PNGPLGHKFDI = IOCMOCCFALN;
+		FGPGOGEKDAM = PMKHOPIMKNH;
+		OADDPGNIINO = EMNOJOHFMEH;
+		KOPMPMIFHNF = GIOFHACJEGA;
+		DJADMBLKBKJ = MGCMMJPNJPH;
+		EFHEIFMEJCN = GKNCJMICJEL;
+		KJACEODCOHN = FBKDKPCDMMK;
+		GGBEMNJNAEE = OLFDKEDGHHF;
+	}
+
+	public override string ToString()
+	{
+		return string.Format("FacebookId:{0} Name:{1} Badge:{2} TeamId:{3} Level:{4} Score:{5} TeamName:{6} NickName:{7} CLScore:{8}", EHNKLBBAKCA, PNGPLGHKFDI, FGPGOGEKDAM, OADDPGNIINO, KOPMPMIFHNF, DJADMBLKBKJ, EFHEIFMEJCN, KJACEODCOHN, GGBEMNJNAEE);
+	}
+}

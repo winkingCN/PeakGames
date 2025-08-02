@@ -1,0 +1,4723 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1400007090625543
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4351387664941344}
+  - component: {fileID: 95472258228995637}
+  - component: {fileID: 114227595126114992}
+  m_Layer: 0
+  m_Name: JellySpreadAnimator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1785803735193249
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4126085567478043}
+  - component: {fileID: 114641982118073873}
+  - component: {fileID: 23613598730275973}
+  - component: {fileID: 33353981137851620}
+  m_Layer: 0
+  m_Name: SpreadSprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4351387664941344
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1400007090625543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.011, y: -0.015, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4126085567478043}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!95 &95472258228995637
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1400007090625543}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1bd71af03559c6647aee91c76c931280, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114227595126114992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1400007090625543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0eb24f4f53009f2232c65efc22c5551, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  MasterJelly: {fileID: 0}
+  SpreadAnimator: {fileID: 95472258228995637}
+  SpreadingSprite: {fileID: 23613598730275973}
+  DisplaySortNo: 0
+--- !u!4 &4126085567478043
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785803735193249}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4351387664941344}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114641982118073873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785803735193249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ba2bfd35168fcc1516a497a3ff0279, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  borderPaths:
+  - points:
+    - 26
+    - 19
+    - 25
+    - 5
+    - 2
+    - 4
+    - 29
+    - 27
+    - 30
+    - 12
+    - 3
+    - 7
+    - 23
+    - 20
+    - 24
+    - 0
+    - 22
+    - 21
+    - 1
+  _sprite: {fileID: 21300000, guid: d2900a2ca1262a3439a05e88fe05710d, type: 2}
+  _points:
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.9947176, y: 0.0027971268}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 13
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.001908543, y: 0.0016380548}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 14
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.0020186107, y: 0.9903074}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 16
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.9944751, y: 0.9952118}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 22
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.21466723, y: 0.99853873}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 23
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.001996057, y: 0.7877225}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 24
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.27992633, y: 0.79889506}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 25
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.9926335, y: 0.79410684}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 26
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.20257828, y: 0.6153468}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 27
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.79005533, y: 0.618539}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 28
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.20073666, y: 0.15727437}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 29
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.7771639, y: 0.15887046}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 30
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.7349339, y: 1}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 31
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.64082485, y: 0.7964828}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 32
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.50458634, y: 0.60582536}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 33
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.49725297, y: 0.1533199}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 34
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.20166455, y: 0.38874066}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 35
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.49723756, y: 0.37912828}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 36
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.7772235, y: 0.3870116}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 37
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.0019518131, y: 0.39030224}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 38
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.99368864, y: 0.39349085}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 39
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.34600523, y: 0.0020397902}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 40
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.60265887, y: 0.0023394227}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 41
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.9932541, y: 0.5584657}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 42
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.99413943, y: 0.2223264}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 43
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.0019702436, y: 0.55585396}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 44
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.001935798, y: 0.24644917}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 45
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.4587332, y: 0.9952118}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 46
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.4587264, y: 0.7976999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 47
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.34946463, y: 0.99670124}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 48
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.58723223, y: 0.99743944}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 49
+  _bounds:
+    m_Center: {x: 1.0016212, y: -0.023063421, z: 0}
+    m_Extent: {x: 19.258165, y: 1.6122799, z: 0.5}
+  mesh: {fileID: 0}
+  _triangulateWithOffsetPosition: 0
+  mesh_uvs:
+  - {x: 0.9947176, y: 0.0027971268}
+  - {x: 0.001908543, y: 0.0016380548}
+  - {x: 0.0020186107, y: 0.9903074}
+  - {x: 0.9944751, y: 0.9952118}
+  - {x: 0.21466723, y: 0.99853873}
+  - {x: 0.001996057, y: 0.7877225}
+  - {x: 0.27992633, y: 0.79889506}
+  - {x: 0.9926335, y: 0.79410684}
+  - {x: 0.20257828, y: 0.6153468}
+  - {x: 0.79005533, y: 0.618539}
+  - {x: 0.20073666, y: 0.15727437}
+  - {x: 0.7771639, y: 0.15887046}
+  - {x: 0.7349339, y: 1}
+  - {x: 0.64082485, y: 0.7964828}
+  - {x: 0.50458634, y: 0.60582536}
+  - {x: 0.49725297, y: 0.1533199}
+  - {x: 0.20166455, y: 0.38874066}
+  - {x: 0.49723756, y: 0.37912828}
+  - {x: 0.7772235, y: 0.3870116}
+  - {x: 0.0019518131, y: 0.39030224}
+  - {x: 0.99368864, y: 0.39349085}
+  - {x: 0.34600523, y: 0.0020397902}
+  - {x: 0.60265887, y: 0.0023394227}
+  - {x: 0.9932541, y: 0.5584657}
+  - {x: 0.99413943, y: 0.2223264}
+  - {x: 0.0019702436, y: 0.55585396}
+  - {x: 0.001935798, y: 0.24644917}
+  - {x: 0.4587332, y: 0.9952118}
+  - {x: 0.4587264, y: 0.7976999}
+  - {x: 0.34946463, y: 0.99670124}
+  - {x: 0.58723223, y: 0.99743944}
+  mesh_vertecs:
+  - {x: 0.51450634, y: -0.59664345, z: 0}
+  - {x: -0.51801515, y: -0.5980344, z: 0}
+  - {x: -0.51790065, y: 0.5883689, z: 0}
+  - {x: 0.5142541, y: 0.59425414, z: 0}
+  - {x: -0.2967461, y: 0.59824646, z: 0}
+  - {x: -0.51792413, y: 0.34526706, z: 0}
+  - {x: -0.22887665, y: 0.3586741, z: 0}
+  - {x: 0.51233876, y: 0.35292822, z: 0}
+  - {x: -0.3093186, y: 0.13841617, z: 0}
+  - {x: 0.3016575, y: 0.14224678, z: 0}
+  - {x: -0.31123388, y: -0.4112708, z: 0}
+  - {x: 0.2882504, y: -0.40935546, z: 0}
+  - {x: 0.24433118, y: 0.6, z: 0}
+  - {x: 0.14645779, y: 0.35577935, z: 0}
+  - {x: 0.004769802, y: 0.12699044, z: 0}
+  - {x: -0.0028569698, y: -0.41601616, z: 0}
+  - {x: -0.31026888, y: -0.13351122, z: 0}
+  - {x: -0.0028729439, y: -0.14504609, z: 0}
+  - {x: 0.28831238, y: -0.13558611, z: 0}
+  - {x: -0.51797014, y: -0.1316373, z: 0}
+  - {x: 0.5134361, y: -0.12781098, z: 0}
+  - {x: -0.16015455, y: -0.5975523, z: 0}
+  - {x: 0.10676521, y: -0.5971927, z: 0}
+  - {x: 0.5129843, y: 0.07015884, z: 0}
+  - {x: 0.51390505, y: -0.33320832, z: 0}
+  - {x: -0.51795095, y: 0.06702477, z: 0}
+  - {x: -0.5179868, y: -0.304261, z: 0}
+  - {x: -0.04291746, y: 0.59425414, z: 0}
+  - {x: -0.042924523, y: 0.3572399, z: 0}
+  - {x: -0.15655679, y: 0.59604156, z: 0}
+  - {x: 0.09072155, y: 0.5969274, z: 0}
+  mesh_triangles:
+  - 7
+  - 13
+  - 3
+  - 0
+  - 11
+  - 24
+  - 10
+  - 1
+  - 26
+  - 8
+  - 5
+  - 6
+  - 6
+  - 5
+  - 4
+  - 9
+  - 13
+  - 7
+  - 6
+  - 4
+  - 29
+  - 9
+  - 14
+  - 13
+  - 14
+  - 8
+  - 6
+  - 15
+  - 10
+  - 17
+  - 15
+  - 17
+  - 11
+  - 16
+  - 19
+  - 8
+  - 10
+  - 19
+  - 16
+  - 11
+  - 17
+  - 18
+  - 18
+  - 14
+  - 9
+  - 13
+  - 30
+  - 12
+  - 14
+  - 28
+  - 13
+  - 14
+  - 6
+  - 28
+  - 18
+  - 17
+  - 14
+  - 17
+  - 16
+  - 8
+  - 17
+  - 8
+  - 14
+  - 20
+  - 18
+  - 9
+  - 21
+  - 1
+  - 10
+  - 0
+  - 22
+  - 11
+  - 22
+  - 21
+  - 15
+  - 13
+  - 28
+  - 27
+  - 28
+  - 6
+  - 29
+  - 29
+  - 4
+  - 27
+  - 10
+  - 26
+  - 19
+  - 8
+  - 19
+  - 25
+  - 8
+  - 25
+  - 5
+  - 4
+  - 5
+  - 2
+  - 28
+  - 29
+  - 27
+  - 3
+  - 13
+  - 12
+  - 23
+  - 9
+  - 7
+  - 20
+  - 9
+  - 23
+  - 24
+  - 11
+  - 18
+  - 22
+  - 15
+  - 11
+  - 21
+  - 10
+  - 15
+  - 24
+  - 18
+  - 20
+  - 13
+  - 27
+  - 30
+  - 17
+  - 10
+  - 16
+  mesh_normals:
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  mesh_colors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 1, y: 1}
+  edgeSerializations:
+  - point1Index: 5
+    point2index: 2
+  - point1Index: 2
+    point2index: 4
+  - point1Index: 3
+    point2index: 7
+  - point1Index: 0
+    point2index: 11
+  - point1Index: 1
+    point2index: 10
+  - point1Index: 5
+    point2index: 8
+  - point1Index: 6
+    point2index: 5
+  - point1Index: 9
+    point2index: 7
+  - point1Index: 4
+    point2index: 6
+  - point1Index: 12
+    point2index: 3
+  - point1Index: 7
+    point2index: 13
+  - point1Index: 9
+    point2index: 14
+  - point1Index: 14
+    point2index: 8
+  - point1Index: 10
+    point2index: 15
+  - point1Index: 15
+    point2index: 11
+  - point1Index: 8
+    point2index: 16
+  - point1Index: 16
+    point2index: 10
+  - point1Index: 11
+    point2index: 18
+  - point1Index: 18
+    point2index: 9
+  - point1Index: 12
+    point2index: 13
+  - point1Index: 13
+    point2index: 14
+  - point1Index: 14
+    point2index: 6
+  - point1Index: 18
+    point2index: 17
+  - point1Index: 17
+    point2index: 16
+  - point1Index: 14
+    point2index: 17
+  - point1Index: 17
+    point2index: 15
+  - point1Index: 20
+    point2index: 18
+  - point1Index: 19
+    point2index: 16
+  - point1Index: 21
+    point2index: 1
+  - point1Index: 0
+    point2index: 22
+  - point1Index: 22
+    point2index: 21
+  - point1Index: 7
+    point2index: 23
+  - point1Index: 23
+    point2index: 20
+  - point1Index: 20
+    point2index: 24
+  - point1Index: 24
+    point2index: 0
+  - point1Index: 19
+    point2index: 25
+  - point1Index: 25
+    point2index: 5
+  - point1Index: 1
+    point2index: 26
+  - point1Index: 26
+    point2index: 19
+  - point1Index: 13
+    point2index: 28
+  - point1Index: 28
+    point2index: 6
+  - point1Index: 4
+    point2index: 29
+  - point1Index: 29
+    point2index: 27
+  - point1Index: 27
+    point2index: 30
+  - point1Index: 30
+    point2index: 12
+  lastID: 49
+  minimumTimeToUpdate: 0
+  _generateColliderInRunTime: 0
+  _referenceMaterial: {fileID: 0}
+  notAnimatedPoints: []
+  busyPoints:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  animationPoints:
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.9944751, y: 0.9952118}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 22
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.0020186107, y: 0.9903074}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 16
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.21466723, y: 0.99853873}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 23
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.001996057, y: 0.7877225}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 24
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.27992633, y: 0.79889506}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 25
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.9926335, y: 0.79410684}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 26
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.20257828, y: 0.6153468}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 27
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.79005533, y: 0.618539}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 28
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.9947176, y: 0.0027971268}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 13
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.001908543, y: 0.0016380548}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 14
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.20073666, y: 0.15727437}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 29
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.7771639, y: 0.15887046}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 30
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.7349339, y: 1}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 31
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.64082485, y: 0.7964828}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 32
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.50458634, y: 0.60582536}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 33
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.49725297, y: 0.1533199}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 34
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.20166455, y: 0.38874066}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 35
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.49723756, y: 0.37912828}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 36
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.7772235, y: 0.3870116}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 37
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.0019518131, y: 0.39030224}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 38
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.99368864, y: 0.39349085}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 39
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.34600523, y: 0.0020397902}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 40
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.60265887, y: 0.0023394227}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 41
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.9932541, y: 0.5584657}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 42
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.99413943, y: 0.2223264}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 43
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.0019702436, y: 0.55585396}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 44
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.001935798, y: 0.24644917}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 45
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.4587332, y: 0.9952118}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 46
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.4587264, y: 0.7976999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 47
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.34946463, y: 0.99670124}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 48
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.58723223, y: 0.99743944}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 49
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  - _countOfOfsset: 0
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    normal: {x: 0, y: 0, z: 0}
+    name:
+    offsets: []
+    colliderOffset: {x: 0, y: 0}
+    id: 0
+  serelizateAnimationPoints:
+  - 3
+  - 2
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 0
+  - 1
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  - -1
+  v000:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.9944751, y: 0.9952118}
+  v001:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.0020186107, y: 0.9903074}
+  v002:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.27992633, y: 0.9952118}
+  v003:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.001996057, y: 0.7877225}
+  v004:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.27992633, y: 0.79889506}
+  v005:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.9926335, y: 0.79410684}
+  v006:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.20257828, y: 0.6153468}
+  v007:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.79005533, y: 0.618539}
+  v008:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.9947176, y: 0.0027971268}
+  v009:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.001908543, y: 0.0016380548}
+  v010:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.20073666, y: 0.15727437}
+  v011:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.7771639, y: 0.15887046}
+  v012:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.64088404, y: 0.9952118}
+  v013:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.64082485, y: 0.7964828}
+  v014:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.50458634, y: 0.60582536}
+  v015:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.49725297, y: 0.1533199}
+  v016:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.20166455, y: 0.38874066}
+  v017:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.49723756, y: 0.37912828}
+  v018:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.7772235, y: 0.3870116}
+  v019:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.0019518131, y: 0.39030224}
+  v020:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.99368864, y: 0.39349085}
+  v021:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.3460052, y: 0.0020397764}
+  v022:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.6026588, y: 0.0023394194}
+  v023:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.9932541, y: 0.5584657}
+  v024:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.99413943, y: 0.22232638}
+  v025:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.0019702436, y: 0.5558539}
+  v026:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.001935798, y: 0.24644916}
+  v027:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.4587332, y: 0.9952118}
+  v028:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.4587264, y: 0.7976999}
+  v029:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.34946465, y: 0.99670124}
+  v030:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0.58723223, y: 0.99743944}
+  v031:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v032:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v033:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v034:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v035:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v036:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v037:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v038:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v039:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v040:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v041:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v042:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v043:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v044:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v045:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v046:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v047:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v048:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v049:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v050:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v051:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v052:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v053:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v054:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v055:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v056:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v057:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v058:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v059:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v060:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v061:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v062:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v063:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v064:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v065:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v066:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v067:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v068:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v069:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v070:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v071:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v072:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v073:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v074:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v075:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v076:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v077:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v078:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v079:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v080:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v081:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v082:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v083:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v084:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v085:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v086:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v087:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v088:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v089:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v090:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v091:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v092:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v093:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v094:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v095:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v096:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v097:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v098:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v099:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v100:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v101:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v102:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v103:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v104:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v105:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v106:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v107:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v108:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v109:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v110:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v111:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v112:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v113:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v114:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v115:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v116:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v117:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v118:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v119:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v120:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v121:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v122:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v123:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v124:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v125:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v126:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v127:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v128:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v129:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v130:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v131:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v132:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v133:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v134:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v135:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v136:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v137:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v138:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v139:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v140:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v141:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v142:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v143:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v144:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v145:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v146:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v147:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v148:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v149:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v150:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v151:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v152:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v153:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v154:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v155:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v156:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v157:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v158:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v159:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v160:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v161:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v162:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v163:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v164:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v165:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v166:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v167:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v168:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v169:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v170:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v171:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v172:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v173:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v174:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v175:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v176:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v177:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v178:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v179:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v180:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v181:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v182:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v183:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v184:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v185:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v186:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v187:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v188:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v189:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v190:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v191:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v192:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v193:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v194:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v195:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v196:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v197:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v198:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v199:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v200:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v201:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v202:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v203:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v204:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v205:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v206:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v207:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v208:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v209:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v210:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v211:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v212:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v213:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v214:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v215:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v216:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v217:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v218:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v219:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v220:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v221:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v222:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v223:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v224:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v225:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v226:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v227:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v228:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v229:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v230:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v231:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v232:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v233:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v234:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v235:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v236:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v237:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v238:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v239:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v240:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v241:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v242:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v243:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v244:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v245:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v246:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v247:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v248:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v249:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v250:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v251:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v252:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v253:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v254:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+  v255:
+    color: {r: 0, g: 0, b: 0, a: 0}
+    offset: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0}
+--- !u!23 &23613598730275973
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785803735193249}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 94c52cec2f36cdf40aa50cd3b5351ad3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -411099631
+  m_SortingLayer: 1
+  m_SortingOrder: 30
+--- !u!33 &33353981137851620
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785803735193249}
+  m_Mesh: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1400007090625543}
+  m_IsPrefabParent: 1

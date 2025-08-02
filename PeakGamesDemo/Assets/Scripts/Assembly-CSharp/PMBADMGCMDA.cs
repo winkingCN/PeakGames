@@ -1,0 +1,21 @@
+using NewMapScene;
+using ToonSocial;
+
+public class PMBADMGCMDA
+{
+	public FMHKCJGDPEB HBHBDHOMGPE;
+
+	public int KCAHGIBBHKJ;
+
+	public TeamLeaderboardTabPage BCEEJPPBKIF;
+
+	public SocialHelper IPCAELIMIBN;
+
+	public PMBADMGCMDA(FMHKCJGDPEB PICPDNMCHFM, int AIILDOGHINA, TeamLeaderboardTabPage HJENCKLHFNB, SocialHelper BHCIBOMDAIE)
+	{
+		HBHBDHOMGPE = PICPDNMCHFM;
+		KCAHGIBBHKJ = AIILDOGHINA;
+		BCEEJPPBKIF = HJENCKLHFNB;
+		IPCAELIMIBN = BHCIBOMDAIE;
+	}
+}

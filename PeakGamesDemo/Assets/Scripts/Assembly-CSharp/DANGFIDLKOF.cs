@@ -1,0 +1,29 @@
+using System.IO;
+
+internal class DANGFIDLKOF : MemoryStream
+{
+	private class ENOHPBLPCLH : JJFCLCMEGJC
+	{
+		private readonly BJLAMONNNDD ELNCCDELMMH;
+
+		internal ENOHPBLPCLH(BJLAMONNNDD ELNCCDELMMH)
+		{
+			this.ELNCCDELMMH = ELNCCDELMMH;
+		}
+
+		public override void WriteByte(byte BCIHLCMFAEK)
+		{
+			ELNCCDELMMH.BPAJGOINFNL(BCIHLCMFAEK);
+		}
+
+		public override void Write(byte[] GHPCHPOHELF, int JBAJPGIAPFF, int NBEDPKHALCN)
+		{
+			ELNCCDELMMH.GONEEEFEDGF(GHPCHPOHELF, JBAJPGIAPFF, NBEDPKHALCN);
+		}
+	}
+
+	internal void CHOLLICODBI(BJLAMONNNDD ELNCCDELMMH)
+	{
+		WriteTo(new ENOHPBLPCLH(ELNCCDELMMH));
+	}
+}

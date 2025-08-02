@@ -1,0 +1,37 @@
+using System;
+using System.IO;
+
+public class JCDLIOLFNGL : DJCFGMFFILH
+{
+	public override EDOEBJJFOBM KCGBGKNFEHK(KLKJHFKJLEM GDFLIKNMBCL, string EDDNOJDPMCF)
+	{
+		if (EDDNOJDPMCF.Length != 0 && EDDNOJDPMCF[0] == '#')
+		{
+			try
+			{
+				return PNEEBHLAADI(EDDNOJDPMCF, 1);
+			}
+			catch (IOException)
+			{
+				throw new Exception("can't recode value for oid " + GDFLIKNMBCL.EEFMIHDPJPG);
+			}
+		}
+		if (EDDNOJDPMCF.Length != 0 && EDDNOJDPMCF[0] == '\\')
+		{
+			EDDNOJDPMCF = EDDNOJDPMCF.Substring(1);
+		}
+		if (GDFLIKNMBCL.Equals(HMMHEPKCKCP.NIPCIPMMGIJ) || GDFLIKNMBCL.Equals(HMMHEPKCKCP.AAKHMMGOMFM))
+		{
+			return new KCKEFHLLGIO(EDDNOJDPMCF);
+		}
+		if (GDFLIKNMBCL.Equals(HMMHEPKCKCP.NJJHKFPIEPD))
+		{
+			return new DHKNJKJFPIP(EDDNOJDPMCF);
+		}
+		if (GDFLIKNMBCL.Equals(HMMHEPKCKCP.ANGINAGELKI) || GDFLIKNMBCL.Equals(HMMHEPKCKCP.LELIDHBEDHP) || GDFLIKNMBCL.Equals(HMMHEPKCKCP.GPIJKOKLFEC) || GDFLIKNMBCL.Equals(HMMHEPKCKCP.FDJBMJLBLGD))
+		{
+			return new JLGEDJAOAIJ(EDDNOJDPMCF);
+		}
+		return new GKCJIKGJBJA(EDDNOJDPMCF);
+	}
+}

@@ -1,0 +1,14 @@
+public interface JMPFLJGHAIM
+{
+	string KFKMEPMEBND { get; }
+
+	bool ABNLKPDCGEF { get; }
+
+	void DIOELAHNLKJ(bool MAEALKEJALK, IGMAJHKIIPK IJJHBEECMBP);
+
+	int BDIGGHEPIIP();
+
+	int DPACJDFHLKB(byte[] HMFPNMDMONK, int ELICNEDIBGB, byte[] HHCKLADHJMN, int EMAKNGBIFDC);
+
+	void OMOKOKFNBKI();
+}

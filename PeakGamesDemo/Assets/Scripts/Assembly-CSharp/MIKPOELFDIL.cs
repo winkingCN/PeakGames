@@ -1,0 +1,6 @@
+public class MIKPOELFDIL
+{
+	public OCFGDKAAKAM BMIOECELGCA;
+
+	public OCFGDKAAKAM LLAEDBFNCCP;
+}

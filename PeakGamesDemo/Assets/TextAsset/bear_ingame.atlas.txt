@@ -1,0 +1,195 @@
+
+bear_ingame.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm
+  rotate: true
+  xy: 201, 3
+  size: 89, 101
+  orig: 89, 101
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 109, 94
+  size: 160, 104
+  orig: 160, 104
+  offset: 0, 0
+  index: -1
+ear_left
+  rotate: false
+  xy: 474, 8
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+ear_right
+  rotate: true
+  xy: 474, 36
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+eyebrow_left
+  rotate: true
+  xy: 109, 44
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+eyebrow_right
+  rotate: true
+  xy: 109, 62
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+hands_left
+  rotate: true
+  xy: 66, 2
+  size: 27, 57
+  orig: 27, 57
+  offset: 0, 0
+  index: -1
+hands_right
+  rotate: true
+  xy: 2, 2
+  size: 27, 62
+  orig: 27, 62
+  offset: 0, 0
+  index: -1
+hands_right2
+  rotate: true
+  xy: 360, 9
+  size: 84, 77
+  orig: 84, 77
+  offset: 0, 0
+  index: -1
+hands_right3
+  rotate: false
+  xy: 439, 11
+  size: 33, 54
+  orig: 33, 54
+  offset: 0, 0
+  index: -1
+hands_right4
+  rotate: false
+  xy: 439, 176
+  size: 70, 78
+  orig: 70, 78
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 215, 95
+  size: 159, 153
+  orig: 159, 153
+  offset: 0, 0
+  index: -1
+leftbottom
+  rotate: false
+  xy: 370, 96
+  size: 36, 21
+  orig: 36, 21
+  offset: 0, 0
+  index: -1
+lefttop
+  rotate: true
+  xy: 408, 118
+  size: 37, 29
+  orig: 37, 29
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 370, 199
+  size: 66, 55
+  orig: 66, 55
+  offset: 0, 0
+  index: -1
+mouth1
+  rotate: true
+  xy: 370, 165
+  size: 32, 35
+  orig: 32, 35
+  offset: 0, 0
+  index: -1
+mouth2
+  rotate: true
+  xy: 408, 95
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+mouth3
+  rotate: false
+  xy: 437, 97
+  size: 25, 19
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+mouth4
+  rotate: false
+  xy: 439, 72
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+muzzle
+  rotate: true
+  xy: 304, 8
+  size: 85, 54
+  orig: 85, 54
+  offset: 0, 0
+  index: -1
+muzzle1
+  rotate: true
+  xy: 125, 2
+  size: 90, 74
+  orig: 90, 74
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 464, 67
+  size: 50, 43
+  orig: 50, 43
+  offset: 0, 0
+  index: -1
+pupil
+  rotate: true
+  xy: 109, 81
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+rightbottom
+  rotate: true
+  xy: 370, 123
+  size: 40, 24
+  orig: 40, 24
+  offset: 0, 0
+  index: -1
+righttop
+  rotate: true
+  xy: 408, 157
+  size: 40, 29
+  orig: 40, 29
+  offset: 0, 0
+  index: -1
+separator
+  rotate: true
+  xy: 2, 31
+  size: 223, 105
+  orig: 223, 105
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 439, 119
+  size: 68, 55
+  orig: 68, 55
+  offset: 0, 0
+  index: -1

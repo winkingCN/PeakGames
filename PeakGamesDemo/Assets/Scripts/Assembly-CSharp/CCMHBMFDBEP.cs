@@ -1,0 +1,66 @@
+using System.Collections.Generic;
+using NewMapScene;
+
+public class CCMHBMFDBEP : MGAOAPKCDHP
+{
+	private readonly long ENBPGGCIADN;
+
+	private readonly long JDCMHPNOJLL;
+
+	private readonly long OKAIBLBLNHK;
+
+	private readonly string NKILHADPKEF;
+
+	private readonly string FIPMABECHEI;
+
+	private readonly long OCHADBCJEDP;
+
+	public CCMHBMFDBEP(Dictionary<string, object> IKFGKFKACMN)
+	{
+		ENBPGGCIADN = MGAOAPKCDHP.EICLJDHEHHP("mtype", IKFGKFKACMN, 0L);
+		OKAIBLBLNHK = MGAOAPKCDHP.EICLJDHEHHP("ctype", IKFGKFKACMN, 0L);
+		NKILHADPKEF = MGAOAPKCDHP.JDANMONKNGD("from", IKFGKFKACMN);
+		JDCMHPNOJLL = MGAOAPKCDHP.EICLJDHEHHP("rejectedToTeam", IKFGKFKACMN, 0L);
+		FIPMABECHEI = MGAOAPKCDHP.JDANMONKNGD("id", IKFGKFKACMN);
+		OCHADBCJEDP = MGAOAPKCDHP.EICLJDHEHHP("fromId", IKFGKFKACMN, 0L);
+	}
+
+	public void JFLAAOOBKJD(EIPCLBONPLC PEBICCFPCFE)
+	{
+		GBFAPADEBEC.PFGLLCEKCGI(PBIIDJOKNEK.Inbox, "Performing: {0}", ENBPGGCIADN);
+		switch (ENBPGGCIADN)
+		{
+		case 1L:
+			PEBICCFPCFE.IPCAELIMIBN.RequestInboxEnded(true, NKILHADPKEF, FIPMABECHEI, OCHADBCJEDP);
+			break;
+		case 2L:
+		{
+			string iKNCPEPOKGJ = PHGCFPNJLEI.HMHDPEOJPNJ(JDCMHPNOJLL);
+			MKINMKEMBPL.GABGKBAKHDP.CJOHLENDJGO(iKNCPEPOKGJ);
+			PEBICCFPCFE.IPCAELIMIBN.CurrentNotJoinedContainer.CurrentSearchTab.InformReject(JDCMHPNOJLL);
+			AFJPGLHKOID.MDMPINKGLGH(false, JDCMHPNOJLL, null);
+			break;
+		}
+		case 3L:
+		{
+			long oKAIBLBLNHK = OKAIBLBLNHK;
+			if (oKAIBLBLNHK == 1)
+			{
+				int aCFDIDGFPKJ = GEBAAFFGKJG.GABGKBAKHDP.GOHFAPAOAJI(NAAHKHPBAPA.Coins, BOKGFGFPOHD.MFDPEOHIKKH.FDNCJEHPFFJ);
+				GEBAAFFGKJG.GABGKBAKHDP.IBFMAELGBGP(aCFDIDGFPKJ);
+				IJIMKNBDAKJ(BOKGFGFPOHD.MFDPEOHIKKH.FDNCJEHPFFJ);
+			}
+			break;
+		}
+		}
+	}
+
+	private static void IJIMKNBDAKJ(int NNIDKMJGAJO)
+	{
+		MapUIAnimationController instance = MapUIAnimationController.Instance;
+		if (!(instance == null))
+		{
+			instance.StartCoinCollectAnimation(NNIDKMJGAJO);
+		}
+	}
+}

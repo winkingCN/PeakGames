@@ -1,0 +1,10 @@
+using Org.BouncyCastle.Math;
+
+public interface DOGLMBOAGOG
+{
+	void DIOELAHNLKJ(IGMAJHKIIPK IJJHBEECMBP);
+
+	int BGGKNJOAMKN();
+
+	BigInteger CFEKCGNAKCD(IGMAJHKIIPK OAENDHNGECA);
+}

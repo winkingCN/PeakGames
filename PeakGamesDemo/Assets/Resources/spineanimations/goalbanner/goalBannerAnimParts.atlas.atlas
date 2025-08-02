@@ -1,0 +1,307 @@
+
+goalBannerAnimParts.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B_EAR_L
+  rotate: false
+  xy: 479, 602
+  size: 27, 23
+  orig: 27, 23
+  offset: 0, 0
+  index: -1
+B_EAR_R
+  rotate: false
+  xy: 387, 322
+  size: 38, 34
+  orig: 38, 34
+  offset: 0, 0
+  index: -1
+B_EYEBROEN_L
+  rotate: false
+  xy: 194, 281
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+B_EYEBROEN_R
+  rotate: true
+  xy: 2, 2
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+B_EYES
+  rotate: false
+  xy: 716, 692
+  size: 51, 42
+  orig: 51, 42
+  offset: 0, 0
+  index: -1
+B_HEAD
+  rotate: false
+  xy: 479, 627
+  size: 127, 107
+  orig: 127, 107
+  offset: 0, 0
+  index: -1
+B_TONGUE
+  rotate: false
+  xy: 2, 24
+  size: 27, 22
+  orig: 27, 22
+  offset: 0, 0
+  index: -1
+B_TONGUE_MASK
+  rotate: false
+  xy: 608, 628
+  size: 52, 39
+  orig: 52, 39
+  offset: 0, 0
+  index: -1
+CAR
+  rotate: false
+  xy: 479, 797
+  size: 342, 225
+  orig: 342, 225
+  offset: 0, 0
+  index: -1
+CARAVAN
+  rotate: false
+  xy: 2, 607
+  size: 475, 415
+  orig: 475, 415
+  offset: 0, 0
+  index: -1
+CONNECTOR
+  rotate: false
+  xy: 716, 672
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+C_CHEEK_MASK
+  rotate: false
+  xy: 2, 48
+  size: 42, 38
+  orig: 42, 38
+  offset: 0, 0
+  index: -1
+C_EAR_L
+  rotate: false
+  xy: 297, 313
+  size: 44, 43
+  orig: 44, 43
+  offset: 0, 0
+  index: -1
+C_EAR_R
+  rotate: true
+  xy: 724, 736
+  size: 59, 66
+  orig: 59, 66
+  offset: 0, 0
+  index: -1
+C_EYEBROWN_L
+  rotate: false
+  xy: 172, 253
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+C_EYEBROWN_R
+  rotate: false
+  xy: 90, 208
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+C_EYES
+  rotate: false
+  xy: 90, 224
+  size: 47, 39
+  orig: 47, 39
+  offset: 0, 0
+  index: -1
+C_HEAD
+  rotate: true
+  xy: 927, 780
+  size: 106, 95
+  orig: 106, 95
+  offset: 0, 0
+  index: -1
+C_SHOULDER_MASK
+  rotate: false
+  xy: 90, 265
+  size: 64, 30
+  orig: 64, 30
+  offset: 0, 0
+  index: -1
+C_TONGUE
+  rotate: true
+  xy: 769, 712
+  size: 22, 15
+  orig: 22, 15
+  offset: 0, 0
+  index: -1
+C_TONGUE_MASK
+  rotate: false
+  xy: 156, 265
+  size: 36, 30
+  orig: 36, 30
+  offset: 0, 0
+  index: -1
+HASAN
+  rotate: false
+  xy: 215, 304
+  size: 80, 52
+  orig: 80, 52
+  offset: 0, 0
+  index: -1
+HASAN_STICK
+  rotate: false
+  xy: 792, 754
+  size: 21, 41
+  orig: 21, 41
+  offset: 0, 0
+  index: -1
+Road_2
+  rotate: false
+  xy: 2, 455
+  size: 458, 150
+  orig: 458, 150
+  offset: 0, 0
+  index: -1
+Rulo_2
+  rotate: false
+  xy: 823, 836
+  size: 102, 186
+  orig: 102, 186
+  offset: 0, 0
+  index: -1
+Shadow_Road_2
+  rotate: false
+  xy: 2, 358
+  size: 464, 95
+  orig: 464, 95
+  offset: 0, 0
+  index: -1
+TENT
+  rotate: true
+  xy: 823, 808
+  size: 26, 75
+  orig: 26, 75
+  offset: 0, 0
+  index: -1
+WHEEL1
+  rotate: false
+  xy: 2, 201
+  size: 86, 94
+  orig: 86, 94
+  offset: 0, 0
+  index: -1
+WHEEL_BACK
+  rotate: false
+  xy: 608, 669
+  size: 106, 65
+  orig: 106, 65
+  offset: 0, 0
+  index: -1
+W_CHEEK_MASK
+  rotate: true
+  xy: 462, 562
+  size: 43, 15
+  orig: 43, 15
+  offset: 0, 0
+  index: -1
+W_EAR_L
+  rotate: false
+  xy: 139, 235
+  size: 31, 28
+  orig: 31, 28
+  offset: 0, 0
+  index: -1
+W_EAR_R
+  rotate: false
+  xy: 2, 88
+  size: 48, 39
+  orig: 48, 39
+  offset: 0, 0
+  index: -1
+W_EYEBROWN_L
+  rotate: false
+  xy: 792, 741
+  size: 16, 11
+  orig: 16, 11
+  offset: 0, 0
+  index: -1
+W_EYEBROWN_R
+  rotate: false
+  xy: 58, 134
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+W_EYES
+  rotate: false
+  xy: 343, 317
+  size: 42, 39
+  orig: 42, 39
+  offset: 0, 0
+  index: -1
+W_HEAD
+  rotate: true
+  xy: 927, 888
+  size: 134, 95
+  orig: 134, 95
+  offset: 0, 0
+  index: -1
+W_SHOULDER_MASK
+  rotate: false
+  xy: 58, 153
+  size: 24, 46
+  orig: 24, 46
+  offset: 0, 0
+  index: -1
+W_TAIL
+  rotate: false
+  xy: 2, 129
+  size: 54, 70
+  orig: 54, 70
+  offset: 0, 0
+  index: -1
+W_TAIL_MASK
+  rotate: true
+  xy: 662, 635
+  size: 32, 50
+  orig: 32, 50
+  offset: 0, 0
+  index: -1
+W_TONGUE
+  rotate: false
+  xy: 427, 333
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+W_TONGUE_MASK
+  rotate: false
+  xy: 900, 792
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+shadow copy
+  rotate: false
+  xy: 2, 297
+  size: 211, 59
+  orig: 211, 59
+  offset: 0, 0
+  index: -1
+shadow1
+  rotate: false
+  xy: 479, 736
+  size: 243, 59
+  orig: 243, 59
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,15 @@
+public struct KNAKIANHFJN
+{
+	public string PNGPLGHKFDI;
+
+	public string PEGACMMPPBC;
+
+	public string EEFMIHDPJPG;
+
+	public KNAKIANHFJN(string BDKFNEDHAOJ, string IOCMOCCFALN, string MADFFDLBBHL = "")
+	{
+		EEFMIHDPJPG = BDKFNEDHAOJ;
+		PNGPLGHKFDI = IOCMOCCFALN;
+		PEGACMMPPBC = MADFFDLBBHL;
+	}
+}

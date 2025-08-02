@@ -1,0 +1,81 @@
+using System;
+
+public class KHBPKJOOLPJ : LNKPCJLANAO, MFHFAODDMLI
+{
+	private readonly LNKPCJLANAO BDKFNEDHAOJ;
+
+	public virtual HMMHEPKCKCP PNGPLGHKFDI
+	{
+		get
+		{
+			if (BDKFNEDHAOJ is PJGIGKJFGFI)
+			{
+				return null;
+			}
+			return HMMHEPKCKCP.BJLJCGFMFOO(BDKFNEDHAOJ);
+		}
+	}
+
+	public KHBPKJOOLPJ(PJGIGKJFGFI BDKFNEDHAOJ)
+	{
+		if (BDKFNEDHAOJ == null)
+		{
+			throw new ArgumentNullException("id");
+		}
+		this.BDKFNEDHAOJ = BDKFNEDHAOJ;
+	}
+
+	public KHBPKJOOLPJ(HMMHEPKCKCP BDKFNEDHAOJ)
+	{
+		if (BDKFNEDHAOJ == null)
+		{
+			throw new ArgumentNullException("id");
+		}
+		this.BDKFNEDHAOJ = BDKFNEDHAOJ;
+	}
+
+	public static KHBPKJOOLPJ BJLJCGFMFOO(object NEMEKIOEOLC)
+	{
+		if (NEMEKIOEOLC == null || NEMEKIOEOLC is KHBPKJOOLPJ)
+		{
+			return (KHBPKJOOLPJ)NEMEKIOEOLC;
+		}
+		if (NEMEKIOEOLC is CFMJBFILJCB)
+		{
+			return new KHBPKJOOLPJ((CFMJBFILJCB)NEMEKIOEOLC);
+		}
+		if (NEMEKIOEOLC is PAANMJLACEF)
+		{
+			PAANMJLACEF pAANMJLACEF = (PAANMJLACEF)NEMEKIOEOLC;
+			if (pAANMJLACEF.JPBIKBDCEKC == 1)
+			{
+				return new KHBPKJOOLPJ(HMMHEPKCKCP.BJLJCGFMFOO(pAANMJLACEF, true));
+			}
+			return new KHBPKJOOLPJ(PJGIGKJFGFI.BJLJCGFMFOO(pAANMJLACEF, true));
+		}
+		return new KHBPKJOOLPJ(HMMHEPKCKCP.BJLJCGFMFOO(NEMEKIOEOLC));
+	}
+
+	public static KHBPKJOOLPJ BJLJCGFMFOO(PAANMJLACEF NEMEKIOEOLC, bool DNBCBHLACCP)
+	{
+		return BJLJCGFMFOO(NEMEKIOEOLC.NFMFKPLPLLH());
+	}
+
+	public virtual byte[] DLMHNHNDLAD()
+	{
+		if (BDKFNEDHAOJ is PJGIGKJFGFI)
+		{
+			return ((PJGIGKJFGFI)BDKFNEDHAOJ).KLHNEKMCKKI();
+		}
+		return null;
+	}
+
+	public override EDOEBJJFOBM IIHKEACDNID()
+	{
+		if (BDKFNEDHAOJ is PJGIGKJFGFI)
+		{
+			return new JIHIOOKBBLB(true, 2, BDKFNEDHAOJ);
+		}
+		return new JIHIOOKBBLB(true, 1, BDKFNEDHAOJ);
+	}
+}

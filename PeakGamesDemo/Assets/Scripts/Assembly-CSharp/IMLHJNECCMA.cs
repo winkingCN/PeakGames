@@ -1,0 +1,6 @@
+public interface IMLHJNECCMA : AGBPCEHDLOH
+{
+	AGBPCEHDLOH KFDPBPMMOAB { get; }
+
+	int NMAPLGALKKK { get; }
+}

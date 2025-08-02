@@ -1,0 +1,6 @@
+using Org.BouncyCastle.Math;
+
+public interface FFPNOKBELNH
+{
+	JGAFKLGGBGF IBJBIGNPNEM(JGAFKLGGBGF HPHBDNBJPHB, BigInteger BENKLGPHLGI);
+}

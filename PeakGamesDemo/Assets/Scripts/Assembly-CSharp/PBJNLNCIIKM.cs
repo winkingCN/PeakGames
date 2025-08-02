@@ -1,0 +1,6 @@
+public interface PBJNLNCIIKM
+{
+	void DIOELAHNLKJ(byte[] AMFCENFNAJJ);
+
+	void GGMLLFLIGDP(long DELAPGFJHAP, byte[] BILGCJNPJGJ);
+}

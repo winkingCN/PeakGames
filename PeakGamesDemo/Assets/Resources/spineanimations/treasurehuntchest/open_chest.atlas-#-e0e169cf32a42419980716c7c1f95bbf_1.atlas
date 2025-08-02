@@ -1,0 +1,111 @@
+
+open_chest.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base4
+  rotate: false
+  xy: 2, 46
+  size: 239, 28
+  orig: 239, 28
+  offset: 0, 0
+  index: -1
+key1
+  rotate: false
+  xy: 2, 4
+  size: 49, 40
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+key2
+  rotate: false
+  xy: 716, 342
+  size: 52, 30
+  orig: 52, 30
+  offset: 0, 0
+  index: -1
+lock_part
+  rotate: false
+  xy: 491, 216
+  size: 75, 64
+  orig: 75, 64
+  offset: 0, 0
+  index: -1
+lock_part2
+  rotate: false
+  xy: 491, 152
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
+  index: -1
+reflection_treasure
+  rotate: false
+  xy: 2, 290
+  size: 255, 212
+  orig: 255, 212
+  offset: 0, 0
+  index: -1
+reflection_treasure2
+  rotate: false
+  xy: 2, 76
+  size: 255, 212
+  orig: 255, 212
+  offset: 0, 0
+  index: -1
+treasure_base1
+  rotate: false
+  xy: 771, 373
+  size: 239, 129
+  orig: 239, 129
+  offset: 0, 0
+  index: -1
+treasure_chest2
+  rotate: false
+  xy: 259, 292
+  size: 256, 210
+  orig: 256, 210
+  offset: 0, 0
+  index: -1
+treasure_chest_cap2
+  rotate: false
+  xy: 259, 2
+  size: 257, 110
+  orig: 257, 110
+  offset: 0, 0
+  index: -1
+treasure_chest_cap3
+  rotate: false
+  xy: 517, 374
+  size: 252, 128
+  orig: 252, 128
+  offset: 0, 0
+  index: -1
+treasure_chest_cap4
+  rotate: false
+  xy: 259, 114
+  size: 230, 176
+  orig: 230, 176
+  offset: 0, 0
+  index: -1
+treasure_lock
+  rotate: true
+  xy: 620, 288
+  size: 84, 94
+  orig: 84, 94
+  offset: 0, 0
+  index: -1
+treasure_lock_shadow
+  rotate: true
+  xy: 517, 282
+  size: 90, 101
+  orig: 90, 101
+  offset: 0, 0
+  index: -1
+treasure_locker
+  rotate: false
+  xy: 568, 243
+  size: 22, 37
+  orig: 22, 37
+  offset: 0, 0
+  index: -1

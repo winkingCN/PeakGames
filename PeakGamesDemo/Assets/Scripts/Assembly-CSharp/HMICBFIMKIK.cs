@@ -1,0 +1,15 @@
+internal class HMICBFIMKIK : KPKGCNEJIAM, GLNLDNCNFAM, CGDEGBGOKJO
+{
+	public override bool DLHCCNKGKJP
+	{
+		get
+		{
+			return true;
+		}
+	}
+
+	internal HMICBFIMKIK(FBIJJFGLKMK ENKGBJPFHAO, PDCALMCFKGD BOHAELIJHGF)
+		: base(ENKGBJPFHAO, BOHAELIJHGF)
+	{
+	}
+}

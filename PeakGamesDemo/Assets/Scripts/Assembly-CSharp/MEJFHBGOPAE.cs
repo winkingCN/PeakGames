@@ -1,0 +1,116 @@
+using System;
+using System.Collections;
+
+public class MEJFHBGOPAE : LNKPCJLANAO
+{
+	private readonly MBKGOGKDLLH HOCCIIEPNHK;
+
+	private readonly COCECKPDIKC CIKNIKPOODA;
+
+	private readonly FJMKMKNJKOI FLHHMPBBBJG;
+
+	public MBKGOGKDLLH IGNPDBBGGIG
+	{
+		get
+		{
+			return HOCCIIEPNHK;
+		}
+	}
+
+	public COCECKPDIKC EPJPGEHMICN
+	{
+		get
+		{
+			return CIKNIKPOODA;
+		}
+	}
+
+	public FJMKMKNJKOI ACMDKLDPDLB
+	{
+		get
+		{
+			return FLHHMPBBBJG;
+		}
+	}
+
+	public int AMEDMLOCCBG
+	{
+		get
+		{
+			return HOCCIIEPNHK.AMEDMLOCCBG;
+		}
+	}
+
+	public HMMHEPKCKCP HDLJKFNEDDK
+	{
+		get
+		{
+			return HOCCIIEPNHK.HDLJKFNEDDK;
+		}
+	}
+
+	public KAGLNJGDIPD NIFOIJHFKBA
+	{
+		get
+		{
+			return HOCCIIEPNHK.NIFOIJHFKBA;
+		}
+	}
+
+	public KAGLNJGDIPD BLEHAGOOGEJ
+	{
+		get
+		{
+			return HOCCIIEPNHK.BLEHAGOOGEJ;
+		}
+	}
+
+	private MEJFHBGOPAE(ALLINHNNNJN MIABODPHOIP)
+	{
+		if (MIABODPHOIP.GMCGMPEEHJP != 3)
+		{
+			throw new ArgumentException("sequence wrong size for CertificateList", "seq");
+		}
+		HOCCIIEPNHK = MBKGOGKDLLH.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(0));
+		CIKNIKPOODA = COCECKPDIKC.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(1));
+		FLHHMPBBBJG = FJMKMKNJKOI.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(2));
+	}
+
+	public static MEJFHBGOPAE BJLJCGFMFOO(PAANMJLACEF NEMEKIOEOLC, bool DHGLJHFEJFL)
+	{
+		return BJLJCGFMFOO(ALLINHNNNJN.BJLJCGFMFOO(NEMEKIOEOLC, DHGLJHFEJFL));
+	}
+
+	public static MEJFHBGOPAE BJLJCGFMFOO(object NEMEKIOEOLC)
+	{
+		if (NEMEKIOEOLC is MEJFHBGOPAE)
+		{
+			return (MEJFHBGOPAE)NEMEKIOEOLC;
+		}
+		if (NEMEKIOEOLC != null)
+		{
+			return new MEJFHBGOPAE(ALLINHNNNJN.BJLJCGFMFOO(NEMEKIOEOLC));
+		}
+		return null;
+	}
+
+	public FNPNLKNFAMA[] OJNDIHEEKJK()
+	{
+		return HOCCIIEPNHK.OJNDIHEEKJK();
+	}
+
+	public IEnumerable FLLBPMOPGJI()
+	{
+		return HOCCIIEPNHK.FLLBPMOPGJI();
+	}
+
+	public byte[] BKNINFICFPF()
+	{
+		return FLHHMPBBBJG.KLHNEKMCKKI();
+	}
+
+	public override EDOEBJJFOBM IIHKEACDNID()
+	{
+		return new KOGPLMALOEH(HOCCIIEPNHK, CIKNIKPOODA, FLHHMPBBBJG);
+	}
+}

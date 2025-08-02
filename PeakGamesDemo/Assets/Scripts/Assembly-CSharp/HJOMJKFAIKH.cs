@@ -1,0 +1,105 @@
+using System;
+using Org.BouncyCastle.Math;
+
+public class HJOMJKFAIKH : LNKPCJLANAO
+{
+	private readonly PNKAJJJPEPA IPINBCJBPAA;
+
+	private readonly GLFDIPNOLKN OOMFCBFDAGJ;
+
+	public BigInteger PMLJMLAPMJD
+	{
+		get
+		{
+			return (OOMFCBFDAGJ != null) ? OOMFCBFDAGJ.JBGOANMLBFA : null;
+		}
+	}
+
+	private HJOMJKFAIKH(ALLINHNNNJN MIABODPHOIP)
+	{
+		if (MIABODPHOIP.GMCGMPEEHJP <= 0)
+		{
+			return;
+		}
+		if (MIABODPHOIP.ECNCPJGHBIG(0) is PNKAJJJPEPA)
+		{
+			IPINBCJBPAA = PNKAJJJPEPA.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(0));
+		}
+		else
+		{
+			OOMFCBFDAGJ = GLFDIPNOLKN.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(0));
+		}
+		if (MIABODPHOIP.GMCGMPEEHJP > 1)
+		{
+			if (IPINBCJBPAA == null)
+			{
+				throw new ArgumentException("wrong sequence in constructor", "seq");
+			}
+			OOMFCBFDAGJ = GLFDIPNOLKN.BJLJCGFMFOO(MIABODPHOIP.ECNCPJGHBIG(1));
+		}
+	}
+
+	public HJOMJKFAIKH(bool IPINBCJBPAA)
+	{
+		if (IPINBCJBPAA)
+		{
+			this.IPINBCJBPAA = PNKAJJJPEPA.OKKOIIMLJOM;
+		}
+	}
+
+	public HJOMJKFAIKH(int OOMFCBFDAGJ)
+	{
+		IPINBCJBPAA = PNKAJJJPEPA.OKKOIIMLJOM;
+		this.OOMFCBFDAGJ = new GLFDIPNOLKN(OOMFCBFDAGJ);
+	}
+
+	public static HJOMJKFAIKH BJLJCGFMFOO(PAANMJLACEF NEMEKIOEOLC, bool DHGLJHFEJFL)
+	{
+		return BJLJCGFMFOO(ALLINHNNNJN.BJLJCGFMFOO(NEMEKIOEOLC, DHGLJHFEJFL));
+	}
+
+	public static HJOMJKFAIKH BJLJCGFMFOO(object NEMEKIOEOLC)
+	{
+		if (NEMEKIOEOLC == null || NEMEKIOEOLC is HJOMJKFAIKH)
+		{
+			return (HJOMJKFAIKH)NEMEKIOEOLC;
+		}
+		if (NEMEKIOEOLC is ALLINHNNNJN)
+		{
+			return new HJOMJKFAIKH((ALLINHNNNJN)NEMEKIOEOLC);
+		}
+		if (NEMEKIOEOLC is BJHANHIGLGB)
+		{
+			return BJLJCGFMFOO(BJHANHIGLGB.FCELHPADEGC((BJHANHIGLGB)NEMEKIOEOLC));
+		}
+		throw new ArgumentException("unknown object in factory: " + LHFGHNFJIKM.JKHOEKAOLPM(NEMEKIOEOLC), "obj");
+	}
+
+	public bool GOIBKHNKGED()
+	{
+		return IPINBCJBPAA != null && IPINBCJBPAA.ELAOLKPILED;
+	}
+
+	public override EDOEBJJFOBM IIHKEACDNID()
+	{
+		DLDBGGDLOOO dLDBGGDLOOO = new DLDBGGDLOOO();
+		if (IPINBCJBPAA != null)
+		{
+			dLDBGGDLOOO.JEACJNAKLDJ(IPINBCJBPAA);
+		}
+		if (OOMFCBFDAGJ != null)
+		{
+			dLDBGGDLOOO.JEACJNAKLDJ(OOMFCBFDAGJ);
+		}
+		return new KOGPLMALOEH(dLDBGGDLOOO);
+	}
+
+	public override string ToString()
+	{
+		if (OOMFCBFDAGJ == null)
+		{
+			return "BasicConstraints: isCa(" + GOIBKHNKGED() + ")";
+		}
+		return "BasicConstraints: isCa(" + GOIBKHNKGED() + "), pathLenConstraint = " + OOMFCBFDAGJ.JBGOANMLBFA;
+	}
+}

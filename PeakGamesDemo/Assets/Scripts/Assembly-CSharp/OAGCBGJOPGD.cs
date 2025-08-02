@@ -1,0 +1,12 @@
+public interface OAGCBGJOPGD
+{
+	GCJKICAPOFL LICMNMABJGL { get; }
+
+	event JNGOIOMIBKL HIMOJNHKFMC;
+
+	event JNGOIOMIBKL MPLLKFLOEHE;
+
+	event JNGOIOMIBKL MBJAPEPNHNB;
+
+	void LateUpdate();
+}

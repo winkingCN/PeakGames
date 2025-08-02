@@ -1,0 +1,24 @@
+using System.Collections;
+
+public class JBLIFDPAJGO : KHBOIMGJNEN
+{
+	private readonly COEMJAGOFJJ ECPKCNOAOAJ;
+
+	public IEnumerable HEMABMGMAEB
+	{
+		get
+		{
+			return BJMIIIEBPNP.DCELAAHMIKB();
+		}
+	}
+
+	public JBLIFDPAJGO(COEMJAGOFJJ ECPKCNOAOAJ)
+	{
+		this.ECPKCNOAOAJ = ECPKCNOAOAJ;
+	}
+
+	public KCBOLLFKMGG POKFAOGOBOF(object POCKCKJDAJO)
+	{
+		return new COBAFBMKAJE((COCECKPDIKC)POCKCKJDAJO, ECPKCNOAOAJ);
+	}
+}

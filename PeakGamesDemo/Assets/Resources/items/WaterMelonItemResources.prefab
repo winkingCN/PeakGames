@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1114239598042337
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4002803072274789}
+  - component: {fileID: 114614434568943332}
+  m_Layer: 0
+  m_Name: WaterMelonItemResources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4002803072274789
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114239598042337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.41905648, y: 1.2094799, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114614434568943332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114239598042337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6c0bfb32693043bb84031b8143bc8b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Prefab: {fileID: 1982957664929428, guid: ac77896956e139f4f994ba944ab6f84b, type: 2}
+  Particles:
+  - {fileID: 114449697661688953, guid: f07965dbdd42ca24ea7534e2010c4afe, type: 2}
+  - {fileID: 114316127525158183, guid: b7a1312e8e2f1e04ebe7cc413f2209b9, type: 2}
+  - {fileID: 114090323796181282, guid: d697ed4c2a23ecd43894fb247e0ef6b9, type: 2}
+  Animators: []
+  AudioClips:
+  - AudioTag: 66
+    AudioClip: {fileID: 8300000, guid: 9b9f8193b8ce04b458f6fc37430f226c, type: 3}
+  - AudioTag: 67
+    AudioClip: {fileID: 8300000, guid: 50ca4e40ee3055947b8ad4dc63ab8b7c, type: 3}
+  Sprites: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1114239598042337}
+  m_IsPrefabParent: 1
